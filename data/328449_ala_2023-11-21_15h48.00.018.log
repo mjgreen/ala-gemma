@@ -1,0 +1,1820 @@
+6.9173 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A9B080FCD0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A9B080F970>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A9B080FAF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A9B53809A0>, multiSample=False, name='window1', numSamples=2, pos=(880, 240), screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9174 	EXP 	window1: mouseVisible = True
+6.9174 	EXP 	window1: backgroundImage = ''
+6.9175 	EXP 	window1: backgroundFit = 'none'
+6.9197 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.9197 	EXP 	window1: recordFrameIntervals = False
+7.0838 	EXP 	window1: recordFrameIntervals = True
+7.2674 	EXP 	Screen (0) actual frame rate measured at 59.96Hz
+7.2674 	EXP 	window1: recordFrameIntervals = False
+7.2674 	EXP 	window1: mouseVisible = True
+7.3806 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+9.8968 	EXP 	ala: status = STARTED
+9.8971 	EXP 	window1: mouseVisible = True
+9.9571 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='Learn this mapping then press space', units='height', win=Window(...), wrapWidth=1)
+9.9573 	EXP 	window1: mouseVisible = True
+9.9588 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.9589 	EXP 	window1: mouseVisible = True
+9.9700 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+9.9702 	EXP 	window1: mouseVisible = True
+10.0318 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.0320 	EXP 	window1: mouseVisible = True
+10.0336 	EXP 	Created put_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='put_label', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.0336 	EXP 	window1: mouseVisible = True
+10.0440 	EXP 	Created put_shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='put_shape', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+10.0441 	EXP 	window1: mouseVisible = True
+10.0506 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Rest. Then press space', units='height', win=Window(...), wrapWidth=1)
+0.0524 	EXP 	text: height = 0.05
+0.0524 	EXP 	text: height = 0.05
+0.0524 	EXP 	text: height = 0.05
+0.0524 	EXP 	text: text = '£50'
+0.0524 	EXP 	image: image = 'D.bmp'
+0.0524 	EXP 	text_2: autoDraw = True
+0.0524 	EXP 	text: autoDraw = True
+0.0524 	EXP 	image: autoDraw = True
+9.9458 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+9.9460 	EXP 	New trial (rep=0, index=0): None
+9.9469 	EXP 	Created sequence: random, trialTypes=1, nReps=60, seed=None
+9.9473 	EXP 	New trial (rep=0, index=0): None
+9.9509 	DATA 	Keypress: space
+9.9630 	EXP 	text_2: autoDraw = False
+9.9630 	EXP 	text: autoDraw = False
+9.9630 	EXP 	image: autoDraw = False
+9.9630 	EXP 	text_4: autoDraw = True
+10.4792 	EXP 	text_4: autoDraw = False
+10.4792 	EXP 	put_label: height = 0.05
+10.4792 	EXP 	put_label: height = 0.05
+10.4792 	EXP 	put_label: height = 0.05
+10.4792 	EXP 	put_label: text = '£50'
+10.4792 	EXP 	put_shape: image = 'P.bmp'
+10.4792 	EXP 	put_label: autoDraw = True
+10.4792 	EXP 	put_shape: autoDraw = True
+14.0173 	EXP 	New trial (rep=1, index=0): None
+14.0193 	DATA 	Keypress: m
+14.0318 	EXP 	put_label: autoDraw = False
+14.0318 	EXP 	put_shape: autoDraw = False
+14.0318 	EXP 	text_4: autoDraw = True
+14.5327 	EXP 	text_4: autoDraw = False
+14.5327 	EXP 	text_4: autoDraw = False
+14.5327 	EXP 	put_label: height = 0.05
+14.5327 	EXP 	put_label: height = 0.05
+14.5327 	EXP 	put_label: height = 0.05
+14.5327 	EXP 	put_label: text = '£100'
+14.5327 	EXP 	put_shape: image = 'O.bmp'
+14.5327 	EXP 	put_label: autoDraw = True
+14.5327 	EXP 	put_shape: autoDraw = True
+15.3517 	EXP 	New trial (rep=2, index=0): None
+15.3537 	DATA 	Keypress: n
+15.3664 	EXP 	put_label: autoDraw = False
+15.3664 	EXP 	put_shape: autoDraw = False
+15.3664 	EXP 	text_4: autoDraw = True
+15.8673 	EXP 	text_4: autoDraw = False
+15.8673 	EXP 	text_4: autoDraw = False
+15.8673 	EXP 	put_label: text = '£100'
+15.8673 	EXP 	put_shape: image = 'O.bmp'
+15.8673 	EXP 	put_label: autoDraw = True
+15.8673 	EXP 	put_shape: autoDraw = True
+16.1541 	EXP 	New trial (rep=3, index=0): None
+16.1579 	DATA 	Keypress: m
+16.1673 	EXP 	put_label: autoDraw = False
+16.1673 	EXP 	put_shape: autoDraw = False
+16.1673 	EXP 	text_4: autoDraw = True
+16.6682 	EXP 	text_4: autoDraw = False
+16.6682 	EXP 	text_4: autoDraw = False
+16.6682 	EXP 	put_label: height = 0.05
+16.6682 	EXP 	put_label: height = 0.05
+16.6682 	EXP 	put_label: height = 0.05
+16.6682 	EXP 	put_label: text = '£50'
+16.6682 	EXP 	put_shape: image = 'D.bmp'
+16.6682 	EXP 	put_label: autoDraw = True
+16.6682 	EXP 	put_shape: autoDraw = True
+17.0550 	DATA 	Keypress: n
+17.0718 	EXP 	New trial (rep=4, index=0): None
+17.0847 	EXP 	put_label: autoDraw = False
+17.0847 	EXP 	put_shape: autoDraw = False
+17.0847 	EXP 	text_4: autoDraw = True
+17.5854 	EXP 	text_4: autoDraw = False
+17.5854 	EXP 	text_4: autoDraw = False
+17.5854 	EXP 	put_label: text = '£50'
+17.5854 	EXP 	put_shape: image = 'D.bmp'
+17.5854 	EXP 	put_label: autoDraw = True
+17.5854 	EXP 	put_shape: autoDraw = True
+17.9041 	EXP 	New trial (rep=5, index=0): None
+17.9063 	DATA 	Keypress: m
+17.9187 	EXP 	put_label: autoDraw = False
+17.9187 	EXP 	put_shape: autoDraw = False
+17.9187 	EXP 	text_4: autoDraw = True
+18.4196 	EXP 	text_4: autoDraw = False
+18.4196 	EXP 	text_4: autoDraw = False
+18.4196 	EXP 	put_label: height = 0.05
+18.4196 	EXP 	put_label: height = 0.05
+18.4196 	EXP 	put_label: height = 0.05
+18.4196 	EXP 	put_label: text = '£100'
+18.4196 	EXP 	put_shape: image = 'D.bmp'
+18.4196 	EXP 	put_label: autoDraw = True
+18.4196 	EXP 	put_shape: autoDraw = True
+18.7215 	EXP 	New trial (rep=6, index=0): None
+18.7238 	DATA 	Keypress: n
+18.7361 	EXP 	put_label: autoDraw = False
+18.7361 	EXP 	put_shape: autoDraw = False
+18.7361 	EXP 	text_4: autoDraw = True
+19.2370 	EXP 	text_4: autoDraw = False
+19.2370 	EXP 	text_4: autoDraw = False
+19.2370 	EXP 	put_label: height = 0.05
+19.2370 	EXP 	put_label: height = 0.05
+19.2370 	EXP 	put_label: height = 0.05
+19.2370 	EXP 	put_label: text = '£0'
+19.2370 	EXP 	put_shape: image = 'D.bmp'
+19.2370 	EXP 	put_label: autoDraw = True
+19.2370 	EXP 	put_shape: autoDraw = True
+19.5389 	EXP 	New trial (rep=7, index=0): None
+19.5411 	DATA 	Keypress: m
+19.5535 	EXP 	put_label: autoDraw = False
+19.5535 	EXP 	put_shape: autoDraw = False
+19.5535 	EXP 	text_4: autoDraw = True
+20.0545 	EXP 	text_4: autoDraw = False
+20.0545 	EXP 	text_4: autoDraw = False
+20.0545 	EXP 	put_label: height = 0.05
+20.0545 	EXP 	put_label: height = 0.05
+20.0545 	EXP 	put_label: height = 0.05
+20.0545 	EXP 	put_label: text = '£50'
+20.0545 	EXP 	put_shape: image = 'O.bmp'
+20.0545 	EXP 	put_label: autoDraw = True
+20.0545 	EXP 	put_shape: autoDraw = True
+20.3396 	EXP 	New trial (rep=8, index=0): None
+20.3416 	DATA 	Keypress: n
+20.3543 	EXP 	put_label: autoDraw = False
+20.3543 	EXP 	put_shape: autoDraw = False
+20.3543 	EXP 	text_4: autoDraw = True
+20.8551 	EXP 	text_4: autoDraw = False
+20.8551 	EXP 	text_4: autoDraw = False
+20.8551 	EXP 	put_label: text = '£50'
+20.8551 	EXP 	put_shape: image = 'O.bmp'
+20.8551 	EXP 	put_label: autoDraw = True
+20.8551 	EXP 	put_shape: autoDraw = True
+20.9401 	EXP 	New trial (rep=9, index=0): None
+20.9422 	DATA 	Keypress: m
+20.9548 	EXP 	put_label: autoDraw = False
+20.9548 	EXP 	put_shape: autoDraw = False
+20.9548 	EXP 	text_4: autoDraw = True
+21.4556 	EXP 	text_4: autoDraw = False
+21.4556 	EXP 	text_4: autoDraw = False
+21.4556 	EXP 	put_label: text = '£50'
+21.4556 	EXP 	put_shape: image = 'D.bmp'
+21.4556 	EXP 	put_label: autoDraw = True
+21.4556 	EXP 	put_shape: autoDraw = True
+21.6741 	EXP 	New trial (rep=10, index=0): None
+21.6761 	DATA 	Keypress: n
+21.6888 	EXP 	put_label: autoDraw = False
+21.6888 	EXP 	put_shape: autoDraw = False
+21.6888 	EXP 	text_4: autoDraw = True
+22.1240 	DATA 	Keypress: m
+22.1898 	EXP 	text_4: autoDraw = False
+22.1898 	EXP 	text_4: autoDraw = False
+22.1898 	EXP 	put_label: text = '£50'
+22.1898 	EXP 	put_shape: image = 'O.bmp'
+22.1898 	EXP 	put_label: autoDraw = True
+22.1898 	EXP 	put_shape: autoDraw = True
+22.4914 	EXP 	New trial (rep=11, index=0): None
+22.4934 	DATA 	Keypress: n
+22.5062 	EXP 	put_label: autoDraw = False
+22.5062 	EXP 	put_shape: autoDraw = False
+22.5062 	EXP 	text_4: autoDraw = True
+22.6077 	DATA 	Keypress: m
+22.7078 	DATA 	Keypress: n
+22.8247 	DATA 	Keypress: m
+22.9080 	DATA 	Keypress: n
+23.0070 	EXP 	text_4: autoDraw = False
+23.0070 	EXP 	text_4: autoDraw = False
+23.0070 	EXP 	put_label: text = '£50'
+23.0070 	EXP 	put_shape: image = 'D.bmp'
+23.0070 	EXP 	put_label: autoDraw = True
+23.0070 	EXP 	put_shape: autoDraw = True
+23.0423 	EXP 	New trial (rep=12, index=0): None
+23.0445 	DATA 	Keypress: m
+23.0567 	EXP 	put_label: autoDraw = False
+23.0567 	EXP 	put_shape: autoDraw = False
+23.0567 	EXP 	text_4: autoDraw = True
+23.2918 	DATA 	Keypress: n
+23.5576 	EXP 	text_4: autoDraw = False
+23.5576 	EXP 	text_4: autoDraw = False
+23.5576 	EXP 	put_label: text = '£50'
+23.5576 	EXP 	put_shape: image = 'D.bmp'
+23.5576 	EXP 	put_label: autoDraw = True
+23.5576 	EXP 	put_shape: autoDraw = True
+23.6425 	EXP 	New trial (rep=13, index=0): None
+23.6445 	DATA 	Keypress: m
+23.6571 	EXP 	put_label: autoDraw = False
+23.6571 	EXP 	put_shape: autoDraw = False
+23.6571 	EXP 	text_4: autoDraw = True
+23.9258 	DATA 	Keypress: n
+24.1581 	EXP 	text_4: autoDraw = False
+24.1581 	EXP 	text_4: autoDraw = False
+24.1581 	EXP 	put_label: height = 0.05
+24.1581 	EXP 	put_label: height = 0.05
+24.1581 	EXP 	put_label: height = 0.05
+24.1581 	EXP 	put_label: text = '£0'
+24.1581 	EXP 	put_shape: image = 'O.bmp'
+24.1581 	EXP 	put_label: autoDraw = True
+24.1581 	EXP 	put_shape: autoDraw = True
+24.3932 	EXP 	New trial (rep=14, index=0): None
+24.3952 	DATA 	Keypress: m
+24.4080 	EXP 	put_label: autoDraw = False
+24.4080 	EXP 	put_shape: autoDraw = False
+24.4080 	EXP 	text_4: autoDraw = True
+24.6263 	DATA 	Keypress: n
+24.9089 	EXP 	text_4: autoDraw = False
+24.9089 	EXP 	text_4: autoDraw = False
+24.9089 	EXP 	put_label: text = '£0'
+24.9089 	EXP 	put_shape: image = 'O.bmp'
+24.9089 	EXP 	put_label: autoDraw = True
+24.9089 	EXP 	put_shape: autoDraw = True
+24.9604 	EXP 	New trial (rep=15, index=0): None
+24.9624 	DATA 	Keypress: m
+24.9752 	EXP 	put_label: autoDraw = False
+24.9752 	EXP 	put_shape: autoDraw = False
+24.9752 	EXP 	text_4: autoDraw = True
+25.3436 	DATA 	Keypress: n
+25.4760 	EXP 	text_4: autoDraw = False
+25.4760 	EXP 	text_4: autoDraw = False
+25.4760 	EXP 	put_label: text = '£0'
+25.4760 	EXP 	put_shape: image = 'P.bmp'
+25.4760 	EXP 	put_label: autoDraw = True
+25.4760 	EXP 	put_shape: autoDraw = True
+25.7612 	EXP 	New trial (rep=16, index=0): None
+25.7632 	DATA 	Keypress: m
+25.7759 	EXP 	put_label: autoDraw = False
+25.7759 	EXP 	put_shape: autoDraw = False
+25.7759 	EXP 	text_4: autoDraw = True
+25.9109 	DATA 	Keypress: n
+26.1611 	DATA 	Keypress: n
+26.2631 	DATA 	Keypress: m
+26.2768 	EXP 	text_4: autoDraw = False
+26.2768 	EXP 	text_4: autoDraw = False
+26.2768 	EXP 	put_label: text = '£0'
+26.2768 	EXP 	put_shape: image = 'D.bmp'
+26.2768 	EXP 	put_label: autoDraw = True
+26.2768 	EXP 	put_shape: autoDraw = True
+26.4287 	DATA 	Keypress: n
+26.4451 	EXP 	New trial (rep=17, index=0): None
+26.4599 	EXP 	put_label: autoDraw = False
+26.4599 	EXP 	put_shape: autoDraw = False
+26.4599 	EXP 	text_4: autoDraw = True
+26.5781 	DATA 	Keypress: m
+26.6449 	DATA 	Keypress: n
+26.7616 	DATA 	Keypress: m
+26.8450 	DATA 	Keypress: n
+26.9607 	EXP 	text_4: autoDraw = False
+26.9607 	EXP 	text_4: autoDraw = False
+26.9607 	EXP 	put_label: height = 0.05
+26.9607 	EXP 	put_label: height = 0.05
+26.9607 	EXP 	put_label: height = 0.05
+26.9607 	EXP 	put_label: text = '£50'
+26.9607 	EXP 	put_shape: image = 'D.bmp'
+26.9607 	EXP 	put_label: autoDraw = True
+26.9607 	EXP 	put_shape: autoDraw = True
+26.9791 	EXP 	New trial (rep=18, index=0): None
+26.9811 	DATA 	Keypress: m
+26.9936 	EXP 	put_label: autoDraw = False
+26.9936 	EXP 	put_shape: autoDraw = False
+26.9936 	EXP 	text_4: autoDraw = True
+27.0786 	DATA 	Keypress: n
+27.2120 	DATA 	Keypress: m
+27.2954 	DATA 	Keypress: n
+27.4946 	EXP 	text_4: autoDraw = False
+27.4946 	EXP 	text_4: autoDraw = False
+27.4946 	EXP 	put_label: height = 0.05
+27.4946 	EXP 	put_label: height = 0.05
+27.4946 	EXP 	put_label: height = 0.05
+27.4946 	EXP 	put_label: text = '£0'
+27.4946 	EXP 	put_shape: image = 'D.bmp'
+27.4946 	EXP 	put_label: autoDraw = True
+27.4946 	EXP 	put_shape: autoDraw = True
+27.5296 	EXP 	New trial (rep=19, index=0): None
+27.5316 	DATA 	Keypress: m
+27.5442 	EXP 	put_label: autoDraw = False
+27.5442 	EXP 	put_shape: autoDraw = False
+27.5442 	EXP 	text_4: autoDraw = True
+27.7959 	DATA 	Keypress: n
+27.8459 	DATA 	Keypress: m
+28.0451 	EXP 	text_4: autoDraw = False
+28.0451 	EXP 	text_4: autoDraw = False
+28.0451 	EXP 	put_label: height = 0.05
+28.0451 	EXP 	put_label: height = 0.05
+28.0451 	EXP 	put_label: height = 0.05
+28.0451 	EXP 	put_label: text = '£50'
+28.0451 	EXP 	put_shape: image = 'O.bmp'
+28.0451 	EXP 	put_label: autoDraw = True
+28.0451 	EXP 	put_shape: autoDraw = True
+28.0636 	EXP 	New trial (rep=20, index=0): None
+28.0658 	DATA 	Keypress: m
+28.0781 	EXP 	put_label: autoDraw = False
+28.0781 	EXP 	put_shape: autoDraw = False
+28.0781 	EXP 	text_4: autoDraw = True
+28.2629 	DATA 	Keypress: m
+28.4298 	DATA 	Keypress: m
+28.5789 	EXP 	text_4: autoDraw = False
+28.5789 	EXP 	text_4: autoDraw = False
+28.5789 	EXP 	put_label: text = '£50'
+28.5789 	EXP 	put_shape: image = 'P.bmp'
+28.5789 	EXP 	put_label: autoDraw = True
+28.5789 	EXP 	put_shape: autoDraw = True
+28.6140 	EXP 	New trial (rep=21, index=0): None
+28.6161 	DATA 	Keypress: m
+28.6285 	EXP 	put_label: autoDraw = False
+28.6285 	EXP 	put_shape: autoDraw = False
+28.6285 	EXP 	text_4: autoDraw = True
+28.8136 	DATA 	Keypress: m
+29.0136 	DATA 	Keypress: m
+29.1294 	EXP 	text_4: autoDraw = False
+29.1294 	EXP 	text_4: autoDraw = False
+29.1294 	EXP 	put_label: text = '£50'
+29.1294 	EXP 	put_shape: image = 'P.bmp'
+29.1294 	EXP 	put_label: autoDraw = True
+29.1294 	EXP 	put_shape: autoDraw = True
+29.1809 	EXP 	New trial (rep=22, index=0): None
+29.1830 	DATA 	Keypress: m
+29.1956 	EXP 	put_label: autoDraw = False
+29.1956 	EXP 	put_shape: autoDraw = False
+29.1956 	EXP 	text_4: autoDraw = True
+29.4308 	DATA 	Keypress: n
+29.6476 	DATA 	Keypress: n
+29.6965 	EXP 	text_4: autoDraw = False
+29.6965 	EXP 	text_4: autoDraw = False
+29.6965 	EXP 	put_label: text = '£50'
+29.6965 	EXP 	put_shape: image = 'D.bmp'
+29.6965 	EXP 	put_label: autoDraw = True
+29.6965 	EXP 	put_shape: autoDraw = True
+29.8317 	EXP 	New trial (rep=23, index=0): None
+29.8337 	DATA 	Keypress: n
+29.8462 	EXP 	put_label: autoDraw = False
+29.8462 	EXP 	put_shape: autoDraw = False
+29.8462 	EXP 	text_4: autoDraw = True
+30.0147 	DATA 	Keypress: n
+30.1980 	DATA 	Keypress: n
+30.3472 	EXP 	text_4: autoDraw = False
+30.3472 	EXP 	text_4: autoDraw = False
+30.3472 	EXP 	put_label: height = 0.05
+30.3472 	EXP 	put_label: height = 0.05
+30.3472 	EXP 	put_label: height = 0.05
+30.3472 	EXP 	put_label: text = '£100'
+30.3472 	EXP 	put_shape: image = 'O.bmp'
+30.3472 	EXP 	put_label: autoDraw = True
+30.3472 	EXP 	put_shape: autoDraw = True
+30.3985 	EXP 	New trial (rep=24, index=0): None
+30.4005 	DATA 	Keypress: n
+30.4135 	EXP 	put_label: autoDraw = False
+30.4135 	EXP 	put_shape: autoDraw = False
+30.4135 	EXP 	text_4: autoDraw = True
+30.5817 	DATA 	Keypress: n
+30.7485 	DATA 	Keypress: n
+30.9144 	EXP 	text_4: autoDraw = False
+30.9144 	EXP 	text_4: autoDraw = False
+30.9144 	EXP 	put_label: height = 0.05
+30.9144 	EXP 	put_label: height = 0.05
+30.9144 	EXP 	put_label: height = 0.05
+30.9144 	EXP 	put_label: text = '£50'
+30.9144 	EXP 	put_shape: image = 'D.bmp'
+30.9144 	EXP 	put_label: autoDraw = True
+30.9144 	EXP 	put_shape: autoDraw = True
+30.9825 	EXP 	New trial (rep=25, index=0): None
+30.9846 	DATA 	Keypress: n
+30.9974 	EXP 	put_label: autoDraw = False
+30.9974 	EXP 	put_shape: autoDraw = False
+30.9974 	EXP 	text_4: autoDraw = True
+31.2157 	DATA 	Keypress: n
+31.4159 	DATA 	Keypress: n
+31.4982 	EXP 	text_4: autoDraw = False
+31.4982 	EXP 	text_4: autoDraw = False
+31.4982 	EXP 	put_label: text = '£50'
+31.4982 	EXP 	put_shape: image = 'D.bmp'
+31.4982 	EXP 	put_label: autoDraw = True
+31.4982 	EXP 	put_shape: autoDraw = True
+31.5998 	EXP 	New trial (rep=26, index=0): None
+31.6019 	DATA 	Keypress: n
+31.6146 	EXP 	put_label: autoDraw = False
+31.6146 	EXP 	put_shape: autoDraw = False
+31.6146 	EXP 	text_4: autoDraw = True
+31.7828 	DATA 	Keypress: n
+31.9662 	DATA 	Keypress: n
+32.1154 	EXP 	text_4: autoDraw = False
+32.1154 	EXP 	text_4: autoDraw = False
+32.1154 	EXP 	put_label: height = 0.05
+32.1154 	EXP 	put_label: height = 0.05
+32.1154 	EXP 	put_label: height = 0.05
+32.1154 	EXP 	put_label: text = '£0'
+32.1154 	EXP 	put_shape: image = 'O.bmp'
+32.1154 	EXP 	put_label: autoDraw = True
+32.1154 	EXP 	put_shape: autoDraw = True
+32.1670 	EXP 	New trial (rep=27, index=0): None
+32.1690 	DATA 	Keypress: n
+32.1817 	EXP 	put_label: autoDraw = False
+32.1817 	EXP 	put_shape: autoDraw = False
+32.1817 	EXP 	text_4: autoDraw = True
+32.3500 	DATA 	Keypress: n
+32.5337 	DATA 	Keypress: n
+32.6827 	EXP 	text_4: autoDraw = False
+32.6827 	EXP 	text_4: autoDraw = False
+32.6827 	EXP 	put_label: height = 0.05
+32.6827 	EXP 	put_label: height = 0.05
+32.6827 	EXP 	put_label: height = 0.05
+32.6827 	EXP 	put_label: text = '£50'
+32.6827 	EXP 	put_shape: image = 'P.bmp'
+32.6827 	EXP 	put_label: autoDraw = True
+32.6827 	EXP 	put_shape: autoDraw = True
+32.7341 	EXP 	New trial (rep=28, index=0): None
+32.7361 	DATA 	Keypress: n
+32.7489 	EXP 	put_label: autoDraw = False
+32.7489 	EXP 	put_shape: autoDraw = False
+32.7489 	EXP 	text_4: autoDraw = True
+32.9005 	DATA 	Keypress: n
+33.0842 	DATA 	Keypress: n
+33.2498 	EXP 	text_4: autoDraw = False
+33.2498 	EXP 	text_4: autoDraw = False
+33.2498 	EXP 	put_label: text = '£50'
+33.2498 	EXP 	put_shape: image = 'D.bmp'
+33.2498 	EXP 	put_label: autoDraw = True
+33.2498 	EXP 	put_shape: autoDraw = True
+33.2680 	EXP 	New trial (rep=29, index=0): None
+33.2700 	DATA 	Keypress: n
+33.2828 	EXP 	put_label: autoDraw = False
+33.2828 	EXP 	put_shape: autoDraw = False
+33.2828 	EXP 	text_4: autoDraw = True
+33.4511 	DATA 	Keypress: n
+33.6515 	DATA 	Keypress: n
+33.7836 	EXP 	text_4: autoDraw = False
+33.7836 	EXP 	text_4: autoDraw = False
+33.7836 	EXP 	put_label: text = '£50'
+33.7836 	EXP 	put_shape: image = 'O.bmp'
+33.7836 	EXP 	put_label: autoDraw = True
+33.7836 	EXP 	put_shape: autoDraw = True
+33.8351 	EXP 	New trial (rep=30, index=0): None
+33.8372 	DATA 	Keypress: n
+33.8500 	EXP 	put_label: autoDraw = False
+33.8500 	EXP 	put_shape: autoDraw = False
+33.8500 	EXP 	text_4: autoDraw = True
+34.0182 	DATA 	Keypress: n
+34.2184 	DATA 	Keypress: n
+34.3509 	EXP 	text_4: autoDraw = False
+34.3509 	EXP 	text_4: autoDraw = False
+34.3509 	EXP 	put_label: text = '£50'
+34.3509 	EXP 	put_shape: image = 'D.bmp'
+34.3509 	EXP 	put_label: autoDraw = True
+34.3509 	EXP 	put_shape: autoDraw = True
+34.4357 	EXP 	New trial (rep=31, index=0): None
+34.4377 	DATA 	Keypress: m
+34.4505 	EXP 	put_label: autoDraw = False
+34.4505 	EXP 	put_shape: autoDraw = False
+34.4505 	EXP 	text_4: autoDraw = True
+34.6521 	DATA 	Keypress: n
+34.7690 	DATA 	Keypress: m
+34.9514 	EXP 	text_4: autoDraw = False
+34.9514 	EXP 	text_4: autoDraw = False
+34.9514 	EXP 	put_label: height = 0.05
+34.9514 	EXP 	put_label: height = 0.05
+34.9514 	EXP 	put_label: height = 0.05
+34.9514 	EXP 	put_label: text = '£100'
+34.9514 	EXP 	put_shape: image = 'P.bmp'
+34.9514 	EXP 	put_label: autoDraw = True
+34.9514 	EXP 	put_shape: autoDraw = True
+34.9862 	EXP 	New trial (rep=32, index=0): None
+34.9882 	DATA 	Keypress: m
+35.0010 	EXP 	put_label: autoDraw = False
+35.0010 	EXP 	put_shape: autoDraw = False
+35.0010 	EXP 	text_4: autoDraw = True
+35.1859 	DATA 	Keypress: m
+35.4694 	DATA 	Keypress: n
+35.5019 	EXP 	text_4: autoDraw = False
+35.5019 	EXP 	text_4: autoDraw = False
+35.5019 	EXP 	put_label: height = 0.05
+35.5019 	EXP 	put_label: height = 0.05
+35.5019 	EXP 	put_label: height = 0.05
+35.5019 	EXP 	put_label: text = '£50'
+35.5019 	EXP 	put_shape: image = 'D.bmp'
+35.5019 	EXP 	put_label: autoDraw = True
+35.5019 	EXP 	put_shape: autoDraw = True
+35.7370 	EXP 	New trial (rep=33, index=0): None
+35.7390 	DATA 	Keypress: n
+35.7516 	EXP 	put_label: autoDraw = False
+35.7516 	EXP 	put_shape: autoDraw = False
+35.7516 	EXP 	text_4: autoDraw = True
+35.9033 	DATA 	Keypress: m
+36.0541 	DATA 	Keypress: n
+36.2526 	EXP 	text_4: autoDraw = False
+36.2526 	EXP 	text_4: autoDraw = False
+36.2526 	EXP 	put_label: height = 0.05
+36.2526 	EXP 	put_label: height = 0.05
+36.2526 	EXP 	put_label: height = 0.05
+36.2526 	EXP 	put_label: text = '£100'
+36.2526 	EXP 	put_shape: image = 'P.bmp'
+36.2526 	EXP 	put_label: autoDraw = True
+36.2526 	EXP 	put_shape: autoDraw = True
+36.2874 	EXP 	New trial (rep=34, index=0): None
+36.2894 	DATA 	Keypress: m
+36.3021 	EXP 	put_label: autoDraw = False
+36.3021 	EXP 	put_shape: autoDraw = False
+36.3021 	EXP 	text_4: autoDraw = True
+36.3369 	DATA 	Keypress: n
+36.6874 	DATA 	Keypress: m
+36.7543 	DATA 	Keypress: n
+36.8031 	EXP 	text_4: autoDraw = False
+36.8031 	EXP 	text_4: autoDraw = False
+36.8031 	EXP 	put_label: text = '£100'
+36.8031 	EXP 	put_shape: image = 'O.bmp'
+36.8031 	EXP 	put_label: autoDraw = True
+36.8031 	EXP 	put_shape: autoDraw = True
+37.1214 	EXP 	New trial (rep=35, index=0): None
+37.1234 	DATA 	Keypress: m
+37.1363 	EXP 	put_label: autoDraw = False
+37.1363 	EXP 	put_shape: autoDraw = False
+37.1363 	EXP 	text_4: autoDraw = True
+37.2044 	DATA 	Keypress: n
+37.4714 	DATA 	Keypress: m
+37.5213 	DATA 	Keypress: n
+37.6372 	EXP 	text_4: autoDraw = False
+37.6372 	EXP 	text_4: autoDraw = False
+37.6372 	EXP 	put_label: height = 0.05
+37.6372 	EXP 	put_label: height = 0.05
+37.6372 	EXP 	put_label: height = 0.05
+37.6372 	EXP 	put_label: text = '£0'
+37.6372 	EXP 	put_shape: image = 'O.bmp'
+37.6372 	EXP 	put_label: autoDraw = True
+37.6372 	EXP 	put_shape: autoDraw = True
+37.8056 	EXP 	New trial (rep=36, index=0): None
+37.8076 	DATA 	Keypress: n
+37.8203 	EXP 	put_label: autoDraw = False
+37.8203 	EXP 	put_shape: autoDraw = False
+37.8203 	EXP 	text_4: autoDraw = True
+38.0887 	DATA 	Keypress: n
+38.2220 	DATA 	Keypress: m
+38.3212 	EXP 	text_4: autoDraw = False
+38.3212 	EXP 	text_4: autoDraw = False
+38.3212 	EXP 	put_label: height = 0.05
+38.3212 	EXP 	put_label: height = 0.05
+38.3212 	EXP 	put_label: height = 0.05
+38.3212 	EXP 	put_label: text = '£100'
+38.3212 	EXP 	put_shape: image = 'P.bmp'
+38.3212 	EXP 	put_label: autoDraw = True
+38.3212 	EXP 	put_shape: autoDraw = True
+38.4560 	EXP 	New trial (rep=37, index=0): None
+38.4580 	DATA 	Keypress: m
+38.4707 	EXP 	put_label: autoDraw = False
+38.4707 	EXP 	put_shape: autoDraw = False
+38.4707 	EXP 	text_4: autoDraw = True
+38.6390 	DATA 	Keypress: n
+38.8895 	DATA 	Keypress: n
+38.9718 	EXP 	text_4: autoDraw = False
+38.9718 	EXP 	text_4: autoDraw = False
+38.9718 	EXP 	put_label: height = 0.05
+38.9718 	EXP 	put_label: height = 0.05
+38.9718 	EXP 	put_label: height = 0.05
+38.9718 	EXP 	put_label: text = '£50'
+38.9718 	EXP 	put_shape: image = 'D.bmp'
+38.9718 	EXP 	put_label: autoDraw = True
+38.9718 	EXP 	put_shape: autoDraw = True
+39.2068 	EXP 	New trial (rep=38, index=0): None
+39.2088 	DATA 	Keypress: n
+39.2215 	EXP 	put_label: autoDraw = False
+39.2215 	EXP 	put_shape: autoDraw = False
+39.2215 	EXP 	text_4: autoDraw = True
+39.4900 	DATA 	Keypress: m
+39.7102 	DATA 	Keypress: n
+39.7225 	EXP 	text_4: autoDraw = False
+39.7225 	EXP 	text_4: autoDraw = False
+39.7225 	EXP 	put_label: height = 0.05
+39.7225 	EXP 	put_label: height = 0.05
+39.7225 	EXP 	put_label: height = 0.05
+39.7225 	EXP 	put_label: text = '£100'
+39.7225 	EXP 	put_shape: image = 'O.bmp'
+39.7225 	EXP 	put_label: autoDraw = True
+39.7225 	EXP 	put_shape: autoDraw = True
+39.9909 	EXP 	New trial (rep=39, index=0): None
+39.9929 	DATA 	Keypress: n
+40.0055 	EXP 	put_label: autoDraw = False
+40.0055 	EXP 	put_shape: autoDraw = False
+40.0055 	EXP 	text_4: autoDraw = True
+40.3074 	DATA 	Keypress: n
+40.5065 	EXP 	text_4: autoDraw = False
+40.5065 	EXP 	text_4: autoDraw = False
+40.5065 	EXP 	put_label: height = 0.05
+40.5065 	EXP 	put_label: height = 0.05
+40.5065 	EXP 	put_label: height = 0.05
+40.5065 	EXP 	put_label: text = '£0'
+40.5065 	EXP 	put_shape: image = 'O.bmp'
+40.5065 	EXP 	put_label: autoDraw = True
+40.5065 	EXP 	put_shape: autoDraw = True
+40.5747 	EXP 	New trial (rep=40, index=0): None
+40.5767 	DATA 	Keypress: m
+40.5895 	EXP 	put_label: autoDraw = False
+40.5895 	EXP 	put_shape: autoDraw = False
+40.5895 	EXP 	text_4: autoDraw = True
+40.8745 	DATA 	Keypress: n
+41.0904 	EXP 	text_4: autoDraw = False
+41.0904 	EXP 	text_4: autoDraw = False
+41.0904 	EXP 	put_label: text = '£0'
+41.0904 	EXP 	put_shape: image = 'D.bmp'
+41.0904 	EXP 	put_label: autoDraw = True
+41.0904 	EXP 	put_shape: autoDraw = True
+41.2085 	EXP 	New trial (rep=41, index=0): None
+41.2104 	DATA 	Keypress: n
+41.2234 	EXP 	put_label: autoDraw = False
+41.2234 	EXP 	put_shape: autoDraw = False
+41.2234 	EXP 	text_4: autoDraw = True
+41.4751 	DATA 	Keypress: m
+41.7244 	EXP 	text_4: autoDraw = False
+41.7244 	EXP 	text_4: autoDraw = False
+41.7244 	EXP 	put_label: height = 0.05
+41.7244 	EXP 	put_label: height = 0.05
+41.7244 	EXP 	put_label: height = 0.05
+41.7244 	EXP 	put_label: text = '£50'
+41.7244 	EXP 	put_shape: image = 'D.bmp'
+41.7244 	EXP 	put_label: autoDraw = True
+41.7244 	EXP 	put_shape: autoDraw = True
+41.8106 	EXP 	New trial (rep=42, index=0): None
+41.8140 	DATA 	Keypress: m
+41.8240 	EXP 	put_label: autoDraw = False
+41.8240 	EXP 	put_shape: autoDraw = False
+41.8240 	EXP 	text_4: autoDraw = True
+42.0435 	DATA 	Keypress: n
+42.3249 	EXP 	text_4: autoDraw = False
+42.3249 	EXP 	text_4: autoDraw = False
+42.3249 	EXP 	put_label: text = '£50'
+42.3249 	EXP 	put_shape: image = 'D.bmp'
+42.3249 	EXP 	put_label: autoDraw = True
+42.3249 	EXP 	put_shape: autoDraw = True
+42.3777 	EXP 	New trial (rep=43, index=0): None
+42.3811 	DATA 	Keypress: n
+42.3912 	EXP 	put_label: autoDraw = False
+42.3912 	EXP 	put_shape: autoDraw = False
+42.3912 	EXP 	text_4: autoDraw = True
+42.7607 	DATA 	Keypress: n
+42.8921 	EXP 	text_4: autoDraw = False
+42.8921 	EXP 	text_4: autoDraw = False
+42.8921 	EXP 	put_label: height = 0.05
+42.8921 	EXP 	put_label: height = 0.05
+42.8921 	EXP 	put_label: height = 0.05
+42.8921 	EXP 	put_label: text = '£0'
+42.8921 	EXP 	put_shape: image = 'P.bmp'
+42.8921 	EXP 	put_label: autoDraw = True
+42.8921 	EXP 	put_shape: autoDraw = True
+42.9783 	EXP 	New trial (rep=44, index=0): None
+42.9817 	DATA 	Keypress: n
+42.9917 	EXP 	put_label: autoDraw = False
+42.9917 	EXP 	put_shape: autoDraw = False
+42.9917 	EXP 	text_4: autoDraw = True
+43.1613 	DATA 	Keypress: m
+43.4447 	DATA 	Keypress: m
+43.4926 	EXP 	text_4: autoDraw = False
+43.4926 	EXP 	text_4: autoDraw = False
+43.4926 	EXP 	put_label: height = 0.05
+43.4926 	EXP 	put_label: height = 0.05
+43.4926 	EXP 	put_label: height = 0.05
+43.4926 	EXP 	put_label: text = '£50'
+43.4926 	EXP 	put_shape: image = 'D.bmp'
+43.4926 	EXP 	put_label: autoDraw = True
+43.4926 	EXP 	put_shape: autoDraw = True
+43.7624 	EXP 	New trial (rep=45, index=0): None
+43.7658 	DATA 	Keypress: n
+43.7758 	EXP 	put_label: autoDraw = False
+43.7758 	EXP 	put_shape: autoDraw = False
+43.7758 	EXP 	text_4: autoDraw = True
+44.0117 	DATA 	Keypress: n
+44.2767 	EXP 	text_4: autoDraw = False
+44.2767 	EXP 	text_4: autoDraw = False
+44.2767 	EXP 	put_label: height = 0.05
+44.2767 	EXP 	put_label: height = 0.05
+44.2767 	EXP 	put_label: height = 0.05
+44.2767 	EXP 	put_label: text = '£100'
+44.2767 	EXP 	put_shape: image = 'O.bmp'
+44.2767 	EXP 	put_label: autoDraw = True
+44.2767 	EXP 	put_shape: autoDraw = True
+44.3629 	EXP 	New trial (rep=46, index=0): None
+44.3663 	DATA 	Keypress: m
+44.3763 	EXP 	put_label: autoDraw = False
+44.3763 	EXP 	put_shape: autoDraw = False
+44.3763 	EXP 	text_4: autoDraw = True
+44.8127 	DATA 	Keypress: n
+44.8773 	EXP 	text_4: autoDraw = False
+44.8773 	EXP 	text_4: autoDraw = False
+44.8773 	EXP 	put_label: height = 0.05
+44.8773 	EXP 	put_label: height = 0.05
+44.8773 	EXP 	put_label: height = 0.05
+44.8773 	EXP 	put_label: text = '£50'
+44.8773 	EXP 	put_shape: image = 'D.bmp'
+44.8773 	EXP 	put_label: autoDraw = True
+44.8773 	EXP 	put_shape: autoDraw = True
+45.3791 	EXP 	New trial (rep=47, index=0): None
+45.3812 	DATA 	Keypress: m
+45.3938 	EXP 	put_label: autoDraw = False
+45.3938 	EXP 	put_shape: autoDraw = False
+45.3938 	EXP 	text_4: autoDraw = True
+45.8624 	DATA 	Keypress: n
+45.8947 	EXP 	text_4: autoDraw = False
+45.8947 	EXP 	text_4: autoDraw = False
+45.8947 	EXP 	put_label: height = 0.05
+45.8947 	EXP 	put_label: height = 0.05
+45.8947 	EXP 	put_label: height = 0.05
+45.8947 	EXP 	put_label: text = '£0'
+45.8947 	EXP 	put_shape: image = 'P.bmp'
+45.8947 	EXP 	put_label: autoDraw = True
+45.8947 	EXP 	put_shape: autoDraw = True
+46.4801 	EXP 	New trial (rep=48, index=0): None
+46.4823 	DATA 	Keypress: m
+46.4948 	EXP 	put_label: autoDraw = False
+46.4948 	EXP 	put_shape: autoDraw = False
+46.4948 	EXP 	text_4: autoDraw = True
+46.9958 	EXP 	text_4: autoDraw = False
+46.9958 	EXP 	text_4: autoDraw = False
+46.9958 	EXP 	put_label: text = '£0'
+46.9958 	EXP 	put_shape: image = 'D.bmp'
+46.9958 	EXP 	put_label: autoDraw = True
+46.9958 	EXP 	put_shape: autoDraw = True
+47.0806 	EXP 	New trial (rep=49, index=0): None
+47.0828 	DATA 	Keypress: n
+47.0954 	EXP 	put_label: autoDraw = False
+47.0954 	EXP 	put_shape: autoDraw = False
+47.0954 	EXP 	text_4: autoDraw = True
+47.5963 	EXP 	text_4: autoDraw = False
+47.5963 	EXP 	text_4: autoDraw = False
+47.5963 	EXP 	put_label: text = '£0'
+47.5963 	EXP 	put_shape: image = 'O.bmp'
+47.5963 	EXP 	put_label: autoDraw = True
+47.5963 	EXP 	put_shape: autoDraw = True
+47.7479 	DATA 	Keypress: m
+47.7647 	EXP 	New trial (rep=50, index=0): None
+47.7793 	EXP 	put_label: autoDraw = False
+47.7793 	EXP 	put_shape: autoDraw = False
+47.7793 	EXP 	text_4: autoDraw = True
+48.2803 	EXP 	text_4: autoDraw = False
+48.2803 	EXP 	text_4: autoDraw = False
+48.2803 	EXP 	put_label: height = 0.05
+48.2803 	EXP 	put_label: height = 0.05
+48.2803 	EXP 	put_label: height = 0.05
+48.2803 	EXP 	put_label: text = '£50'
+48.2803 	EXP 	put_shape: image = 'D.bmp'
+48.2803 	EXP 	put_label: autoDraw = True
+48.2803 	EXP 	put_shape: autoDraw = True
+48.3650 	EXP 	New trial (rep=51, index=0): None
+48.3670 	DATA 	Keypress: n
+48.3800 	EXP 	put_label: autoDraw = False
+48.3800 	EXP 	put_shape: autoDraw = False
+48.3800 	EXP 	text_4: autoDraw = True
+48.8809 	EXP 	text_4: autoDraw = False
+48.8809 	EXP 	text_4: autoDraw = False
+48.8809 	EXP 	put_label: height = 0.05
+48.8809 	EXP 	put_label: height = 0.05
+48.8809 	EXP 	put_label: height = 0.05
+48.8809 	EXP 	put_label: text = '£100'
+48.8809 	EXP 	put_shape: image = 'P.bmp'
+48.8809 	EXP 	put_label: autoDraw = True
+48.8809 	EXP 	put_shape: autoDraw = True
+48.9323 	EXP 	New trial (rep=52, index=0): None
+48.9343 	DATA 	Keypress: m
+48.9471 	EXP 	put_label: autoDraw = False
+48.9471 	EXP 	put_shape: autoDraw = False
+48.9471 	EXP 	text_4: autoDraw = True
+49.4481 	EXP 	text_4: autoDraw = False
+49.4481 	EXP 	text_4: autoDraw = False
+49.4481 	EXP 	put_label: height = 0.05
+49.4481 	EXP 	put_label: height = 0.05
+49.4481 	EXP 	put_label: height = 0.05
+49.4481 	EXP 	put_label: text = '£0'
+49.4481 	EXP 	put_shape: image = 'O.bmp'
+49.4481 	EXP 	put_label: autoDraw = True
+49.4481 	EXP 	put_shape: autoDraw = True
+49.4504 	DATA 	Keypress: n
+49.9831 	EXP 	New trial (rep=53, index=0): None
+49.9852 	DATA 	Keypress: m
+49.9981 	EXP 	put_label: autoDraw = False
+49.9981 	EXP 	put_shape: autoDraw = False
+49.9981 	EXP 	text_4: autoDraw = True
+50.3499 	DATA 	Keypress: n
+50.4990 	EXP 	text_4: autoDraw = False
+50.4990 	EXP 	text_4: autoDraw = False
+50.4990 	EXP 	put_label: text = '£0'
+50.4990 	EXP 	put_shape: image = 'P.bmp'
+50.4990 	EXP 	put_label: autoDraw = True
+50.4990 	EXP 	put_shape: autoDraw = True
+50.7841 	EXP 	New trial (rep=54, index=0): None
+50.7863 	DATA 	Keypress: n
+50.7988 	EXP 	put_label: autoDraw = False
+50.7988 	EXP 	put_shape: autoDraw = False
+50.7988 	EXP 	text_4: autoDraw = True
+51.1177 	DATA 	Keypress: m
+51.2997 	EXP 	text_4: autoDraw = False
+51.2997 	EXP 	text_4: autoDraw = False
+51.2997 	EXP 	put_label: height = 0.05
+51.2997 	EXP 	put_label: height = 0.05
+51.2997 	EXP 	put_label: height = 0.05
+51.2997 	EXP 	put_label: text = '£50'
+51.2997 	EXP 	put_shape: image = 'D.bmp'
+51.2997 	EXP 	put_label: autoDraw = True
+51.2997 	EXP 	put_shape: autoDraw = True
+51.4015 	EXP 	New trial (rep=55, index=0): None
+51.4034 	DATA 	Keypress: m
+51.4161 	EXP 	put_label: autoDraw = False
+51.4161 	EXP 	put_shape: autoDraw = False
+51.4161 	EXP 	text_4: autoDraw = True
+51.6177 	DATA 	Keypress: m
+51.9047 	DATA 	Keypress: m
+51.9170 	EXP 	text_4: autoDraw = False
+51.9170 	EXP 	text_4: autoDraw = False
+51.9170 	EXP 	put_label: height = 0.05
+51.9170 	EXP 	put_label: height = 0.05
+51.9170 	EXP 	put_label: height = 0.05
+51.9170 	EXP 	put_label: text = '£0'
+51.9170 	EXP 	put_shape: image = 'O.bmp'
+51.9170 	EXP 	put_label: autoDraw = True
+51.9170 	EXP 	put_shape: autoDraw = True
+52.1191 	EXP 	New trial (rep=56, index=0): None
+52.1213 	DATA 	Keypress: m
+52.1335 	EXP 	put_label: autoDraw = False
+52.1335 	EXP 	put_shape: autoDraw = False
+52.1335 	EXP 	text_4: autoDraw = True
+52.3017 	DATA 	Keypress: m
+52.4853 	DATA 	Keypress: m
+52.6343 	EXP 	text_4: autoDraw = False
+52.6343 	EXP 	text_4: autoDraw = False
+52.6343 	EXP 	put_label: text = '£0'
+52.6343 	EXP 	put_shape: image = 'P.bmp'
+52.6343 	EXP 	put_label: autoDraw = True
+52.6343 	EXP 	put_shape: autoDraw = True
+52.7024 	EXP 	New trial (rep=57, index=0): None
+52.7044 	DATA 	Keypress: m
+52.7172 	EXP 	put_label: autoDraw = False
+52.7172 	EXP 	put_shape: autoDraw = False
+52.7172 	EXP 	text_4: autoDraw = True
+52.9190 	DATA 	Keypress: m
+53.1191 	DATA 	Keypress: m
+53.2182 	EXP 	text_4: autoDraw = False
+53.2182 	EXP 	text_4: autoDraw = False
+53.2182 	EXP 	put_label: height = 0.05
+53.2182 	EXP 	put_label: height = 0.05
+53.2182 	EXP 	put_label: height = 0.05
+53.2182 	EXP 	put_label: text = '£50'
+53.2182 	EXP 	put_shape: image = 'D.bmp'
+53.2182 	EXP 	put_label: autoDraw = True
+53.2182 	EXP 	put_shape: autoDraw = True
+53.3032 	EXP 	New trial (rep=58, index=0): None
+53.3052 	DATA 	Keypress: m
+53.3178 	EXP 	put_label: autoDraw = False
+53.3178 	EXP 	put_shape: autoDraw = False
+53.3178 	EXP 	text_4: autoDraw = True
+53.5028 	DATA 	Keypress: m
+53.7029 	DATA 	Keypress: m
+53.8187 	EXP 	text_4: autoDraw = False
+53.8187 	EXP 	text_4: autoDraw = False
+53.8187 	EXP 	put_label: height = 0.05
+53.8187 	EXP 	put_label: height = 0.05
+53.8187 	EXP 	put_label: height = 0.05
+53.8187 	EXP 	put_label: text = '£100'
+53.8187 	EXP 	put_shape: image = 'D.bmp'
+53.8187 	EXP 	put_label: autoDraw = True
+53.8187 	EXP 	put_shape: autoDraw = True
+53.9870 	EXP 	New trial (rep=59, index=0): None
+53.9890 	DATA 	Keypress: m
+54.0018 	EXP 	put_label: autoDraw = False
+54.0018 	EXP 	put_shape: autoDraw = False
+54.0018 	EXP 	text_4: autoDraw = True
+54.2204 	DATA 	Keypress: m
+54.4204 	DATA 	Keypress: m
+54.5026 	EXP 	text_4: autoDraw = False
+54.5026 	EXP 	text_4: autoDraw = False
+54.5026 	EXP 	put_label: height = 0.05
+54.5026 	EXP 	put_label: height = 0.05
+54.5026 	EXP 	put_label: height = 0.05
+54.5026 	EXP 	put_label: text = '£50'
+54.5026 	EXP 	put_shape: image = 'P.bmp'
+54.5026 	EXP 	put_label: autoDraw = True
+54.5026 	EXP 	put_shape: autoDraw = True
+54.6209 	DATA 	Keypress: m
+54.6523 	EXP 	put_label: autoDraw = False
+54.6523 	EXP 	put_shape: autoDraw = False
+54.6523 	EXP 	text_3: autoDraw = True
+54.8209 	DATA 	Keypress: m
+55.0043 	DATA 	Keypress: m
+55.2046 	DATA 	Keypress: m
+55.4046 	DATA 	Keypress: m
+55.5216 	DATA 	Keypress: n
+55.6718 	DATA 	Keypress: m
+55.7716 	DATA 	Keypress: n
+55.9051 	DATA 	Keypress: m
+55.9886 	DATA 	Keypress: n
+56.1220 	DATA 	Keypress: m
+56.1888 	DATA 	Keypress: n
+57.1392 	EXP 	New trial (rep=1, index=0): None
+57.1402 	EXP 	Created sequence: random, trialTypes=1, nReps=60, seed=None
+57.1406 	EXP 	New trial (rep=0, index=0): None
+57.1432 	DATA 	Keypress: space
+57.1548 	EXP 	text_3: autoDraw = False
+57.1548 	EXP 	text_4: autoDraw = True
+57.5899 	DATA 	Keypress: m
+57.6555 	EXP 	text_4: autoDraw = False
+57.6555 	EXP 	text_4: autoDraw = False
+57.6555 	EXP 	put_label: height = 0.05
+57.6555 	EXP 	put_label: height = 0.05
+57.6555 	EXP 	put_label: height = 0.05
+57.6555 	EXP 	put_label: text = '£100'
+57.6555 	EXP 	put_shape: image = 'D.bmp'
+57.6555 	EXP 	put_label: autoDraw = True
+57.6555 	EXP 	put_shape: autoDraw = True
+57.8240 	EXP 	New trial (rep=1, index=0): None
+57.8260 	DATA 	Keypress: n
+57.8386 	EXP 	put_label: autoDraw = False
+57.8386 	EXP 	put_shape: autoDraw = False
+57.8386 	EXP 	text_4: autoDraw = True
+57.9736 	DATA 	Keypress: m
+58.0903 	DATA 	Keypress: n
+58.1905 	DATA 	Keypress: m
+58.3395 	EXP 	text_4: autoDraw = False
+58.3395 	EXP 	text_4: autoDraw = False
+58.3395 	EXP 	put_label: text = '£100'
+58.3395 	EXP 	put_shape: image = 'P.bmp'
+58.3395 	EXP 	put_label: autoDraw = True
+58.3395 	EXP 	put_shape: autoDraw = True
+58.4243 	EXP 	New trial (rep=2, index=0): None
+58.4263 	DATA 	Keypress: m
+58.4392 	EXP 	put_label: autoDraw = False
+58.4392 	EXP 	put_shape: autoDraw = False
+58.4392 	EXP 	text_4: autoDraw = True
+58.6075 	DATA 	Keypress: m
+58.7576 	DATA 	Keypress: m
+58.9400 	EXP 	text_4: autoDraw = False
+58.9400 	EXP 	text_4: autoDraw = False
+58.9400 	EXP 	put_label: text = '£100'
+58.9400 	EXP 	put_shape: image = 'P.bmp'
+58.9400 	EXP 	put_label: autoDraw = True
+58.9400 	EXP 	put_shape: autoDraw = True
+58.9423 	DATA 	Keypress: m
+59.1085 	DATA 	Keypress: m
+59.1250 	EXP 	New trial (rep=3, index=0): None
+59.1398 	EXP 	put_label: autoDraw = False
+59.1398 	EXP 	put_shape: autoDraw = False
+59.1398 	EXP 	text_4: autoDraw = True
+59.2914 	DATA 	Keypress: m
+59.4747 	DATA 	Keypress: m
+59.6283 	DATA 	Keypress: m
+59.6407 	EXP 	text_4: autoDraw = False
+59.6407 	EXP 	text_4: autoDraw = False
+59.6407 	EXP 	put_label: height = 0.05
+59.6407 	EXP 	put_label: height = 0.05
+59.6407 	EXP 	put_label: height = 0.05
+59.6407 	EXP 	put_label: text = '£50'
+59.6407 	EXP 	put_shape: image = 'D.bmp'
+59.6407 	EXP 	put_label: autoDraw = True
+59.6407 	EXP 	put_shape: autoDraw = True
+59.7923 	EXP 	New trial (rep=4, index=0): None
+59.7943 	DATA 	Keypress: m
+59.8070 	EXP 	put_label: autoDraw = False
+59.8070 	EXP 	put_shape: autoDraw = False
+59.8070 	EXP 	text_4: autoDraw = True
+59.9754 	DATA 	Keypress: m
+60.1599 	DATA 	Keypress: m
+60.3078 	EXP 	text_4: autoDraw = False
+60.3078 	EXP 	text_4: autoDraw = False
+60.3078 	EXP 	put_label: text = '£50'
+60.3078 	EXP 	put_shape: image = 'D.bmp'
+60.3078 	EXP 	put_label: autoDraw = True
+60.3078 	EXP 	put_shape: autoDraw = True
+60.3262 	EXP 	New trial (rep=5, index=0): None
+60.3281 	DATA 	Keypress: m
+60.3409 	EXP 	put_label: autoDraw = False
+60.3409 	EXP 	put_shape: autoDraw = False
+60.3409 	EXP 	text_4: autoDraw = True
+60.4926 	DATA 	Keypress: m
+60.6593 	DATA 	Keypress: m
+60.8417 	EXP 	text_4: autoDraw = False
+60.8417 	EXP 	text_4: autoDraw = False
+60.8417 	EXP 	put_label: height = 0.05
+60.8417 	EXP 	put_label: height = 0.05
+60.8417 	EXP 	put_label: height = 0.05
+60.8417 	EXP 	put_label: text = '£100'
+60.8417 	EXP 	put_shape: image = 'D.bmp'
+60.8417 	EXP 	put_label: autoDraw = True
+60.8417 	EXP 	put_shape: autoDraw = True
+60.8442 	DATA 	Keypress: m
+60.8599 	EXP 	New trial (rep=6, index=0): None
+60.8747 	EXP 	put_label: autoDraw = False
+60.8747 	EXP 	put_shape: autoDraw = False
+60.8747 	EXP 	text_4: autoDraw = True
+61.0598 	DATA 	Keypress: m
+61.2266 	DATA 	Keypress: m
+61.3755 	EXP 	text_4: autoDraw = False
+61.3755 	EXP 	text_4: autoDraw = False
+61.3755 	EXP 	put_label: text = '£100'
+61.3755 	EXP 	put_shape: image = 'O.bmp'
+61.3755 	EXP 	put_label: autoDraw = True
+61.3755 	EXP 	put_shape: autoDraw = True
+61.4105 	EXP 	New trial (rep=7, index=0): None
+61.4125 	DATA 	Keypress: m
+61.4251 	EXP 	put_label: autoDraw = False
+61.4251 	EXP 	put_shape: autoDraw = False
+61.4251 	EXP 	text_4: autoDraw = True
+61.5936 	DATA 	Keypress: m
+61.7770 	DATA 	Keypress: m
+61.9261 	EXP 	text_4: autoDraw = False
+61.9261 	EXP 	text_4: autoDraw = False
+61.9261 	EXP 	put_label: text = '£100'
+61.9261 	EXP 	put_shape: image = 'P.bmp'
+61.9261 	EXP 	put_label: autoDraw = True
+61.9261 	EXP 	put_shape: autoDraw = True
+61.9609 	EXP 	New trial (rep=8, index=0): None
+61.9630 	DATA 	Keypress: m
+61.9757 	EXP 	put_label: autoDraw = False
+61.9757 	EXP 	put_shape: autoDraw = False
+61.9757 	EXP 	text_4: autoDraw = True
+62.1608 	DATA 	Keypress: m
+62.3609 	DATA 	Keypress: m
+62.4767 	EXP 	text_4: autoDraw = False
+62.4767 	EXP 	text_4: autoDraw = False
+62.4767 	EXP 	put_label: height = 0.05
+62.4767 	EXP 	put_label: height = 0.05
+62.4767 	EXP 	put_label: height = 0.05
+62.4767 	EXP 	put_label: text = '£50'
+62.4767 	EXP 	put_shape: image = 'P.bmp'
+62.4767 	EXP 	put_label: autoDraw = True
+62.4767 	EXP 	put_shape: autoDraw = True
+62.5449 	EXP 	New trial (rep=9, index=0): None
+62.5470 	DATA 	Keypress: m
+62.5596 	EXP 	put_label: autoDraw = False
+62.5596 	EXP 	put_shape: autoDraw = False
+62.5596 	EXP 	text_4: autoDraw = True
+62.7278 	DATA 	Keypress: m
+62.9115 	DATA 	Keypress: m
+63.0604 	EXP 	text_4: autoDraw = False
+63.0604 	EXP 	text_4: autoDraw = False
+63.0604 	EXP 	put_label: text = '£50'
+63.0604 	EXP 	put_shape: image = 'D.bmp'
+63.0604 	EXP 	put_label: autoDraw = True
+63.0604 	EXP 	put_shape: autoDraw = True
+63.0954 	EXP 	New trial (rep=10, index=0): None
+63.0975 	DATA 	Keypress: m
+63.1101 	EXP 	put_label: autoDraw = False
+63.1101 	EXP 	put_shape: autoDraw = False
+63.1101 	EXP 	text_4: autoDraw = True
+63.2960 	DATA 	Keypress: m
+63.4787 	DATA 	Keypress: m
+63.6109 	EXP 	text_4: autoDraw = False
+63.6109 	EXP 	text_4: autoDraw = False
+63.6109 	EXP 	put_label: text = '£50'
+63.6109 	EXP 	put_shape: image = 'P.bmp'
+63.6109 	EXP 	put_label: autoDraw = True
+63.6109 	EXP 	put_shape: autoDraw = True
+63.6959 	EXP 	New trial (rep=11, index=0): None
+63.6978 	DATA 	Keypress: m
+63.7106 	EXP 	put_label: autoDraw = False
+63.7106 	EXP 	put_shape: autoDraw = False
+63.7106 	EXP 	text_4: autoDraw = True
+63.8790 	DATA 	Keypress: m
+64.0792 	DATA 	Keypress: m
+64.2115 	EXP 	text_4: autoDraw = False
+64.2115 	EXP 	text_4: autoDraw = False
+64.2115 	EXP 	put_label: text = '£50'
+64.2115 	EXP 	put_shape: image = 'D.bmp'
+64.2115 	EXP 	put_label: autoDraw = True
+64.2115 	EXP 	put_shape: autoDraw = True
+64.2965 	EXP 	New trial (rep=12, index=0): None
+64.2986 	DATA 	Keypress: m
+64.3112 	EXP 	put_label: autoDraw = False
+64.3112 	EXP 	put_shape: autoDraw = False
+64.3112 	EXP 	text_4: autoDraw = True
+64.4962 	DATA 	Keypress: m
+64.6801 	DATA 	Keypress: m
+64.8120 	EXP 	text_4: autoDraw = False
+64.8120 	EXP 	text_4: autoDraw = False
+64.8120 	EXP 	put_label: text = '£50'
+64.8120 	EXP 	put_shape: image = 'D.bmp'
+64.8120 	EXP 	put_label: autoDraw = True
+64.8120 	EXP 	put_shape: autoDraw = True
+64.8803 	EXP 	New trial (rep=13, index=0): None
+64.8823 	DATA 	Keypress: m
+64.8951 	EXP 	put_label: autoDraw = False
+64.8951 	EXP 	put_shape: autoDraw = False
+64.8951 	EXP 	text_4: autoDraw = True
+65.0801 	DATA 	Keypress: m
+65.2970 	DATA 	Keypress: m
+65.3959 	EXP 	text_4: autoDraw = False
+65.3959 	EXP 	text_4: autoDraw = False
+65.3959 	EXP 	put_label: height = 0.05
+65.3959 	EXP 	put_label: height = 0.05
+65.3959 	EXP 	put_label: height = 0.05
+65.3959 	EXP 	put_label: text = '£0'
+65.3959 	EXP 	put_shape: image = 'O.bmp'
+65.3959 	EXP 	put_label: autoDraw = True
+65.3959 	EXP 	put_shape: autoDraw = True
+65.4809 	EXP 	New trial (rep=14, index=0): None
+65.4829 	DATA 	Keypress: m
+65.4956 	EXP 	put_label: autoDraw = False
+65.4956 	EXP 	put_shape: autoDraw = False
+65.4956 	EXP 	text_4: autoDraw = True
+65.6805 	DATA 	Keypress: m
+65.8641 	DATA 	Keypress: m
+65.9965 	EXP 	text_4: autoDraw = False
+65.9965 	EXP 	text_4: autoDraw = False
+65.9965 	EXP 	put_label: height = 0.05
+65.9965 	EXP 	put_label: height = 0.05
+65.9965 	EXP 	put_label: height = 0.05
+65.9965 	EXP 	put_label: text = '£100'
+65.9965 	EXP 	put_shape: image = 'D.bmp'
+65.9965 	EXP 	put_label: autoDraw = True
+65.9965 	EXP 	put_shape: autoDraw = True
+66.0649 	EXP 	New trial (rep=15, index=0): None
+66.0670 	DATA 	Keypress: m
+66.0794 	EXP 	put_label: autoDraw = False
+66.0794 	EXP 	put_shape: autoDraw = False
+66.0794 	EXP 	text_4: autoDraw = True
+66.2645 	DATA 	Keypress: m
+66.4647 	DATA 	Keypress: m
+66.5803 	EXP 	text_4: autoDraw = False
+66.5803 	EXP 	text_4: autoDraw = False
+66.5803 	EXP 	put_label: text = '£100'
+66.5803 	EXP 	put_shape: image = 'P.bmp'
+66.5803 	EXP 	put_label: autoDraw = True
+66.5803 	EXP 	put_shape: autoDraw = True
+66.6818 	EXP 	New trial (rep=16, index=0): None
+66.6838 	DATA 	Keypress: m
+66.6967 	EXP 	put_label: autoDraw = False
+66.6967 	EXP 	put_shape: autoDraw = False
+66.6967 	EXP 	text_4: autoDraw = True
+66.8985 	DATA 	Keypress: m
+67.1152 	DATA 	Keypress: m
+67.1977 	EXP 	text_4: autoDraw = False
+67.1977 	EXP 	text_4: autoDraw = False
+67.1977 	EXP 	put_label: height = 0.05
+67.1977 	EXP 	put_label: height = 0.05
+67.1977 	EXP 	put_label: height = 0.05
+67.1977 	EXP 	put_label: text = '£0'
+67.1977 	EXP 	put_shape: image = 'P.bmp'
+67.1977 	EXP 	put_label: autoDraw = True
+67.1977 	EXP 	put_shape: autoDraw = True
+67.2992 	EXP 	New trial (rep=17, index=0): None
+67.3012 	DATA 	Keypress: m
+67.3140 	EXP 	put_label: autoDraw = False
+67.3140 	EXP 	put_shape: autoDraw = False
+67.3140 	EXP 	text_4: autoDraw = True
+67.5156 	DATA 	Keypress: m
+67.7325 	DATA 	Keypress: m
+67.8149 	EXP 	text_4: autoDraw = False
+67.8149 	EXP 	text_4: autoDraw = False
+67.8149 	EXP 	put_label: height = 0.05
+67.8149 	EXP 	put_label: height = 0.05
+67.8149 	EXP 	put_label: height = 0.05
+67.8149 	EXP 	put_label: text = '£50'
+67.8149 	EXP 	put_shape: image = 'D.bmp'
+67.8149 	EXP 	put_label: autoDraw = True
+67.8149 	EXP 	put_shape: autoDraw = True
+67.9497 	EXP 	New trial (rep=18, index=0): None
+67.9518 	DATA 	Keypress: m
+67.9646 	EXP 	put_label: autoDraw = False
+67.9646 	EXP 	put_shape: autoDraw = False
+67.9646 	EXP 	text_4: autoDraw = True
+68.1496 	DATA 	Keypress: m
+68.3496 	DATA 	Keypress: m
+68.4656 	EXP 	text_4: autoDraw = False
+68.4656 	EXP 	text_4: autoDraw = False
+68.4656 	EXP 	put_label: height = 0.05
+68.4656 	EXP 	put_label: height = 0.05
+68.4656 	EXP 	put_label: height = 0.05
+68.4656 	EXP 	put_label: text = '£100'
+68.4656 	EXP 	put_shape: image = 'O.bmp'
+68.4656 	EXP 	put_label: autoDraw = True
+68.4656 	EXP 	put_shape: autoDraw = True
+68.5503 	EXP 	New trial (rep=19, index=0): None
+68.5523 	DATA 	Keypress: m
+68.5650 	EXP 	put_label: autoDraw = False
+68.5650 	EXP 	put_shape: autoDraw = False
+68.5650 	EXP 	text_4: autoDraw = True
+68.7501 	DATA 	Keypress: m
+68.9669 	DATA 	Keypress: m
+69.0659 	EXP 	text_4: autoDraw = False
+69.0659 	EXP 	text_4: autoDraw = False
+69.0659 	EXP 	put_label: height = 0.05
+69.0659 	EXP 	put_label: height = 0.05
+69.0659 	EXP 	put_label: height = 0.05
+69.0659 	EXP 	put_label: text = '£0'
+69.0659 	EXP 	put_shape: image = 'O.bmp'
+69.0659 	EXP 	put_label: autoDraw = True
+69.0659 	EXP 	put_shape: autoDraw = True
+69.1676 	EXP 	New trial (rep=20, index=0): None
+69.1696 	DATA 	Keypress: m
+69.1822 	EXP 	put_label: autoDraw = False
+69.1822 	EXP 	put_shape: autoDraw = False
+69.1822 	EXP 	text_4: autoDraw = True
+69.3673 	DATA 	Keypress: m
+69.5674 	DATA 	Keypress: m
+69.6833 	EXP 	text_4: autoDraw = False
+69.6833 	EXP 	text_4: autoDraw = False
+69.6833 	EXP 	put_label: height = 0.05
+69.6833 	EXP 	put_label: height = 0.05
+69.6833 	EXP 	put_label: height = 0.05
+69.6833 	EXP 	put_label: text = '£100'
+69.6833 	EXP 	put_shape: image = 'P.bmp'
+69.6833 	EXP 	put_label: autoDraw = True
+69.6833 	EXP 	put_shape: autoDraw = True
+69.7514 	EXP 	New trial (rep=21, index=0): None
+69.7535 	DATA 	Keypress: m
+69.7660 	EXP 	put_label: autoDraw = False
+69.7660 	EXP 	put_shape: autoDraw = False
+69.7660 	EXP 	text_4: autoDraw = True
+69.9513 	DATA 	Keypress: m
+70.1529 	DATA 	Keypress: m
+70.2673 	EXP 	text_4: autoDraw = False
+70.2673 	EXP 	text_4: autoDraw = False
+70.2673 	EXP 	put_label: text = '£100'
+70.2673 	EXP 	put_shape: image = 'O.bmp'
+70.2673 	EXP 	put_label: autoDraw = True
+70.2673 	EXP 	put_shape: autoDraw = True
+70.3704 	EXP 	New trial (rep=22, index=0): None
+70.3742 	DATA 	Keypress: m
+70.3836 	EXP 	put_label: autoDraw = False
+70.3836 	EXP 	put_shape: autoDraw = False
+70.3836 	EXP 	text_4: autoDraw = True
+70.5686 	DATA 	Keypress: m
+70.7520 	DATA 	Keypress: m
+70.8843 	EXP 	text_4: autoDraw = False
+70.8843 	EXP 	text_4: autoDraw = False
+70.8843 	EXP 	put_label: height = 0.05
+70.8843 	EXP 	put_label: height = 0.05
+70.8843 	EXP 	put_label: height = 0.05
+70.8843 	EXP 	put_label: text = '£50'
+70.8843 	EXP 	put_shape: image = 'D.bmp'
+70.8843 	EXP 	put_label: autoDraw = True
+70.8843 	EXP 	put_shape: autoDraw = True
+70.9527 	EXP 	New trial (rep=23, index=0): None
+70.9549 	DATA 	Keypress: m
+70.9673 	EXP 	put_label: autoDraw = False
+70.9673 	EXP 	put_shape: autoDraw = False
+70.9673 	EXP 	text_4: autoDraw = True
+71.1525 	DATA 	Keypress: m
+71.3693 	DATA 	Keypress: m
+71.4682 	EXP 	text_4: autoDraw = False
+71.4682 	EXP 	text_4: autoDraw = False
+71.4682 	EXP 	put_label: height = 0.05
+71.4682 	EXP 	put_label: height = 0.05
+71.4682 	EXP 	put_label: height = 0.05
+71.4682 	EXP 	put_label: text = '£0'
+71.4682 	EXP 	put_shape: image = 'O.bmp'
+71.4682 	EXP 	put_label: autoDraw = True
+71.4682 	EXP 	put_shape: autoDraw = True
+71.5532 	EXP 	New trial (rep=24, index=0): None
+71.5555 	DATA 	Keypress: m
+71.5677 	EXP 	put_label: autoDraw = False
+71.5677 	EXP 	put_shape: autoDraw = False
+71.5677 	EXP 	text_4: autoDraw = True
+71.7530 	DATA 	Keypress: m
+71.9531 	DATA 	Keypress: m
+72.0688 	EXP 	text_4: autoDraw = False
+72.0688 	EXP 	text_4: autoDraw = False
+72.0688 	EXP 	put_label: height = 0.05
+72.0688 	EXP 	put_label: height = 0.05
+72.0688 	EXP 	put_label: height = 0.05
+72.0688 	EXP 	put_label: text = '£50'
+72.0688 	EXP 	put_shape: image = 'D.bmp'
+72.0688 	EXP 	put_label: autoDraw = True
+72.0688 	EXP 	put_shape: autoDraw = True
+72.1704 	EXP 	New trial (rep=25, index=0): None
+72.1726 	DATA 	Keypress: m
+72.1850 	EXP 	put_label: autoDraw = False
+72.1850 	EXP 	put_shape: autoDraw = False
+72.1850 	EXP 	text_4: autoDraw = True
+72.3702 	DATA 	Keypress: m
+72.5704 	DATA 	Keypress: m
+72.6859 	EXP 	text_4: autoDraw = False
+72.6859 	EXP 	text_4: autoDraw = False
+72.6859 	EXP 	put_label: text = '£50'
+72.6859 	EXP 	put_shape: image = 'D.bmp'
+72.6859 	EXP 	put_label: autoDraw = True
+72.6859 	EXP 	put_shape: autoDraw = True
+72.7710 	EXP 	New trial (rep=26, index=0): None
+72.7733 	DATA 	Keypress: m
+72.7855 	EXP 	put_label: autoDraw = False
+72.7855 	EXP 	put_shape: autoDraw = False
+72.7855 	EXP 	text_4: autoDraw = True
+73.0040 	DATA 	Keypress: m
+73.1876 	DATA 	Keypress: m
+73.2866 	EXP 	text_4: autoDraw = False
+73.2866 	EXP 	text_4: autoDraw = False
+73.2866 	EXP 	put_label: height = 0.05
+73.2866 	EXP 	put_label: height = 0.05
+73.2866 	EXP 	put_label: height = 0.05
+73.2866 	EXP 	put_label: text = '£0'
+73.2866 	EXP 	put_shape: image = 'P.bmp'
+73.2866 	EXP 	put_label: autoDraw = True
+73.2866 	EXP 	put_shape: autoDraw = True
+73.4050 	EXP 	New trial (rep=27, index=0): None
+73.4072 	DATA 	Keypress: m
+73.4195 	EXP 	put_label: autoDraw = False
+73.4195 	EXP 	put_shape: autoDraw = False
+73.4195 	EXP 	text_4: autoDraw = True
+73.6213 	DATA 	Keypress: m
+73.8383 	DATA 	Keypress: m
+73.9203 	EXP 	text_4: autoDraw = False
+73.9203 	EXP 	text_4: autoDraw = False
+73.9203 	EXP 	put_label: text = '£0'
+73.9203 	EXP 	put_shape: image = 'O.bmp'
+73.9203 	EXP 	put_label: autoDraw = True
+73.9203 	EXP 	put_shape: autoDraw = True
+74.0556 	EXP 	New trial (rep=28, index=0): None
+74.0578 	DATA 	Keypress: m
+74.0700 	EXP 	put_label: autoDraw = False
+74.0700 	EXP 	put_shape: autoDraw = False
+74.0700 	EXP 	text_4: autoDraw = True
+74.2719 	DATA 	Keypress: m
+74.4888 	DATA 	Keypress: m
+74.5710 	EXP 	text_4: autoDraw = False
+74.5710 	EXP 	text_4: autoDraw = False
+74.5710 	EXP 	put_label: height = 0.05
+74.5710 	EXP 	put_label: height = 0.05
+74.5710 	EXP 	put_label: height = 0.05
+74.5710 	EXP 	put_label: text = '£50'
+74.5710 	EXP 	put_shape: image = 'D.bmp'
+74.5710 	EXP 	put_label: autoDraw = True
+74.5710 	EXP 	put_shape: autoDraw = True
+74.7061 	EXP 	New trial (rep=29, index=0): None
+74.7084 	DATA 	Keypress: m
+74.7207 	EXP 	put_label: autoDraw = False
+74.7207 	EXP 	put_shape: autoDraw = False
+74.7207 	EXP 	text_4: autoDraw = True
+74.9059 	DATA 	Keypress: m
+75.1061 	DATA 	Keypress: m
+75.2217 	EXP 	text_4: autoDraw = False
+75.2217 	EXP 	text_4: autoDraw = False
+75.2217 	EXP 	put_label: height = 0.05
+75.2217 	EXP 	put_label: height = 0.05
+75.2217 	EXP 	put_label: height = 0.05
+75.2217 	EXP 	put_label: text = '£100'
+75.2217 	EXP 	put_shape: image = 'O.bmp'
+75.2217 	EXP 	put_label: autoDraw = True
+75.2217 	EXP 	put_shape: autoDraw = True
+75.3233 	DATA 	Keypress: m
+75.3399 	EXP 	New trial (rep=30, index=0): None
+75.3546 	EXP 	put_label: autoDraw = False
+75.3546 	EXP 	put_shape: autoDraw = False
+75.3546 	EXP 	text_4: autoDraw = True
+75.5397 	DATA 	Keypress: m
+75.7397 	DATA 	Keypress: m
+75.8556 	EXP 	text_4: autoDraw = False
+75.8556 	EXP 	text_4: autoDraw = False
+75.8556 	EXP 	put_label: height = 0.05
+75.8556 	EXP 	put_label: height = 0.05
+75.8556 	EXP 	put_label: height = 0.05
+75.8556 	EXP 	put_label: text = '£50'
+75.8556 	EXP 	put_shape: image = 'D.bmp'
+75.8556 	EXP 	put_label: autoDraw = True
+75.8556 	EXP 	put_shape: autoDraw = True
+75.9571 	DATA 	Keypress: m
+75.9738 	EXP 	New trial (rep=31, index=0): None
+75.9885 	EXP 	put_label: autoDraw = False
+75.9885 	EXP 	put_shape: autoDraw = False
+75.9885 	EXP 	text_4: autoDraw = True
+76.1570 	DATA 	Keypress: m
+76.3738 	DATA 	Keypress: m
+76.4895 	EXP 	text_4: autoDraw = False
+76.4895 	EXP 	text_4: autoDraw = False
+76.4895 	EXP 	put_label: height = 0.05
+76.4895 	EXP 	put_label: height = 0.05
+76.4895 	EXP 	put_label: height = 0.05
+76.4895 	EXP 	put_label: text = '£0'
+76.4895 	EXP 	put_shape: image = 'P.bmp'
+76.4895 	EXP 	put_label: autoDraw = True
+76.4895 	EXP 	put_shape: autoDraw = True
+76.5908 	EXP 	New trial (rep=32, index=0): None
+76.5928 	DATA 	Keypress: m
+76.6058 	EXP 	put_label: autoDraw = False
+76.6058 	EXP 	put_shape: autoDraw = False
+76.6058 	EXP 	text_4: autoDraw = True
+76.7908 	DATA 	Keypress: m
+76.9909 	DATA 	Keypress: m
+77.1067 	EXP 	text_4: autoDraw = False
+77.1067 	EXP 	text_4: autoDraw = False
+77.1067 	EXP 	put_label: height = 0.05
+77.1067 	EXP 	put_label: height = 0.05
+77.1067 	EXP 	put_label: height = 0.05
+77.1067 	EXP 	put_label: text = '£50'
+77.1067 	EXP 	put_shape: image = 'D.bmp'
+77.1067 	EXP 	put_label: autoDraw = True
+77.1067 	EXP 	put_shape: autoDraw = True
+77.1915 	EXP 	New trial (rep=33, index=0): None
+77.1935 	DATA 	Keypress: m
+77.2064 	EXP 	put_label: autoDraw = False
+77.2064 	EXP 	put_shape: autoDraw = False
+77.2064 	EXP 	text_4: autoDraw = True
+77.4080 	DATA 	Keypress: m
+77.6248 	DATA 	Keypress: m
+77.7073 	EXP 	text_4: autoDraw = False
+77.7073 	EXP 	text_4: autoDraw = False
+77.7073 	EXP 	put_label: height = 0.05
+77.7073 	EXP 	put_label: height = 0.05
+77.7073 	EXP 	put_label: height = 0.05
+77.7073 	EXP 	put_label: text = '£100'
+77.7073 	EXP 	put_shape: image = 'D.bmp'
+77.7073 	EXP 	put_label: autoDraw = True
+77.7073 	EXP 	put_shape: autoDraw = True
+77.8254 	EXP 	New trial (rep=34, index=0): None
+77.8274 	DATA 	Keypress: m
+77.8403 	EXP 	put_label: autoDraw = False
+77.8403 	EXP 	put_shape: autoDraw = False
+77.8403 	EXP 	text_4: autoDraw = True
+78.0253 	DATA 	Keypress: m
+78.2423 	DATA 	Keypress: m
+78.3412 	EXP 	text_4: autoDraw = False
+78.3412 	EXP 	text_4: autoDraw = False
+78.3412 	EXP 	put_label: text = '£100'
+78.3412 	EXP 	put_shape: image = 'P.bmp'
+78.3412 	EXP 	put_label: autoDraw = True
+78.3412 	EXP 	put_shape: autoDraw = True
+78.4092 	EXP 	New trial (rep=35, index=0): None
+78.4112 	DATA 	Keypress: m
+78.4241 	EXP 	put_label: autoDraw = False
+78.4241 	EXP 	put_shape: autoDraw = False
+78.4241 	EXP 	text_4: autoDraw = True
+78.5925 	DATA 	Keypress: m
+78.7927 	DATA 	Keypress: m
+78.9251 	EXP 	text_4: autoDraw = False
+78.9251 	EXP 	text_4: autoDraw = False
+78.9251 	EXP 	put_label: height = 0.05
+78.9251 	EXP 	put_label: height = 0.05
+78.9251 	EXP 	put_label: height = 0.05
+78.9251 	EXP 	put_label: text = '£0'
+78.9251 	EXP 	put_shape: image = 'O.bmp'
+78.9251 	EXP 	put_label: autoDraw = True
+78.9251 	EXP 	put_shape: autoDraw = True
+78.9765 	EXP 	New trial (rep=36, index=0): None
+78.9786 	DATA 	Keypress: m
+78.9913 	EXP 	put_label: autoDraw = False
+78.9913 	EXP 	put_shape: autoDraw = False
+78.9913 	EXP 	text_4: autoDraw = True
+79.4923 	EXP 	text_4: autoDraw = False
+79.4923 	EXP 	text_4: autoDraw = False
+79.4923 	EXP 	put_label: height = 0.05
+79.4923 	EXP 	put_label: height = 0.05
+79.4923 	EXP 	put_label: height = 0.05
+79.4923 	EXP 	put_label: text = '£100'
+79.4923 	EXP 	put_shape: image = 'O.bmp'
+79.4923 	EXP 	put_label: autoDraw = True
+79.4923 	EXP 	put_shape: autoDraw = True
+82.3797 	EXP 	New trial (rep=37, index=0): None
+82.3817 	DATA 	Keypress: n
+82.3943 	EXP 	put_label: autoDraw = False
+82.3943 	EXP 	put_shape: autoDraw = False
+82.3943 	EXP 	text_4: autoDraw = True
+82.7129 	DATA 	Keypress: m
+82.8953 	EXP 	text_4: autoDraw = False
+82.8953 	EXP 	text_4: autoDraw = False
+82.8953 	EXP 	put_label: height = 0.05
+82.8953 	EXP 	put_label: height = 0.05
+82.8953 	EXP 	put_label: height = 0.05
+82.8953 	EXP 	put_label: text = '£50'
+82.8953 	EXP 	put_shape: image = 'D.bmp'
+82.8953 	EXP 	put_label: autoDraw = True
+82.8953 	EXP 	put_shape: autoDraw = True
+82.9635 	EXP 	New trial (rep=38, index=0): None
+82.9656 	DATA 	Keypress: n
+82.9782 	EXP 	put_label: autoDraw = False
+82.9782 	EXP 	put_shape: autoDraw = False
+82.9782 	EXP 	text_4: autoDraw = True
+83.1466 	DATA 	Keypress: m
+83.3968 	DATA 	Keypress: m
+83.4792 	EXP 	text_4: autoDraw = False
+83.4792 	EXP 	text_4: autoDraw = False
+83.4792 	EXP 	put_label: text = '£50'
+83.4792 	EXP 	put_shape: image = 'O.bmp'
+83.4792 	EXP 	put_label: autoDraw = True
+83.4792 	EXP 	put_shape: autoDraw = True
+83.6308 	EXP 	New trial (rep=39, index=0): None
+83.6328 	DATA 	Keypress: m
+83.6455 	EXP 	put_label: autoDraw = False
+83.6455 	EXP 	put_shape: autoDraw = False
+83.6455 	EXP 	text_4: autoDraw = True
+83.8472 	DATA 	Keypress: m
+84.0807 	DATA 	Keypress: m
+84.1465 	EXP 	text_4: autoDraw = False
+84.1465 	EXP 	text_4: autoDraw = False
+84.1465 	EXP 	put_label: height = 0.05
+84.1465 	EXP 	put_label: height = 0.05
+84.1465 	EXP 	put_label: height = 0.05
+84.1465 	EXP 	put_label: text = '£0'
+84.1465 	EXP 	put_shape: image = 'P.bmp'
+84.1465 	EXP 	put_label: autoDraw = True
+84.1465 	EXP 	put_shape: autoDraw = True
+84.2647 	EXP 	New trial (rep=40, index=0): None
+84.2667 	DATA 	Keypress: n
+84.2795 	EXP 	put_label: autoDraw = False
+84.2795 	EXP 	put_shape: autoDraw = False
+84.2795 	EXP 	text_4: autoDraw = True
+84.4979 	DATA 	Keypress: n
+84.6981 	DATA 	Keypress: m
+84.7804 	EXP 	text_4: autoDraw = False
+84.7804 	EXP 	text_4: autoDraw = False
+84.7804 	EXP 	put_label: height = 0.05
+84.7804 	EXP 	put_label: height = 0.05
+84.7804 	EXP 	put_label: height = 0.05
+84.7804 	EXP 	put_label: text = '£50'
+84.7804 	EXP 	put_shape: image = 'P.bmp'
+84.7804 	EXP 	put_label: autoDraw = True
+84.7804 	EXP 	put_shape: autoDraw = True
+84.8987 	EXP 	New trial (rep=41, index=0): None
+84.9006 	DATA 	Keypress: m
+84.9134 	EXP 	put_label: autoDraw = False
+84.9134 	EXP 	put_shape: autoDraw = False
+84.9134 	EXP 	text_4: autoDraw = True
+85.1151 	DATA 	Keypress: m
+85.3320 	DATA 	Keypress: m
+85.4143 	EXP 	text_4: autoDraw = False
+85.4143 	EXP 	text_4: autoDraw = False
+85.4143 	EXP 	put_label: text = '£50'
+85.4143 	EXP 	put_shape: image = 'D.bmp'
+85.4143 	EXP 	put_label: autoDraw = True
+85.4143 	EXP 	put_shape: autoDraw = True
+85.5328 	DATA 	Keypress: m
+85.5490 	EXP 	New trial (rep=42, index=0): None
+85.5640 	EXP 	put_label: autoDraw = False
+85.5640 	EXP 	put_shape: autoDraw = False
+85.5640 	EXP 	text_4: autoDraw = True
+85.7322 	DATA 	Keypress: m
+85.9324 	DATA 	Keypress: m
+86.0649 	EXP 	text_4: autoDraw = False
+86.0649 	EXP 	text_4: autoDraw = False
+86.0649 	EXP 	put_label: text = '£50'
+86.0649 	EXP 	put_shape: image = 'D.bmp'
+86.0649 	EXP 	put_label: autoDraw = True
+86.0649 	EXP 	put_shape: autoDraw = True
+86.1498 	EXP 	New trial (rep=43, index=0): None
+86.1518 	DATA 	Keypress: m
+86.1646 	EXP 	put_label: autoDraw = False
+86.1646 	EXP 	put_shape: autoDraw = False
+86.1646 	EXP 	text_4: autoDraw = True
+86.3163 	DATA 	Keypress: m
+86.5331 	DATA 	Keypress: m
+86.6654 	EXP 	text_4: autoDraw = False
+86.6654 	EXP 	text_4: autoDraw = False
+86.6654 	EXP 	put_label: text = '£50'
+86.6654 	EXP 	put_shape: image = 'P.bmp'
+86.6654 	EXP 	put_label: autoDraw = True
+86.6654 	EXP 	put_shape: autoDraw = True
+86.7504 	EXP 	New trial (rep=44, index=0): None
+86.7524 	DATA 	Keypress: m
+86.7651 	EXP 	put_label: autoDraw = False
+86.7651 	EXP 	put_shape: autoDraw = False
+86.7651 	EXP 	text_4: autoDraw = True
+87.0335 	DATA 	Keypress: m
+87.2659 	EXP 	text_4: autoDraw = False
+87.2659 	EXP 	text_4: autoDraw = False
+87.2659 	EXP 	put_label: text = '£50'
+87.2659 	EXP 	put_shape: image = 'D.bmp'
+87.2659 	EXP 	put_label: autoDraw = True
+87.2659 	EXP 	put_shape: autoDraw = True
+87.3343 	EXP 	New trial (rep=45, index=0): None
+87.3364 	DATA 	Keypress: m
+87.3488 	EXP 	put_label: autoDraw = False
+87.3488 	EXP 	put_shape: autoDraw = False
+87.3488 	EXP 	text_4: autoDraw = True
+87.5506 	DATA 	Keypress: m
+87.7341 	DATA 	Keypress: m
+87.8499 	EXP 	text_4: autoDraw = False
+87.8499 	EXP 	text_4: autoDraw = False
+87.8499 	EXP 	put_label: height = 0.05
+87.8499 	EXP 	put_label: height = 0.05
+87.8499 	EXP 	put_label: height = 0.05
+87.8499 	EXP 	put_label: text = '£0'
+87.8499 	EXP 	put_shape: image = 'O.bmp'
+87.8499 	EXP 	put_label: autoDraw = True
+87.8499 	EXP 	put_shape: autoDraw = True
+88.0013 	EXP 	New trial (rep=46, index=0): None
+88.0033 	DATA 	Keypress: m
+88.0162 	EXP 	put_label: autoDraw = False
+88.0162 	EXP 	put_shape: autoDraw = False
+88.0162 	EXP 	text_4: autoDraw = True
+88.2012 	DATA 	Keypress: m
+88.4181 	DATA 	Keypress: m
+88.5171 	EXP 	text_4: autoDraw = False
+88.5171 	EXP 	text_4: autoDraw = False
+88.5171 	EXP 	put_label: height = 0.05
+88.5171 	EXP 	put_label: height = 0.05
+88.5171 	EXP 	put_label: height = 0.05
+88.5171 	EXP 	put_label: text = '£50'
+88.5171 	EXP 	put_shape: image = 'D.bmp'
+88.5171 	EXP 	put_label: autoDraw = True
+88.5171 	EXP 	put_shape: autoDraw = True
+88.6519 	DATA 	Keypress: m
+88.6687 	EXP 	New trial (rep=47, index=0): None
+88.6835 	EXP 	put_label: autoDraw = False
+88.6835 	EXP 	put_shape: autoDraw = False
+88.6835 	EXP 	text_4: autoDraw = True
+88.8518 	DATA 	Keypress: m
+89.0686 	DATA 	Keypress: m
+89.1844 	EXP 	text_4: autoDraw = False
+89.1844 	EXP 	text_4: autoDraw = False
+89.1844 	EXP 	put_label: text = '£50'
+89.1844 	EXP 	put_shape: image = 'P.bmp'
+89.1844 	EXP 	put_label: autoDraw = True
+89.1844 	EXP 	put_shape: autoDraw = True
+89.3027 	EXP 	New trial (rep=48, index=0): None
+89.3047 	DATA 	Keypress: n
+89.3173 	EXP 	put_label: autoDraw = False
+89.3173 	EXP 	put_shape: autoDraw = False
+89.3173 	EXP 	text_4: autoDraw = True
+89.4856 	DATA 	Keypress: m
+89.5690 	DATA 	Keypress: n
+89.7360 	DATA 	Keypress: m
+89.8062 	DATA 	Keypress: n
+89.8183 	EXP 	text_4: autoDraw = False
+89.8183 	EXP 	text_4: autoDraw = False
+89.8183 	EXP 	put_label: height = 0.05
+89.8183 	EXP 	put_label: height = 0.05
+89.8183 	EXP 	put_label: height = 0.05
+89.8183 	EXP 	put_label: text = '£100'
+89.8183 	EXP 	put_shape: image = 'D.bmp'
+89.8183 	EXP 	put_label: autoDraw = True
+89.8183 	EXP 	put_shape: autoDraw = True
+90.0033 	EXP 	New trial (rep=49, index=0): None
+90.0053 	DATA 	Keypress: m
+90.0181 	EXP 	put_label: autoDraw = False
+90.0181 	EXP 	put_shape: autoDraw = False
+90.0181 	EXP 	text_4: autoDraw = True
+90.0696 	DATA 	Keypress: n
+90.2370 	DATA 	Keypress: m
+90.3199 	DATA 	Keypress: n
+90.5052 	DATA 	Keypress: m
+90.5190 	EXP 	text_4: autoDraw = False
+90.5190 	EXP 	text_4: autoDraw = False
+90.5190 	EXP 	put_label: text = '£100'
+90.5190 	EXP 	put_shape: image = 'D.bmp'
+90.5190 	EXP 	put_label: autoDraw = True
+90.5190 	EXP 	put_shape: autoDraw = True
+90.5873 	EXP 	New trial (rep=50, index=0): None
+90.5893 	DATA 	Keypress: n
+90.6018 	EXP 	put_label: autoDraw = False
+90.6018 	EXP 	put_shape: autoDraw = False
+90.6018 	EXP 	text_4: autoDraw = True
+90.7702 	DATA 	Keypress: m
+90.8370 	DATA 	Keypress: n
+91.0039 	DATA 	Keypress: m
+91.1029 	EXP 	text_4: autoDraw = False
+91.1029 	EXP 	text_4: autoDraw = False
+91.1029 	EXP 	put_label: height = 0.05
+91.1029 	EXP 	put_label: height = 0.05
+91.1029 	EXP 	put_label: height = 0.05
+91.1029 	EXP 	put_label: text = '£50'
+91.1029 	EXP 	put_shape: image = 'D.bmp'
+91.1029 	EXP 	put_label: autoDraw = True
+91.1029 	EXP 	put_shape: autoDraw = True
+91.1053 	DATA 	Keypress: n
+91.2547 	EXP 	New trial (rep=51, index=0): None
+91.2568 	DATA 	Keypress: m
+91.2692 	EXP 	put_label: autoDraw = False
+91.2692 	EXP 	put_shape: autoDraw = False
+91.2692 	EXP 	text_4: autoDraw = True
+91.3543 	DATA 	Keypress: n
+91.5210 	DATA 	Keypress: m
+91.6209 	DATA 	Keypress: n
+91.7578 	DATA 	Keypress: m
+91.7702 	EXP 	text_4: autoDraw = False
+91.7702 	EXP 	text_4: autoDraw = False
+91.7702 	EXP 	put_label: height = 0.05
+91.7702 	EXP 	put_label: height = 0.05
+91.7702 	EXP 	put_label: height = 0.05
+91.7702 	EXP 	put_label: text = '£0'
+91.7702 	EXP 	put_shape: image = 'D.bmp'
+91.7702 	EXP 	put_label: autoDraw = True
+91.7702 	EXP 	put_shape: autoDraw = True
+91.8549 	EXP 	New trial (rep=52, index=0): None
+91.8569 	DATA 	Keypress: n
+91.8698 	EXP 	put_label: autoDraw = False
+91.8698 	EXP 	put_shape: autoDraw = False
+91.8698 	EXP 	text_4: autoDraw = True
+92.0214 	DATA 	Keypress: m
+92.1215 	DATA 	Keypress: n
+92.3050 	DATA 	Keypress: m
+92.3707 	EXP 	text_4: autoDraw = False
+92.3707 	EXP 	text_4: autoDraw = False
+92.3707 	EXP 	put_label: text = '£0'
+92.3707 	EXP 	put_shape: image = 'D.bmp'
+92.3707 	EXP 	put_label: autoDraw = True
+92.3707 	EXP 	put_shape: autoDraw = True
+92.3730 	DATA 	Keypress: n
+92.3888 	EXP 	New trial (rep=53, index=0): None
+92.4036 	EXP 	put_label: autoDraw = False
+92.4036 	EXP 	put_shape: autoDraw = False
+92.4036 	EXP 	text_4: autoDraw = True
+92.5552 	DATA 	Keypress: m
+92.6219 	DATA 	Keypress: n
+92.8055 	DATA 	Keypress: m
+92.9045 	EXP 	text_4: autoDraw = False
+92.9045 	EXP 	text_4: autoDraw = False
+92.9045 	EXP 	put_label: text = '£0'
+92.9045 	EXP 	put_shape: image = 'O.bmp'
+92.9045 	EXP 	put_label: autoDraw = True
+92.9045 	EXP 	put_shape: autoDraw = True
+92.9069 	DATA 	Keypress: n
+93.0728 	EXP 	New trial (rep=54, index=0): None
+93.0747 	DATA 	Keypress: m
+93.0876 	EXP 	put_label: autoDraw = False
+93.0876 	EXP 	put_shape: autoDraw = False
+93.0876 	EXP 	text_4: autoDraw = True
+93.1224 	DATA 	Keypress: n
+93.2395 	DATA 	Keypress: m
+93.3392 	DATA 	Keypress: n
+93.4894 	DATA 	Keypress: m
+93.5561 	DATA 	Keypress: n
+93.5885 	EXP 	text_4: autoDraw = False
+93.5885 	EXP 	text_4: autoDraw = False
+93.5885 	EXP 	put_label: height = 0.05
+93.5885 	EXP 	put_label: height = 0.05
+93.5885 	EXP 	put_label: height = 0.05
+93.5885 	EXP 	put_label: text = '£50'
+93.5885 	EXP 	put_shape: image = 'D.bmp'
+93.5885 	EXP 	put_label: autoDraw = True
+93.5885 	EXP 	put_shape: autoDraw = True
+93.7403 	EXP 	New trial (rep=55, index=0): None
+93.7424 	DATA 	Keypress: m
+93.7548 	EXP 	put_label: autoDraw = False
+93.7548 	EXP 	put_shape: autoDraw = False
+93.7548 	EXP 	text_4: autoDraw = True
+93.8064 	DATA 	Keypress: n
+93.9898 	DATA 	Keypress: m
+94.0566 	DATA 	Keypress: n
+94.2067 	DATA 	Keypress: m
+94.2558 	EXP 	text_4: autoDraw = False
+94.2558 	EXP 	text_4: autoDraw = False
+94.2558 	EXP 	put_label: height = 0.05
+94.2558 	EXP 	put_label: height = 0.05
+94.2558 	EXP 	put_label: height = 0.05
+94.2558 	EXP 	put_label: text = '£100'
+94.2558 	EXP 	put_shape: image = 'P.bmp'
+94.2558 	EXP 	put_label: autoDraw = True
+94.2558 	EXP 	put_shape: autoDraw = True
+94.3408 	EXP 	New trial (rep=56, index=0): None
+94.3428 	DATA 	Keypress: n
+94.3552 	EXP 	put_label: autoDraw = False
+94.3552 	EXP 	put_shape: autoDraw = False
+94.3552 	EXP 	text_4: autoDraw = True
+94.4568 	DATA 	Keypress: m
+94.5904 	DATA 	Keypress: n
+94.7573 	DATA 	Keypress: m
+94.8563 	EXP 	text_4: autoDraw = False
+94.8563 	EXP 	text_4: autoDraw = False
+94.8563 	EXP 	put_label: text = '£100'
+94.8563 	EXP 	put_shape: image = 'O.bmp'
+94.8563 	EXP 	put_label: autoDraw = True
+94.8563 	EXP 	put_shape: autoDraw = True
+94.8745 	EXP 	New trial (rep=57, index=0): None
+94.8765 	DATA 	Keypress: n
+94.8891 	EXP 	put_label: autoDraw = False
+94.8891 	EXP 	put_shape: autoDraw = False
+94.8891 	EXP 	text_4: autoDraw = True
+95.1077 	DATA 	Keypress: m
+95.2745 	DATA 	Keypress: n
+95.3901 	EXP 	text_4: autoDraw = False
+95.3901 	EXP 	text_4: autoDraw = False
+95.3901 	EXP 	put_label: height = 0.05
+95.3901 	EXP 	put_label: height = 0.05
+95.3901 	EXP 	put_label: height = 0.05
+95.3901 	EXP 	put_label: text = '£50'
+95.3901 	EXP 	put_shape: image = 'D.bmp'
+95.3901 	EXP 	put_label: autoDraw = True
+95.3901 	EXP 	put_shape: autoDraw = True
+95.4583 	EXP 	New trial (rep=58, index=0): None
+95.4603 	DATA 	Keypress: m
+95.4731 	EXP 	put_label: autoDraw = False
+95.4731 	EXP 	put_shape: autoDraw = False
+95.4731 	EXP 	text_4: autoDraw = True
+95.5413 	DATA 	Keypress: n
+95.6918 	DATA 	Keypress: m
+95.9084 	DATA 	Keypress: n
+95.9739 	EXP 	text_4: autoDraw = False
+95.9739 	EXP 	text_4: autoDraw = False
+95.9739 	EXP 	put_label: height = 0.05
+95.9739 	EXP 	put_label: height = 0.05
+95.9739 	EXP 	put_label: height = 0.05
+95.9739 	EXP 	put_label: text = '£0'
+95.9739 	EXP 	put_shape: image = 'D.bmp'
+95.9739 	EXP 	put_label: autoDraw = True
+95.9739 	EXP 	put_shape: autoDraw = True
+96.0755 	EXP 	New trial (rep=59, index=0): None
+96.0775 	DATA 	Keypress: n
+96.0903 	EXP 	put_label: autoDraw = False
+96.0903 	EXP 	put_shape: autoDraw = False
+96.0903 	EXP 	text_4: autoDraw = True
+96.2754 	DATA 	Keypress: n
+96.4589 	DATA 	Keypress: n
+96.5912 	EXP 	text_4: autoDraw = False
+96.5912 	EXP 	text_4: autoDraw = False
+96.5912 	EXP 	put_label: height = 0.05
+96.5912 	EXP 	put_label: height = 0.05
+96.5912 	EXP 	put_label: height = 0.05
+96.5912 	EXP 	put_label: text = '£100'
+96.5912 	EXP 	put_shape: image = 'D.bmp'
+96.5912 	EXP 	put_label: autoDraw = True
+96.5912 	EXP 	put_shape: autoDraw = True
+96.6439 	DATA 	Keypress: m
+96.6574 	EXP 	put_label: autoDraw = False
+96.6574 	EXP 	put_shape: autoDraw = False
+96.6574 	EXP 	text_3: autoDraw = True
+96.7758 	DATA 	Keypress: n
+96.9927 	DATA 	Keypress: n
+97.2096 	DATA 	Keypress: n
+99.0944 	DATA 	Keypress: space
+99.1096 	EXP 	text_3: autoDraw = False
+99.1096 	EXP 	ala: status = STOPPED
+99.2204 	EXP 	window1: mouseVisible = True

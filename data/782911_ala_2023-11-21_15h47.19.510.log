@@ -1,0 +1,171 @@
+7.0200 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FAB53FECA0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FAB53FEC40>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FAB53FEA90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FABF0E0730>, multiSample=False, name='window1', numSamples=2, pos=(880, 240), screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.0202 	EXP 	window1: mouseVisible = True
+7.0202 	EXP 	window1: backgroundImage = ''
+7.0203 	EXP 	window1: backgroundFit = 'none'
+7.0248 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.0248 	EXP 	window1: recordFrameIntervals = False
+7.1858 	EXP 	window1: recordFrameIntervals = True
+7.3695 	EXP 	Screen (0) actual frame rate measured at 59.98Hz
+7.3696 	EXP 	window1: recordFrameIntervals = False
+7.3697 	EXP 	window1: mouseVisible = True
+7.4916 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.2956 	EXP 	ala: status = STARTED
+10.2960 	EXP 	window1: mouseVisible = True
+10.3606 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='Learn this mapping then press space', units='height', win=Window(...), wrapWidth=1)
+10.3607 	EXP 	window1: mouseVisible = True
+10.3623 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.3624 	EXP 	window1: mouseVisible = True
+10.3742 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+10.3743 	EXP 	window1: mouseVisible = True
+10.4393 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.4394 	EXP 	window1: mouseVisible = True
+10.4409 	EXP 	Created put_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='put_label', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4410 	EXP 	window1: mouseVisible = True
+10.4517 	EXP 	Created put_shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='put_shape', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+10.4518 	EXP 	window1: mouseVisible = True
+10.4583 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Rest. Then press space', units='height', win=Window(...), wrapWidth=1)
+0.0490 	EXP 	text: height = 0.05
+0.0490 	EXP 	text: height = 0.05
+0.0490 	EXP 	text: height = 0.05
+0.0490 	EXP 	text: text = 'happy'
+0.0490 	EXP 	image: image = 'X.bmp'
+0.0490 	EXP 	text_2: autoDraw = True
+0.0490 	EXP 	text: autoDraw = True
+0.0490 	EXP 	image: autoDraw = True
+1.5010 	DATA 	Mouse: Left button down, pos=(573,339)
+1.5842 	DATA 	Mouse:  Left button up, pos=(573,339)
+2.4334 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+2.4337 	EXP 	New trial (rep=0, index=0): None
+2.4368 	DATA 	Keypress: space
+2.4561 	EXP 	text_2: autoDraw = False
+2.4561 	EXP 	text: autoDraw = False
+2.4561 	EXP 	image: autoDraw = False
+2.4561 	EXP 	text_4: autoDraw = True
+2.9505 	EXP 	Created sequence: random, trialTypes=1, nReps=60, seed=None
+2.9509 	EXP 	New trial (rep=0, index=0): None
+2.9644 	EXP 	text_4: autoDraw = False
+2.9644 	EXP 	put_label: height = 0.05
+2.9644 	EXP 	put_label: height = 0.05
+2.9644 	EXP 	put_label: height = 0.05
+2.9644 	EXP 	put_label: text = 'sad'
+2.9644 	EXP 	put_shape: image = 'R.bmp'
+2.9644 	EXP 	put_label: autoDraw = True
+2.9644 	EXP 	put_shape: autoDraw = True
+4.5195 	DATA 	Keypress: n
+4.5363 	EXP 	New trial (rep=1, index=0): None
+4.5513 	EXP 	put_label: autoDraw = False
+4.5513 	EXP 	put_shape: autoDraw = False
+4.5513 	EXP 	put_label: text = 'sad'
+4.5513 	EXP 	put_shape: image = 'H.bmp'
+4.5513 	EXP 	put_label: autoDraw = True
+4.5513 	EXP 	put_shape: autoDraw = True
+5.2369 	EXP 	New trial (rep=2, index=0): None
+5.2446 	DATA 	Keypress: m
+5.2522 	EXP 	put_label: autoDraw = False
+5.2522 	EXP 	put_shape: autoDraw = False
+5.2522 	EXP 	put_label: height = 0.05
+5.2522 	EXP 	put_label: height = 0.05
+5.2522 	EXP 	put_label: height = 0.05
+5.2522 	EXP 	put_label: text = 'neutral'
+5.2522 	EXP 	put_shape: image = 'X.bmp'
+5.2522 	EXP 	put_label: autoDraw = True
+5.2522 	EXP 	put_shape: autoDraw = True
+5.8375 	EXP 	New trial (rep=3, index=0): None
+5.8425 	DATA 	Keypress: n
+5.8526 	EXP 	put_label: autoDraw = False
+5.8526 	EXP 	put_shape: autoDraw = False
+5.8526 	EXP 	put_label: height = 0.05
+5.8526 	EXP 	put_label: height = 0.05
+5.8526 	EXP 	put_label: height = 0.05
+5.8526 	EXP 	put_label: text = 'sad'
+5.8526 	EXP 	put_shape: image = 'H.bmp'
+5.8526 	EXP 	put_label: autoDraw = True
+5.8526 	EXP 	put_shape: autoDraw = True
+6.3712 	EXP 	New trial (rep=4, index=0): None
+6.3765 	DATA 	Keypress: m
+6.3864 	EXP 	put_label: autoDraw = False
+6.3864 	EXP 	put_shape: autoDraw = False
+6.3864 	EXP 	put_label: height = 0.05
+6.3864 	EXP 	put_label: height = 0.05
+6.3864 	EXP 	put_label: height = 0.05
+6.3864 	EXP 	put_label: text = 'happy'
+6.3864 	EXP 	put_shape: image = 'X.bmp'
+6.3864 	EXP 	put_label: autoDraw = True
+6.3864 	EXP 	put_shape: autoDraw = True
+6.8718 	EXP 	New trial (rep=5, index=0): None
+6.8754 	DATA 	Keypress: n
+6.8869 	EXP 	put_label: autoDraw = False
+6.8869 	EXP 	put_shape: autoDraw = False
+6.8869 	EXP 	put_label: text = 'happy'
+6.8869 	EXP 	put_shape: image = 'H.bmp'
+6.8869 	EXP 	put_label: autoDraw = True
+6.8869 	EXP 	put_shape: autoDraw = True
+7.4721 	DATA 	Keypress: m
+7.4889 	EXP 	New trial (rep=6, index=0): None
+7.5041 	EXP 	put_label: autoDraw = False
+7.5041 	EXP 	put_shape: autoDraw = False
+7.5041 	EXP 	put_label: height = 0.05
+7.5041 	EXP 	put_label: height = 0.05
+7.5041 	EXP 	put_label: height = 0.05
+7.5041 	EXP 	put_label: text = 'neutral'
+7.5041 	EXP 	put_shape: image = 'R.bmp'
+7.5041 	EXP 	put_label: autoDraw = True
+7.5041 	EXP 	put_shape: autoDraw = True
+8.0064 	EXP 	New trial (rep=7, index=0): None
+8.0122 	DATA 	Keypress: n
+8.0213 	EXP 	put_label: autoDraw = False
+8.0213 	EXP 	put_shape: autoDraw = False
+8.0213 	EXP 	put_label: height = 0.05
+8.0213 	EXP 	put_label: height = 0.05
+8.0213 	EXP 	put_label: height = 0.05
+8.0213 	EXP 	put_label: text = 'happy'
+8.0213 	EXP 	put_shape: image = 'X.bmp'
+8.0213 	EXP 	put_label: autoDraw = True
+8.0213 	EXP 	put_shape: autoDraw = True
+9.8744 	EXP 	New trial (rep=8, index=0): None
+9.8799 	DATA 	Keypress: m
+9.8897 	EXP 	put_label: autoDraw = False
+9.8897 	EXP 	put_shape: autoDraw = False
+9.8897 	EXP 	put_label: height = 0.05
+9.8897 	EXP 	put_label: height = 0.05
+9.8897 	EXP 	put_label: height = 0.05
+9.8897 	EXP 	put_label: text = 'neutral'
+9.8897 	EXP 	put_shape: image = 'H.bmp'
+9.8897 	EXP 	put_label: autoDraw = True
+9.8897 	EXP 	put_shape: autoDraw = True
+10.5750 	EXP 	New trial (rep=9, index=0): None
+10.5785 	DATA 	Keypress: m
+10.5903 	EXP 	put_label: autoDraw = False
+10.5903 	EXP 	put_shape: autoDraw = False
+10.5903 	EXP 	put_label: text = 'neutral'
+10.5903 	EXP 	put_shape: image = 'H.bmp'
+10.5903 	EXP 	put_label: autoDraw = True
+10.5903 	EXP 	put_shape: autoDraw = True
+11.3759 	EXP 	New trial (rep=10, index=0): None
+11.3811 	DATA 	Keypress: m
+11.3911 	EXP 	put_label: autoDraw = False
+11.3911 	EXP 	put_shape: autoDraw = False
+11.3911 	EXP 	put_label: height = 0.05
+11.3911 	EXP 	put_label: height = 0.05
+11.3911 	EXP 	put_label: height = 0.05
+11.3911 	EXP 	put_label: text = 'sad'
+11.3911 	EXP 	put_shape: image = 'X.bmp'
+11.3911 	EXP 	put_label: autoDraw = True
+11.3911 	EXP 	put_shape: autoDraw = True
+12.0097 	EXP 	New trial (rep=11, index=0): None
+12.0150 	DATA 	Keypress: m
+12.0252 	EXP 	put_label: autoDraw = False
+12.0252 	EXP 	put_shape: autoDraw = False
+12.0252 	EXP 	put_label: height = 0.05
+12.0252 	EXP 	put_label: height = 0.05
+12.0252 	EXP 	put_label: height = 0.05
+12.0252 	EXP 	put_label: text = 'happy'
+12.0252 	EXP 	put_shape: image = 'R.bmp'
+12.0252 	EXP 	put_label: autoDraw = True
+12.0252 	EXP 	put_shape: autoDraw = True
+12.5937 	DATA 	Keypress: escape
+12.7257 	EXP 	ala: status = STOPPED
+12.7417 	EXP 	put_label: autoDraw = False
+12.7417 	EXP 	put_shape: autoDraw = False
+12.7418 	EXP 	ala: status = STOPPED
+12.8300 	EXP 	window1: mouseVisible = True
