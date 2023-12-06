@@ -1,0 +1,4383 @@
+7.5709 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000225D3EF1D60>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000225D3EF1D00>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000225D3EF1B20>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000225D446BCD0>, multiSample=False, name='window1', numSamples=2, pos=(560, 240), screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.5711 	EXP 	window1: mouseVisible = True
+7.5712 	EXP 	window1: backgroundImage = ''
+7.5712 	EXP 	window1: backgroundFit = 'none'
+7.5768 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.5769 	EXP 	window1: recordFrameIntervals = False
+7.7367 	EXP 	window1: recordFrameIntervals = True
+7.9202 	EXP 	Screen (0) actual frame rate measured at 60.42Hz
+7.9203 	EXP 	window1: recordFrameIntervals = False
+7.9205 	EXP 	window1: mouseVisible = True
+8.0517 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.3678 	EXP 	ala-gemma-3-pairs: status = STARTED
+10.3682 	EXP 	window1: mouseVisible = True
+10.4286 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='Learn these 3 match pairs then press space', units='height', win=Window(...), wrapWidth=1)
+10.4287 	EXP 	window1: mouseVisible = True
+10.4297 	EXP 	Created match1label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='match1label', opacity=1.0, ori=0.0, pos=array([-0.3,  0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4298 	EXP 	window1: mouseVisible = True
+10.4309 	EXP 	Created match2label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='match2label', opacity=1.0, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4310 	EXP 	window1: mouseVisible = True
+10.4320 	EXP 	Created match3label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='match3label', opacity=1.0, ori=0.0, pos=array([-0.3, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4320 	EXP 	window1: mouseVisible = True
+10.4429 	EXP 	Created match1shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='match1shape', opacity=1.0, ori=0.0, pos=array([0.3, 0.3]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+10.4430 	EXP 	window1: mouseVisible = True
+10.4534 	EXP 	Created match2shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='match2shape', opacity=1.0, ori=0.0, pos=array([0.3, 0. ]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+10.4535 	EXP 	window1: mouseVisible = True
+10.4632 	EXP 	Created match3shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='match3shape', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.3]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+10.4634 	EXP 	window1: mouseVisible = True
+10.4674 	EXP 	Created fixn = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixn', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.4675 	EXP 	window1: mouseVisible = True
+10.4728 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text="'m' for match; 'n' for mismatch", units='height', win=Window(...), wrapWidth=1)
+10.4729 	EXP 	window1: mouseVisible = True
+10.4738 	EXP 	Created put_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='put_label', opacity=1.0, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4739 	EXP 	window1: mouseVisible = True
+10.4822 	EXP 	Created put_shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='put_shape', opacity=1.0, ori=0.0, pos=array([0.3, 0. ]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+10.4824 	EXP 	window1: mouseVisible = True
+10.4834 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4834 	EXP 	window1: mouseVisible = True
+10.4886 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Rest and then press space', units='height', win=Window(...), wrapWidth=1)
+10.4887 	EXP 	window1: mouseVisible = True
+10.4992 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0160 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+0.0161 	EXP 	New trial (rep=0, index=0): None
+0.0700 	EXP 	match1label: height = 0.05
+0.0700 	EXP 	match1label: height = 0.05
+0.0700 	EXP 	match1label: height = 0.05
+0.0700 	EXP 	match1label: text = '£0'
+0.0700 	EXP 	match2label: height = 0.05
+0.0700 	EXP 	match2label: height = 0.05
+0.0700 	EXP 	match2label: height = 0.05
+0.0700 	EXP 	match2label: text = '£50'
+0.0700 	EXP 	match3label: height = 0.05
+0.0700 	EXP 	match3label: height = 0.05
+0.0700 	EXP 	match3label: height = 0.05
+0.0700 	EXP 	match3label: text = '£100'
+0.0700 	EXP 	match1shape: image = 'D.bmp'
+0.0700 	EXP 	match2shape: image = 'O.bmp'
+0.0700 	EXP 	match3shape: image = 'P.bmp'
+0.0700 	EXP 	instructions: autoDraw = True
+0.0700 	EXP 	match1label: autoDraw = True
+0.0700 	EXP 	match2label: autoDraw = True
+0.0700 	EXP 	match3label: autoDraw = True
+0.0700 	EXP 	match1shape: autoDraw = True
+0.0700 	EXP 	match2shape: autoDraw = True
+0.0700 	EXP 	match3shape: autoDraw = True
+1.3178 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+1.3181 	EXP 	New trial (rep=0, index=0): None
+1.3198 	EXP 	Created sequence: sequential, trialTypes=1, nReps=30, seed=None
+1.3203 	EXP 	New trial (rep=0, index=0): None
+1.3249 	DATA 	Keypress: space
+1.3312 	EXP 	instructions: autoDraw = False
+1.3312 	EXP 	match1label: autoDraw = False
+1.3312 	EXP 	match2label: autoDraw = False
+1.3312 	EXP 	match3label: autoDraw = False
+1.3312 	EXP 	match1shape: autoDraw = False
+1.3312 	EXP 	match2shape: autoDraw = False
+1.3312 	EXP 	match3shape: autoDraw = False
+1.3312 	EXP 	fixn: autoDraw = True
+1.5472 	EXP 	fixn: autoDraw = False
+1.5472 	EXP 	fixn: autoDraw = False
+1.5472 	EXP 	put_label: height = 0.05
+1.5472 	EXP 	put_label: height = 0.05
+1.5472 	EXP 	put_label: height = 0.05
+1.5472 	EXP 	put_label: text = '£50'
+1.5472 	EXP 	put_shape: image = 'D.bmp'
+1.5472 	EXP 	text_2: autoDraw = True
+1.5472 	EXP 	put_label: autoDraw = True
+1.5472 	EXP 	put_shape: autoDraw = True
+2.3940 	DATA 	Keypress: m
+2.3962 	EXP 	text_2: autoDraw = False
+2.3962 	EXP 	put_label: autoDraw = False
+2.3962 	EXP 	put_shape: autoDraw = False
+2.3962 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+2.3962 	EXP 	text_4: height = 0.05
+2.3962 	EXP 	text_4: height = 0.05
+2.3962 	EXP 	text_4: height = 0.05
+2.3962 	EXP 	text_4: text = 'WRONG!'
+2.3962 	EXP 	text_4: autoDraw = True
+2.6336 	EXP 	New trial (rep=1, index=0): None
+2.6460 	EXP 	text_4: autoDraw = False
+2.6460 	EXP 	fixn: autoDraw = True
+2.8623 	EXP 	fixn: autoDraw = False
+2.8623 	EXP 	fixn: autoDraw = False
+2.8623 	EXP 	put_label: height = 0.05
+2.8623 	EXP 	put_label: height = 0.05
+2.8623 	EXP 	put_label: height = 0.05
+2.8623 	EXP 	put_label: text = '£0'
+2.8623 	EXP 	put_shape: image = 'D.bmp'
+2.8623 	EXP 	text_2: autoDraw = True
+2.8623 	EXP 	put_label: autoDraw = True
+2.8623 	EXP 	put_shape: autoDraw = True
+3.1186 	DATA 	Keypress: n
+3.1287 	EXP 	text_2: autoDraw = False
+3.1287 	EXP 	put_label: autoDraw = False
+3.1287 	EXP 	put_shape: autoDraw = False
+3.1287 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+3.1287 	EXP 	text_4: text = 'WRONG!'
+3.1287 	EXP 	text_4: autoDraw = True
+3.3672 	EXP 	New trial (rep=2, index=0): None
+3.3799 	EXP 	text_4: autoDraw = False
+3.3799 	EXP 	text_4: autoDraw = False
+3.3799 	EXP 	fixn: autoDraw = True
+3.5946 	EXP 	fixn: autoDraw = False
+3.5946 	EXP 	fixn: autoDraw = False
+3.5946 	EXP 	put_label: height = 0.05
+3.5946 	EXP 	put_label: height = 0.05
+3.5946 	EXP 	put_label: height = 0.05
+3.5946 	EXP 	put_label: text = '£100'
+3.5946 	EXP 	put_shape: image = 'P.bmp'
+3.5946 	EXP 	text_2: autoDraw = True
+3.5946 	EXP 	put_label: autoDraw = True
+3.5946 	EXP 	put_shape: autoDraw = True
+3.7842 	DATA 	Keypress: m
+3.8275 	EXP 	text_2: autoDraw = False
+3.8275 	EXP 	put_label: autoDraw = False
+3.8275 	EXP 	put_shape: autoDraw = False
+3.8275 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+3.8275 	EXP 	text_4: height = 0.05
+3.8275 	EXP 	text_4: height = 0.05
+3.8275 	EXP 	text_4: height = 0.05
+3.8275 	EXP 	text_4: text = 'Correct'
+3.8275 	EXP 	text_4: autoDraw = True
+4.0650 	EXP 	New trial (rep=3, index=0): None
+4.0788 	EXP 	text_4: autoDraw = False
+4.0788 	EXP 	fixn: autoDraw = True
+4.2939 	EXP 	fixn: autoDraw = False
+4.2939 	EXP 	fixn: autoDraw = False
+4.2939 	EXP 	put_label: height = 0.05
+4.2939 	EXP 	put_label: height = 0.05
+4.2939 	EXP 	put_label: height = 0.05
+4.2939 	EXP 	put_label: text = '£50'
+4.2939 	EXP 	put_shape: image = 'O.bmp'
+4.2939 	EXP 	text_2: autoDraw = True
+4.2939 	EXP 	put_label: autoDraw = True
+4.2939 	EXP 	put_shape: autoDraw = True
+4.3468 	DATA 	Keypress: n
+4.3772 	EXP 	text_2: autoDraw = False
+4.3772 	EXP 	put_label: autoDraw = False
+4.3772 	EXP 	put_shape: autoDraw = False
+4.3772 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+4.3772 	EXP 	text_4: height = 0.05
+4.3772 	EXP 	text_4: height = 0.05
+4.3772 	EXP 	text_4: height = 0.05
+4.3772 	EXP 	text_4: text = 'WRONG!'
+4.3772 	EXP 	text_4: autoDraw = True
+4.6140 	EXP 	New trial (rep=4, index=0): None
+4.6274 	EXP 	text_4: autoDraw = False
+4.6274 	EXP 	text_4: autoDraw = False
+4.6274 	EXP 	fixn: autoDraw = True
+4.8207 	DATA 	Keypress: m
+4.8276 	EXP 	fixn: autoDraw = False
+4.8276 	EXP 	fixn: autoDraw = False
+4.8276 	EXP 	put_label: text = '£50'
+4.8276 	EXP 	put_shape: image = 'P.bmp'
+4.8276 	EXP 	text_2: autoDraw = True
+4.8276 	EXP 	put_label: autoDraw = True
+4.8276 	EXP 	put_shape: autoDraw = True
+5.4345 	DATA 	Keypress: m
+5.4422 	EXP 	text_2: autoDraw = False
+5.4422 	EXP 	put_label: autoDraw = False
+5.4422 	EXP 	put_shape: autoDraw = False
+5.4422 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+5.4422 	EXP 	text_4: text = 'WRONG!'
+5.4422 	EXP 	text_4: autoDraw = True
+5.6786 	EXP 	New trial (rep=5, index=0): None
+5.6935 	EXP 	text_4: autoDraw = False
+5.6935 	EXP 	text_4: autoDraw = False
+5.6935 	EXP 	fixn: autoDraw = True
+5.9088 	EXP 	fixn: autoDraw = False
+5.9088 	EXP 	fixn: autoDraw = False
+5.9088 	EXP 	put_label: height = 0.05
+5.9088 	EXP 	put_label: height = 0.05
+5.9088 	EXP 	put_label: height = 0.05
+5.9088 	EXP 	put_label: text = '£100'
+5.9088 	EXP 	put_shape: image = 'D.bmp'
+5.9088 	EXP 	text_2: autoDraw = True
+5.9088 	EXP 	put_label: autoDraw = True
+5.9088 	EXP 	put_shape: autoDraw = True
+6.0680 	DATA 	Keypress: n
+6.0756 	EXP 	text_2: autoDraw = False
+6.0756 	EXP 	put_label: autoDraw = False
+6.0756 	EXP 	put_shape: autoDraw = False
+6.0756 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+6.0756 	EXP 	text_4: height = 0.05
+6.0756 	EXP 	text_4: height = 0.05
+6.0756 	EXP 	text_4: height = 0.05
+6.0756 	EXP 	text_4: text = 'Correct'
+6.0756 	EXP 	text_4: autoDraw = True
+6.3118 	EXP 	New trial (rep=6, index=0): None
+6.3253 	EXP 	text_4: autoDraw = False
+6.3253 	EXP 	text_4: autoDraw = False
+6.3253 	EXP 	fixn: autoDraw = True
+6.5242 	EXP 	fixn: autoDraw = False
+6.5242 	EXP 	fixn: autoDraw = False
+6.5242 	EXP 	put_label: height = 0.05
+6.5242 	EXP 	put_label: height = 0.05
+6.5242 	EXP 	put_label: height = 0.05
+6.5242 	EXP 	put_label: text = '£50'
+6.5242 	EXP 	put_shape: image = 'D.bmp'
+6.5242 	EXP 	text_2: autoDraw = True
+6.5242 	EXP 	put_label: autoDraw = True
+6.5242 	EXP 	put_shape: autoDraw = True
+6.8030 	DATA 	Keypress: m
+6.8077 	EXP 	text_2: autoDraw = False
+6.8077 	EXP 	put_label: autoDraw = False
+6.8077 	EXP 	put_shape: autoDraw = False
+6.8077 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+6.8077 	EXP 	text_4: height = 0.05
+6.8077 	EXP 	text_4: height = 0.05
+6.8077 	EXP 	text_4: height = 0.05
+6.8077 	EXP 	text_4: text = 'WRONG!'
+6.8077 	EXP 	text_4: autoDraw = True
+7.0460 	EXP 	New trial (rep=7, index=0): None
+7.0586 	EXP 	text_4: autoDraw = False
+7.0586 	EXP 	text_4: autoDraw = False
+7.0586 	EXP 	fixn: autoDraw = True
+7.2740 	EXP 	fixn: autoDraw = False
+7.2740 	EXP 	put_label: height = 0.05
+7.2740 	EXP 	put_label: height = 0.05
+7.2740 	EXP 	put_label: height = 0.05
+7.2740 	EXP 	put_label: text = '£100'
+7.2740 	EXP 	put_shape: image = 'O.bmp'
+7.2740 	EXP 	text_2: autoDraw = True
+7.2740 	EXP 	put_label: autoDraw = True
+7.2740 	EXP 	put_shape: autoDraw = True
+7.5130 	DATA 	Keypress: n
+7.5226 	EXP 	text_2: autoDraw = False
+7.5226 	EXP 	put_label: autoDraw = False
+7.5226 	EXP 	put_shape: autoDraw = False
+7.5226 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+7.5226 	EXP 	text_4: height = 0.05
+7.5226 	EXP 	text_4: height = 0.05
+7.5226 	EXP 	text_4: height = 0.05
+7.5226 	EXP 	text_4: text = 'Correct'
+7.5226 	EXP 	text_4: autoDraw = True
+7.7594 	EXP 	New trial (rep=8, index=0): None
+7.7729 	EXP 	text_4: autoDraw = False
+7.7729 	EXP 	text_4: autoDraw = False
+7.7729 	EXP 	fixn: autoDraw = True
+7.9725 	EXP 	fixn: autoDraw = False
+7.9725 	EXP 	fixn: autoDraw = False
+7.9725 	EXP 	put_label: text = '£100'
+7.9725 	EXP 	put_shape: image = 'D.bmp'
+7.9725 	EXP 	text_2: autoDraw = True
+7.9725 	EXP 	put_label: autoDraw = True
+7.9725 	EXP 	put_shape: autoDraw = True
+8.1775 	DATA 	Keypress: m
+8.2051 	EXP 	text_2: autoDraw = False
+8.2051 	EXP 	put_label: autoDraw = False
+8.2051 	EXP 	put_shape: autoDraw = False
+8.2051 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+8.2051 	EXP 	text_4: height = 0.05
+8.2051 	EXP 	text_4: height = 0.05
+8.2051 	EXP 	text_4: height = 0.05
+8.2051 	EXP 	text_4: text = 'WRONG!'
+8.2051 	EXP 	text_4: autoDraw = True
+8.4394 	EXP 	New trial (rep=9, index=0): None
+8.4547 	EXP 	text_4: autoDraw = False
+8.4547 	EXP 	text_4: autoDraw = False
+8.4547 	EXP 	fixn: autoDraw = True
+8.6550 	EXP 	fixn: autoDraw = False
+8.6550 	EXP 	fixn: autoDraw = False
+8.6550 	EXP 	put_label: height = 0.05
+8.6550 	EXP 	put_label: height = 0.05
+8.6550 	EXP 	put_label: height = 0.05
+8.6550 	EXP 	put_label: text = '£50'
+8.6550 	EXP 	put_shape: image = 'O.bmp'
+8.6550 	EXP 	text_2: autoDraw = True
+8.6550 	EXP 	put_label: autoDraw = True
+8.6550 	EXP 	put_shape: autoDraw = True
+8.9295 	DATA 	Keypress: n
+8.9549 	EXP 	text_2: autoDraw = False
+8.9549 	EXP 	put_label: autoDraw = False
+8.9549 	EXP 	put_shape: autoDraw = False
+8.9549 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+8.9549 	EXP 	text_4: text = 'WRONG!'
+8.9549 	EXP 	text_4: autoDraw = True
+9.1904 	EXP 	New trial (rep=10, index=0): None
+9.2043 	EXP 	text_4: autoDraw = False
+9.2043 	EXP 	text_4: autoDraw = False
+9.2043 	EXP 	fixn: autoDraw = True
+9.4044 	EXP 	fixn: autoDraw = False
+9.4044 	EXP 	fixn: autoDraw = False
+9.4044 	EXP 	put_label: height = 0.05
+9.4044 	EXP 	put_label: height = 0.05
+9.4044 	EXP 	put_label: height = 0.05
+9.4044 	EXP 	put_label: text = '£0'
+9.4044 	EXP 	put_shape: image = 'D.bmp'
+9.4044 	EXP 	text_2: autoDraw = True
+9.4044 	EXP 	put_label: autoDraw = True
+9.4044 	EXP 	put_shape: autoDraw = True
+9.4982 	DATA 	Keypress: m
+9.5037 	EXP 	text_2: autoDraw = False
+9.5037 	EXP 	put_label: autoDraw = False
+9.5037 	EXP 	put_shape: autoDraw = False
+9.5037 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+9.5037 	EXP 	text_4: height = 0.05
+9.5037 	EXP 	text_4: height = 0.05
+9.5037 	EXP 	text_4: height = 0.05
+9.5037 	EXP 	text_4: text = 'Correct'
+9.5037 	EXP 	text_4: autoDraw = True
+9.7407 	EXP 	New trial (rep=11, index=0): None
+9.7539 	EXP 	text_4: autoDraw = False
+9.7539 	EXP 	text_4: autoDraw = False
+9.7539 	EXP 	fixn: autoDraw = True
+9.9541 	EXP 	fixn: autoDraw = False
+9.9541 	EXP 	fixn: autoDraw = False
+9.9541 	EXP 	put_label: text = '£0'
+9.9541 	EXP 	put_shape: image = 'D.bmp'
+9.9541 	EXP 	text_2: autoDraw = True
+9.9541 	EXP 	put_label: autoDraw = True
+9.9541 	EXP 	put_shape: autoDraw = True
+10.0776 	DATA 	Keypress: n
+10.0867 	EXP 	text_2: autoDraw = False
+10.0867 	EXP 	put_label: autoDraw = False
+10.0867 	EXP 	put_shape: autoDraw = False
+10.0867 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+10.0867 	EXP 	text_4: height = 0.05
+10.0867 	EXP 	text_4: height = 0.05
+10.0867 	EXP 	text_4: height = 0.05
+10.0867 	EXP 	text_4: text = 'WRONG!'
+10.0867 	EXP 	text_4: autoDraw = True
+10.3230 	EXP 	New trial (rep=12, index=0): None
+10.3381 	EXP 	text_4: autoDraw = False
+10.3381 	EXP 	text_4: autoDraw = False
+10.3381 	EXP 	fixn: autoDraw = True
+10.5533 	EXP 	fixn: autoDraw = False
+10.5533 	EXP 	put_label: text = '£0'
+10.5533 	EXP 	put_shape: image = 'D.bmp'
+10.5533 	EXP 	text_2: autoDraw = True
+10.5533 	EXP 	put_label: autoDraw = True
+10.5533 	EXP 	put_shape: autoDraw = True
+10.6321 	DATA 	Keypress: m
+10.6363 	EXP 	text_2: autoDraw = False
+10.6363 	EXP 	put_label: autoDraw = False
+10.6363 	EXP 	put_shape: autoDraw = False
+10.6363 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+10.6363 	EXP 	text_4: height = 0.05
+10.6363 	EXP 	text_4: height = 0.05
+10.6363 	EXP 	text_4: height = 0.05
+10.6363 	EXP 	text_4: text = 'Correct'
+10.6363 	EXP 	text_4: autoDraw = True
+10.8859 	EXP 	New trial (rep=13, index=0): None
+10.9016 	EXP 	text_4: autoDraw = False
+10.9016 	EXP 	fixn: autoDraw = True
+11.1023 	EXP 	fixn: autoDraw = False
+11.1023 	EXP 	fixn: autoDraw = False
+11.1023 	EXP 	put_label: height = 0.05
+11.1023 	EXP 	put_label: height = 0.05
+11.1023 	EXP 	put_label: height = 0.05
+11.1023 	EXP 	put_label: text = '£100'
+11.1023 	EXP 	put_shape: image = 'P.bmp'
+11.1023 	EXP 	text_2: autoDraw = True
+11.1023 	EXP 	put_label: autoDraw = True
+11.1023 	EXP 	put_shape: autoDraw = True
+11.1485 	DATA 	Keypress: n
+11.1525 	EXP 	text_2: autoDraw = False
+11.1525 	EXP 	put_label: autoDraw = False
+11.1525 	EXP 	put_shape: autoDraw = False
+11.1525 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+11.1525 	EXP 	text_4: height = 0.05
+11.1525 	EXP 	text_4: height = 0.05
+11.1525 	EXP 	text_4: height = 0.05
+11.1525 	EXP 	text_4: text = 'WRONG!'
+11.1525 	EXP 	text_4: autoDraw = True
+11.3886 	EXP 	New trial (rep=14, index=0): None
+11.4018 	EXP 	text_4: autoDraw = False
+11.4018 	EXP 	text_4: autoDraw = False
+11.4018 	EXP 	fixn: autoDraw = True
+11.6022 	EXP 	fixn: autoDraw = False
+11.6022 	EXP 	fixn: autoDraw = False
+11.6022 	EXP 	put_label: text = '£100'
+11.6022 	EXP 	put_shape: image = 'P.bmp'
+11.6022 	EXP 	text_2: autoDraw = True
+11.6022 	EXP 	put_label: autoDraw = True
+11.6022 	EXP 	put_shape: autoDraw = True
+11.6890 	DATA 	Keypress: m
+11.7177 	EXP 	text_2: autoDraw = False
+11.7177 	EXP 	put_label: autoDraw = False
+11.7177 	EXP 	put_shape: autoDraw = False
+11.7177 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+11.7177 	EXP 	text_4: height = 0.05
+11.7177 	EXP 	text_4: height = 0.05
+11.7177 	EXP 	text_4: height = 0.05
+11.7177 	EXP 	text_4: text = 'Correct'
+11.7177 	EXP 	text_4: autoDraw = True
+11.9526 	EXP 	New trial (rep=15, index=0): None
+11.9672 	EXP 	text_4: autoDraw = False
+11.9672 	EXP 	text_4: autoDraw = False
+11.9672 	EXP 	fixn: autoDraw = True
+12.1676 	EXP 	fixn: autoDraw = False
+12.1676 	EXP 	fixn: autoDraw = False
+12.1676 	EXP 	put_label: height = 0.05
+12.1676 	EXP 	put_label: height = 0.05
+12.1676 	EXP 	put_label: height = 0.05
+12.1676 	EXP 	put_label: text = '£50'
+12.1676 	EXP 	put_shape: image = 'O.bmp'
+12.1676 	EXP 	text_2: autoDraw = True
+12.1676 	EXP 	put_label: autoDraw = True
+12.1676 	EXP 	put_shape: autoDraw = True
+12.2069 	DATA 	Keypress: n
+12.2335 	EXP 	text_2: autoDraw = False
+12.2335 	EXP 	put_label: autoDraw = False
+12.2335 	EXP 	put_shape: autoDraw = False
+12.2335 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+12.2335 	EXP 	text_4: height = 0.05
+12.2335 	EXP 	text_4: height = 0.05
+12.2335 	EXP 	text_4: height = 0.05
+12.2335 	EXP 	text_4: text = 'WRONG!'
+12.2335 	EXP 	text_4: autoDraw = True
+12.4728 	EXP 	New trial (rep=16, index=0): None
+12.4838 	EXP 	text_4: autoDraw = False
+12.4838 	EXP 	text_4: autoDraw = False
+12.4838 	EXP 	fixn: autoDraw = True
+12.6798 	DATA 	Keypress: m
+12.6834 	EXP 	fixn: autoDraw = False
+12.6834 	EXP 	fixn: autoDraw = False
+12.6834 	EXP 	put_label: text = '£50'
+12.6834 	EXP 	put_shape: image = 'O.bmp'
+12.6834 	EXP 	text_2: autoDraw = True
+12.6834 	EXP 	put_label: autoDraw = True
+12.6834 	EXP 	put_shape: autoDraw = True
+13.3880 	DATA 	Keypress: m
+13.4151 	EXP 	text_2: autoDraw = False
+13.4151 	EXP 	put_label: autoDraw = False
+13.4151 	EXP 	put_shape: autoDraw = False
+13.4151 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+13.4151 	EXP 	text_4: height = 0.05
+13.4151 	EXP 	text_4: height = 0.05
+13.4151 	EXP 	text_4: height = 0.05
+13.4151 	EXP 	text_4: text = 'Correct'
+13.4151 	EXP 	text_4: autoDraw = True
+13.6528 	EXP 	New trial (rep=17, index=0): None
+13.6665 	EXP 	text_4: autoDraw = False
+13.6665 	EXP 	text_4: autoDraw = False
+13.6665 	EXP 	fixn: autoDraw = True
+13.8818 	EXP 	fixn: autoDraw = False
+13.8818 	EXP 	put_label: height = 0.05
+13.8818 	EXP 	put_label: height = 0.05
+13.8818 	EXP 	put_label: height = 0.05
+13.8818 	EXP 	put_label: text = '£100'
+13.8818 	EXP 	put_shape: image = 'P.bmp'
+13.8818 	EXP 	text_2: autoDraw = True
+13.8818 	EXP 	put_label: autoDraw = True
+13.8818 	EXP 	put_shape: autoDraw = True
+14.0598 	DATA 	Keypress: n
+14.0653 	EXP 	text_2: autoDraw = False
+14.0653 	EXP 	put_label: autoDraw = False
+14.0653 	EXP 	put_shape: autoDraw = False
+14.0653 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+14.0653 	EXP 	text_4: height = 0.05
+14.0653 	EXP 	text_4: height = 0.05
+14.0653 	EXP 	text_4: height = 0.05
+14.0653 	EXP 	text_4: text = 'WRONG!'
+14.0653 	EXP 	text_4: autoDraw = True
+14.3025 	EXP 	New trial (rep=18, index=0): None
+14.3158 	EXP 	text_4: autoDraw = False
+14.3158 	EXP 	text_4: autoDraw = False
+14.3158 	EXP 	fixn: autoDraw = True
+14.5299 	EXP 	fixn: autoDraw = False
+14.5299 	EXP 	fixn: autoDraw = False
+14.5299 	EXP 	put_label: height = 0.05
+14.5299 	EXP 	put_label: height = 0.05
+14.5299 	EXP 	put_label: height = 0.05
+14.5299 	EXP 	put_label: text = '£50'
+14.5299 	EXP 	put_shape: image = 'O.bmp'
+14.5299 	EXP 	text_2: autoDraw = True
+14.5299 	EXP 	put_label: autoDraw = True
+14.5299 	EXP 	put_shape: autoDraw = True
+14.9698 	DATA 	Keypress: m
+14.9800 	EXP 	text_2: autoDraw = False
+14.9800 	EXP 	put_label: autoDraw = False
+14.9800 	EXP 	put_shape: autoDraw = False
+14.9800 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+14.9800 	EXP 	text_4: height = 0.05
+14.9800 	EXP 	text_4: height = 0.05
+14.9800 	EXP 	text_4: height = 0.05
+14.9800 	EXP 	text_4: text = 'Correct'
+14.9800 	EXP 	text_4: autoDraw = True
+15.2150 	EXP 	New trial (rep=19, index=0): None
+15.2293 	EXP 	text_4: autoDraw = False
+15.2293 	EXP 	text_4: autoDraw = False
+15.2293 	EXP 	fixn: autoDraw = True
+15.4458 	EXP 	fixn: autoDraw = False
+15.4458 	EXP 	fixn: autoDraw = False
+15.4458 	EXP 	put_label: height = 0.05
+15.4458 	EXP 	put_label: height = 0.05
+15.4458 	EXP 	put_label: height = 0.05
+15.4458 	EXP 	put_label: text = '£0'
+15.4458 	EXP 	put_shape: image = 'P.bmp'
+15.4458 	EXP 	text_2: autoDraw = True
+15.4458 	EXP 	put_label: autoDraw = True
+15.4458 	EXP 	put_shape: autoDraw = True
+15.5703 	DATA 	Keypress: n
+15.5798 	EXP 	text_2: autoDraw = False
+15.5798 	EXP 	put_label: autoDraw = False
+15.5798 	EXP 	put_shape: autoDraw = False
+15.5798 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+15.5798 	EXP 	text_4: text = 'Correct'
+15.5798 	EXP 	text_4: autoDraw = True
+15.8167 	EXP 	New trial (rep=20, index=0): None
+15.8304 	EXP 	text_4: autoDraw = False
+15.8304 	EXP 	text_4: autoDraw = False
+15.8304 	EXP 	fixn: autoDraw = True
+16.0449 	EXP 	fixn: autoDraw = False
+16.0449 	EXP 	put_label: text = '£0'
+16.0449 	EXP 	put_shape: image = 'O.bmp'
+16.0449 	EXP 	text_2: autoDraw = True
+16.0449 	EXP 	put_label: autoDraw = True
+16.0449 	EXP 	put_shape: autoDraw = True
+16.1565 	DATA 	Keypress: m
+16.1618 	EXP 	text_2: autoDraw = False
+16.1618 	EXP 	put_label: autoDraw = False
+16.1618 	EXP 	put_shape: autoDraw = False
+16.1618 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+16.1618 	EXP 	text_4: height = 0.05
+16.1618 	EXP 	text_4: height = 0.05
+16.1618 	EXP 	text_4: height = 0.05
+16.1618 	EXP 	text_4: text = 'WRONG!'
+16.1618 	EXP 	text_4: autoDraw = True
+16.3984 	EXP 	New trial (rep=21, index=0): None
+16.4120 	EXP 	text_4: autoDraw = False
+16.4120 	EXP 	text_4: autoDraw = False
+16.4120 	EXP 	fixn: autoDraw = True
+16.6113 	EXP 	fixn: autoDraw = False
+16.6113 	EXP 	fixn: autoDraw = False
+16.6113 	EXP 	put_label: height = 0.05
+16.6113 	EXP 	put_label: height = 0.05
+16.6113 	EXP 	put_label: height = 0.05
+16.6113 	EXP 	put_label: text = '£100'
+16.6113 	EXP 	put_shape: image = 'O.bmp'
+16.6113 	EXP 	text_2: autoDraw = True
+16.6113 	EXP 	put_label: autoDraw = True
+16.6113 	EXP 	put_shape: autoDraw = True
+16.6707 	DATA 	Keypress: n
+16.6779 	EXP 	text_2: autoDraw = False
+16.6779 	EXP 	put_label: autoDraw = False
+16.6779 	EXP 	put_shape: autoDraw = False
+16.6779 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+16.6779 	EXP 	text_4: height = 0.05
+16.6779 	EXP 	text_4: height = 0.05
+16.6779 	EXP 	text_4: height = 0.05
+16.6779 	EXP 	text_4: text = 'Correct'
+16.6779 	EXP 	text_4: autoDraw = True
+16.9137 	EXP 	New trial (rep=22, index=0): None
+16.9277 	EXP 	text_4: autoDraw = False
+16.9277 	EXP 	text_4: autoDraw = False
+16.9277 	EXP 	fixn: autoDraw = True
+17.1433 	EXP 	fixn: autoDraw = False
+17.1433 	EXP 	fixn: autoDraw = False
+17.1433 	EXP 	put_label: height = 0.05
+17.1433 	EXP 	put_label: height = 0.05
+17.1433 	EXP 	put_label: height = 0.05
+17.1433 	EXP 	put_label: text = '£50'
+17.1433 	EXP 	put_shape: image = 'D.bmp'
+17.1433 	EXP 	text_2: autoDraw = True
+17.1433 	EXP 	put_label: autoDraw = True
+17.1433 	EXP 	put_shape: autoDraw = True
+17.2601 	DATA 	Keypress: m
+17.2768 	EXP 	text_2: autoDraw = False
+17.2768 	EXP 	put_label: autoDraw = False
+17.2768 	EXP 	put_shape: autoDraw = False
+17.2768 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+17.2768 	EXP 	text_4: height = 0.05
+17.2768 	EXP 	text_4: height = 0.05
+17.2768 	EXP 	text_4: height = 0.05
+17.2768 	EXP 	text_4: text = 'WRONG!'
+17.2768 	EXP 	text_4: autoDraw = True
+17.5136 	EXP 	New trial (rep=23, index=0): None
+17.5270 	EXP 	text_4: autoDraw = False
+17.5270 	EXP 	fixn: autoDraw = True
+17.7427 	EXP 	fixn: autoDraw = False
+17.7427 	EXP 	fixn: autoDraw = False
+17.7427 	EXP 	put_label: height = 0.05
+17.7427 	EXP 	put_label: height = 0.05
+17.7427 	EXP 	put_label: height = 0.05
+17.7427 	EXP 	put_label: text = '£0'
+17.7427 	EXP 	put_shape: image = 'O.bmp'
+17.7427 	EXP 	text_2: autoDraw = True
+17.7427 	EXP 	put_label: autoDraw = True
+17.7427 	EXP 	put_shape: autoDraw = True
+17.7980 	DATA 	Keypress: n
+17.8265 	EXP 	text_2: autoDraw = False
+17.8265 	EXP 	put_label: autoDraw = False
+17.8265 	EXP 	put_shape: autoDraw = False
+17.8265 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+17.8265 	EXP 	text_4: height = 0.05
+17.8265 	EXP 	text_4: height = 0.05
+17.8265 	EXP 	text_4: height = 0.05
+17.8265 	EXP 	text_4: text = 'Correct'
+17.8265 	EXP 	text_4: autoDraw = True
+18.0773 	EXP 	New trial (rep=24, index=0): None
+18.0922 	EXP 	text_4: autoDraw = False
+18.0922 	EXP 	fixn: autoDraw = True
+18.2905 	DATA 	Keypress: m
+18.3093 	EXP 	fixn: autoDraw = False
+18.3093 	EXP 	fixn: autoDraw = False
+18.3093 	EXP 	put_label: text = '£0'
+18.3093 	EXP 	put_shape: image = 'D.bmp'
+18.3093 	EXP 	text_2: autoDraw = True
+18.3093 	EXP 	put_label: autoDraw = True
+18.3093 	EXP 	put_shape: autoDraw = True
+19.0274 	DATA 	Keypress: m
+19.0406 	EXP 	text_2: autoDraw = False
+19.0406 	EXP 	put_label: autoDraw = False
+19.0406 	EXP 	put_shape: autoDraw = False
+19.0406 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.0406 	EXP 	text_4: text = 'Correct'
+19.0406 	EXP 	text_4: autoDraw = True
+19.2773 	EXP 	New trial (rep=25, index=0): None
+19.2913 	EXP 	text_4: autoDraw = False
+19.2913 	EXP 	text_4: autoDraw = False
+19.2913 	EXP 	fixn: autoDraw = True
+19.4906 	EXP 	fixn: autoDraw = False
+19.4906 	EXP 	fixn: autoDraw = False
+19.4906 	EXP 	put_label: height = 0.05
+19.4906 	EXP 	put_label: height = 0.05
+19.4906 	EXP 	put_label: height = 0.05
+19.4906 	EXP 	put_label: text = '£100'
+19.4906 	EXP 	put_shape: image = 'D.bmp'
+19.4906 	EXP 	text_2: autoDraw = True
+19.4906 	EXP 	put_label: autoDraw = True
+19.4906 	EXP 	put_shape: autoDraw = True
+19.6316 	DATA 	Keypress: n
+19.6414 	EXP 	text_2: autoDraw = False
+19.6414 	EXP 	put_label: autoDraw = False
+19.6414 	EXP 	put_shape: autoDraw = False
+19.6414 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.6414 	EXP 	text_4: text = 'Correct'
+19.6414 	EXP 	text_4: autoDraw = True
+19.8914 	EXP 	New trial (rep=26, index=0): None
+19.9066 	EXP 	text_4: autoDraw = False
+19.9066 	EXP 	fixn: autoDraw = True
+20.1065 	EXP 	fixn: autoDraw = False
+20.1065 	EXP 	fixn: autoDraw = False
+20.1065 	EXP 	put_label: text = '£100'
+20.1065 	EXP 	put_shape: image = 'O.bmp'
+20.1065 	EXP 	text_2: autoDraw = True
+20.1065 	EXP 	put_label: autoDraw = True
+20.1065 	EXP 	put_shape: autoDraw = True
+20.2051 	DATA 	Keypress: m
+20.2227 	EXP 	text_2: autoDraw = False
+20.2227 	EXP 	put_label: autoDraw = False
+20.2227 	EXP 	put_shape: autoDraw = False
+20.2227 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+20.2227 	EXP 	text_4: height = 0.05
+20.2227 	EXP 	text_4: height = 0.05
+20.2227 	EXP 	text_4: height = 0.05
+20.2227 	EXP 	text_4: text = 'WRONG!'
+20.2227 	EXP 	text_4: autoDraw = True
+20.4598 	EXP 	New trial (rep=27, index=0): None
+20.4730 	EXP 	text_4: autoDraw = False
+20.4730 	EXP 	fixn: autoDraw = True
+20.6886 	EXP 	fixn: autoDraw = False
+20.6886 	EXP 	fixn: autoDraw = False
+20.6886 	EXP 	put_label: height = 0.05
+20.6886 	EXP 	put_label: height = 0.05
+20.6886 	EXP 	put_label: height = 0.05
+20.6886 	EXP 	put_label: text = '£50'
+20.6886 	EXP 	put_shape: image = 'D.bmp'
+20.6886 	EXP 	text_2: autoDraw = True
+20.6886 	EXP 	put_label: autoDraw = True
+20.6886 	EXP 	put_shape: autoDraw = True
+20.7459 	DATA 	Keypress: n
+20.7550 	EXP 	text_2: autoDraw = False
+20.7550 	EXP 	put_label: autoDraw = False
+20.7550 	EXP 	put_shape: autoDraw = False
+20.7550 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+20.7550 	EXP 	text_4: height = 0.05
+20.7550 	EXP 	text_4: height = 0.05
+20.7550 	EXP 	text_4: height = 0.05
+20.7550 	EXP 	text_4: text = 'Correct'
+20.7550 	EXP 	text_4: autoDraw = True
+20.9935 	EXP 	New trial (rep=28, index=0): None
+21.0061 	EXP 	text_4: autoDraw = False
+21.0061 	EXP 	fixn: autoDraw = True
+21.2051 	EXP 	fixn: autoDraw = False
+21.2051 	EXP 	fixn: autoDraw = False
+21.2051 	EXP 	put_label: text = '£50'
+21.2051 	EXP 	put_shape: image = 'D.bmp'
+21.2051 	EXP 	text_2: autoDraw = True
+21.2051 	EXP 	put_label: autoDraw = True
+21.2051 	EXP 	put_shape: autoDraw = True
+21.2960 	DATA 	Keypress: m
+21.3046 	EXP 	text_2: autoDraw = False
+21.3046 	EXP 	put_label: autoDraw = False
+21.3046 	EXP 	put_shape: autoDraw = False
+21.3046 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+21.3046 	EXP 	text_4: height = 0.05
+21.3046 	EXP 	text_4: height = 0.05
+21.3046 	EXP 	text_4: height = 0.05
+21.3046 	EXP 	text_4: text = 'WRONG!'
+21.3046 	EXP 	text_4: autoDraw = True
+21.5401 	EXP 	New trial (rep=29, index=0): None
+21.5544 	EXP 	text_4: autoDraw = False
+21.5544 	EXP 	text_4: autoDraw = False
+21.5544 	EXP 	fixn: autoDraw = True
+21.7549 	EXP 	fixn: autoDraw = False
+21.7549 	EXP 	fixn: autoDraw = False
+21.7549 	EXP 	put_label: height = 0.05
+21.7549 	EXP 	put_label: height = 0.05
+21.7549 	EXP 	put_label: height = 0.05
+21.7549 	EXP 	put_label: text = '£100'
+21.7549 	EXP 	put_shape: image = 'P.bmp'
+21.7549 	EXP 	text_2: autoDraw = True
+21.7549 	EXP 	put_label: autoDraw = True
+21.7549 	EXP 	put_shape: autoDraw = True
+21.8077 	DATA 	Keypress: n
+21.8373 	EXP 	text_2: autoDraw = False
+21.8373 	EXP 	put_label: autoDraw = False
+21.8373 	EXP 	put_shape: autoDraw = False
+21.8373 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+21.8373 	EXP 	text_4: text = 'WRONG!'
+21.8373 	EXP 	text_4: autoDraw = True
+22.0870 	EXP 	text_4: autoDraw = False
+22.0870 	EXP 	text_4: autoDraw = False
+22.0870 	EXP 	text: autoDraw = True
+22.3240 	DATA 	Keypress: m
+23.0219 	EXP 	New trial (rep=1, index=0): None
+23.0235 	EXP 	Created sequence: sequential, trialTypes=1, nReps=30, seed=None
+23.0239 	EXP 	New trial (rep=0, index=0): None
+23.0269 	DATA 	Keypress: space
+23.0357 	EXP 	text: autoDraw = False
+23.0357 	EXP 	fixn: autoDraw = True
+23.2365 	EXP 	fixn: autoDraw = False
+23.2365 	EXP 	fixn: autoDraw = False
+23.2365 	EXP 	put_label: text = '£100'
+23.2365 	EXP 	put_shape: image = 'P.bmp'
+23.2365 	EXP 	text_2: autoDraw = True
+23.2365 	EXP 	put_label: autoDraw = True
+23.2365 	EXP 	put_shape: autoDraw = True
+23.3086 	DATA 	Keypress: m
+23.3525 	EXP 	text_2: autoDraw = False
+23.3525 	EXP 	put_label: autoDraw = False
+23.3525 	EXP 	put_shape: autoDraw = False
+23.3525 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+23.3525 	EXP 	text_4: height = 0.05
+23.3525 	EXP 	text_4: height = 0.05
+23.3525 	EXP 	text_4: height = 0.05
+23.3525 	EXP 	text_4: text = 'Correct'
+23.3525 	EXP 	text_4: autoDraw = True
+23.5864 	EXP 	New trial (rep=1, index=0): None
+23.6020 	EXP 	text_4: autoDraw = False
+23.6020 	EXP 	fixn: autoDraw = True
+23.6048 	DATA 	Keypress: n
+23.8027 	EXP 	fixn: autoDraw = False
+23.8027 	EXP 	fixn: autoDraw = False
+23.8027 	EXP 	put_label: text = '£100'
+23.8027 	EXP 	put_shape: image = 'P.bmp'
+23.8027 	EXP 	text_2: autoDraw = True
+23.8027 	EXP 	put_label: autoDraw = True
+23.8027 	EXP 	put_shape: autoDraw = True
+24.2367 	DATA 	Keypress: n
+24.2509 	EXP 	text_2: autoDraw = False
+24.2509 	EXP 	put_label: autoDraw = False
+24.2509 	EXP 	put_shape: autoDraw = False
+24.2509 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+24.2509 	EXP 	text_4: height = 0.05
+24.2509 	EXP 	text_4: height = 0.05
+24.2509 	EXP 	text_4: height = 0.05
+24.2509 	EXP 	text_4: text = 'WRONG!'
+24.2509 	EXP 	text_4: autoDraw = True
+24.4866 	EXP 	New trial (rep=2, index=0): None
+24.5015 	EXP 	text_4: autoDraw = False
+24.5015 	EXP 	fixn: autoDraw = True
+24.6082 	DATA 	Keypress: m
+24.7177 	EXP 	fixn: autoDraw = False
+24.7177 	EXP 	fixn: autoDraw = False
+24.7177 	EXP 	put_label: height = 0.05
+24.7177 	EXP 	put_label: height = 0.05
+24.7177 	EXP 	put_label: height = 0.05
+24.7177 	EXP 	put_label: text = '£50'
+24.7177 	EXP 	put_shape: image = 'O.bmp'
+24.7177 	EXP 	text_2: autoDraw = True
+24.7177 	EXP 	put_label: autoDraw = True
+24.7177 	EXP 	put_shape: autoDraw = True
+25.1071 	DATA 	Keypress: m
+25.1174 	EXP 	text_2: autoDraw = False
+25.1174 	EXP 	put_label: autoDraw = False
+25.1174 	EXP 	put_shape: autoDraw = False
+25.1174 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+25.1174 	EXP 	text_4: height = 0.05
+25.1174 	EXP 	text_4: height = 0.05
+25.1174 	EXP 	text_4: height = 0.05
+25.1174 	EXP 	text_4: text = 'Correct'
+25.1174 	EXP 	text_4: autoDraw = True
+25.3525 	EXP 	New trial (rep=3, index=0): None
+25.3665 	EXP 	text_4: autoDraw = False
+25.3665 	EXP 	text_4: autoDraw = False
+25.3665 	EXP 	fixn: autoDraw = True
+25.5817 	EXP 	fixn: autoDraw = False
+25.5817 	EXP 	fixn: autoDraw = False
+25.5817 	EXP 	put_label: height = 0.05
+25.5817 	EXP 	put_label: height = 0.05
+25.5817 	EXP 	put_label: height = 0.05
+25.5817 	EXP 	put_label: text = '£0'
+25.5817 	EXP 	put_shape: image = 'P.bmp'
+25.5817 	EXP 	text_2: autoDraw = True
+25.5817 	EXP 	put_label: autoDraw = True
+25.5817 	EXP 	put_shape: autoDraw = True
+25.8457 	DATA 	Keypress: m
+25.8497 	EXP 	text_2: autoDraw = False
+25.8497 	EXP 	put_label: autoDraw = False
+25.8497 	EXP 	put_shape: autoDraw = False
+25.8497 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+25.8497 	EXP 	text_4: height = 0.05
+25.8497 	EXP 	text_4: height = 0.05
+25.8497 	EXP 	text_4: height = 0.05
+25.8497 	EXP 	text_4: text = 'WRONG!'
+25.8497 	EXP 	text_4: autoDraw = True
+26.0847 	EXP 	New trial (rep=4, index=0): None
+26.0988 	EXP 	text_4: autoDraw = False
+26.0988 	EXP 	text_4: autoDraw = False
+26.0988 	EXP 	fixn: autoDraw = True
+26.3151 	EXP 	fixn: autoDraw = False
+26.3151 	EXP 	fixn: autoDraw = False
+26.3151 	EXP 	put_label: height = 0.05
+26.3151 	EXP 	put_label: height = 0.05
+26.3151 	EXP 	put_label: height = 0.05
+26.3151 	EXP 	put_label: text = '£50'
+26.3151 	EXP 	put_shape: image = 'O.bmp'
+26.3151 	EXP 	text_2: autoDraw = True
+26.3151 	EXP 	put_label: autoDraw = True
+26.3151 	EXP 	put_shape: autoDraw = True
+26.4232 	DATA 	Keypress: m
+26.4645 	EXP 	text_2: autoDraw = False
+26.4645 	EXP 	put_label: autoDraw = False
+26.4645 	EXP 	put_shape: autoDraw = False
+26.4645 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+26.4645 	EXP 	text_4: height = 0.05
+26.4645 	EXP 	text_4: height = 0.05
+26.4645 	EXP 	text_4: height = 0.05
+26.4645 	EXP 	text_4: text = 'Correct'
+26.4645 	EXP 	text_4: autoDraw = True
+26.7007 	EXP 	New trial (rep=5, index=0): None
+26.7167 	EXP 	text_4: autoDraw = False
+26.7167 	EXP 	fixn: autoDraw = True
+26.9471 	EXP 	fixn: autoDraw = False
+26.9471 	EXP 	put_label: height = 0.05
+26.9471 	EXP 	put_label: height = 0.05
+26.9471 	EXP 	put_label: height = 0.05
+26.9471 	EXP 	put_label: text = '£0'
+26.9471 	EXP 	put_shape: image = 'O.bmp'
+26.9471 	EXP 	text_2: autoDraw = True
+26.9471 	EXP 	put_label: autoDraw = True
+26.9471 	EXP 	put_shape: autoDraw = True
+27.0075 	DATA 	Keypress: m
+27.0136 	EXP 	text_2: autoDraw = False
+27.0136 	EXP 	put_label: autoDraw = False
+27.0136 	EXP 	put_shape: autoDraw = False
+27.0136 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+27.0136 	EXP 	text_4: height = 0.05
+27.0136 	EXP 	text_4: height = 0.05
+27.0136 	EXP 	text_4: height = 0.05
+27.0136 	EXP 	text_4: text = 'WRONG!'
+27.0136 	EXP 	text_4: autoDraw = True
+27.2505 	EXP 	New trial (rep=6, index=0): None
+27.2651 	EXP 	text_4: autoDraw = False
+27.2651 	EXP 	text_4: autoDraw = False
+27.2651 	EXP 	fixn: autoDraw = True
+27.4968 	EXP 	fixn: autoDraw = False
+27.4968 	EXP 	put_label: height = 0.05
+27.4968 	EXP 	put_label: height = 0.05
+27.4968 	EXP 	put_label: height = 0.05
+27.4968 	EXP 	put_label: text = '£100'
+27.4968 	EXP 	put_shape: image = 'P.bmp'
+27.4968 	EXP 	text_2: autoDraw = True
+27.4968 	EXP 	put_label: autoDraw = True
+27.4968 	EXP 	put_shape: autoDraw = True
+27.5433 	DATA 	Keypress: m
+27.5469 	EXP 	text_2: autoDraw = False
+27.5469 	EXP 	put_label: autoDraw = False
+27.5469 	EXP 	put_shape: autoDraw = False
+27.5469 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+27.5469 	EXP 	text_4: height = 0.05
+27.5469 	EXP 	text_4: height = 0.05
+27.5469 	EXP 	text_4: height = 0.05
+27.5469 	EXP 	text_4: text = 'Correct'
+27.5469 	EXP 	text_4: autoDraw = True
+27.7822 	EXP 	New trial (rep=7, index=0): None
+27.7962 	EXP 	text_4: autoDraw = False
+27.7962 	EXP 	text_4: autoDraw = False
+27.7962 	EXP 	fixn: autoDraw = True
+28.0123 	EXP 	fixn: autoDraw = False
+28.0123 	EXP 	fixn: autoDraw = False
+28.0123 	EXP 	put_label: height = 0.05
+28.0123 	EXP 	put_label: height = 0.05
+28.0123 	EXP 	put_label: height = 0.05
+28.0123 	EXP 	put_label: text = '£50'
+28.0123 	EXP 	put_shape: image = 'P.bmp'
+28.0123 	EXP 	text_2: autoDraw = True
+28.0123 	EXP 	put_label: autoDraw = True
+28.0123 	EXP 	put_shape: autoDraw = True
+28.0694 	DATA 	Keypress: m
+28.0791 	EXP 	text_2: autoDraw = False
+28.0791 	EXP 	put_label: autoDraw = False
+28.0791 	EXP 	put_shape: autoDraw = False
+28.0791 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+28.0791 	EXP 	text_4: height = 0.05
+28.0791 	EXP 	text_4: height = 0.05
+28.0791 	EXP 	text_4: height = 0.05
+28.0791 	EXP 	text_4: text = 'WRONG!'
+28.0791 	EXP 	text_4: autoDraw = True
+28.3153 	EXP 	New trial (rep=8, index=0): None
+28.3294 	EXP 	text_4: autoDraw = False
+28.3294 	EXP 	text_4: autoDraw = False
+28.3294 	EXP 	fixn: autoDraw = True
+28.5455 	EXP 	fixn: autoDraw = False
+28.5455 	EXP 	put_label: height = 0.05
+28.5455 	EXP 	put_label: height = 0.05
+28.5455 	EXP 	put_label: height = 0.05
+28.5455 	EXP 	put_label: text = '£100'
+28.5455 	EXP 	put_shape: image = 'P.bmp'
+28.5455 	EXP 	text_2: autoDraw = True
+28.5455 	EXP 	put_label: autoDraw = True
+28.5455 	EXP 	put_shape: autoDraw = True
+28.6185 	DATA 	Keypress: m
+28.6620 	EXP 	text_2: autoDraw = False
+28.6620 	EXP 	put_label: autoDraw = False
+28.6620 	EXP 	put_shape: autoDraw = False
+28.6620 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+28.6620 	EXP 	text_4: height = 0.05
+28.6620 	EXP 	text_4: height = 0.05
+28.6620 	EXP 	text_4: height = 0.05
+28.6620 	EXP 	text_4: text = 'Correct'
+28.6620 	EXP 	text_4: autoDraw = True
+28.8978 	EXP 	New trial (rep=9, index=0): None
+28.9124 	EXP 	text_4: autoDraw = False
+28.9124 	EXP 	fixn: autoDraw = True
+29.1115 	EXP 	fixn: autoDraw = False
+29.1115 	EXP 	fixn: autoDraw = False
+29.1115 	EXP 	put_label: height = 0.05
+29.1115 	EXP 	put_label: height = 0.05
+29.1115 	EXP 	put_label: height = 0.05
+29.1115 	EXP 	put_label: text = '£0'
+29.1115 	EXP 	put_shape: image = 'O.bmp'
+29.1115 	EXP 	text_2: autoDraw = True
+29.1115 	EXP 	put_label: autoDraw = True
+29.1115 	EXP 	put_shape: autoDraw = True
+29.1171 	DATA 	Keypress: m
+29.1443 	EXP 	text_2: autoDraw = False
+29.1443 	EXP 	put_label: autoDraw = False
+29.1443 	EXP 	put_shape: autoDraw = False
+29.1443 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+29.1443 	EXP 	text_4: height = 0.05
+29.1443 	EXP 	text_4: height = 0.05
+29.1443 	EXP 	text_4: height = 0.05
+29.1443 	EXP 	text_4: text = 'WRONG!'
+29.1443 	EXP 	text_4: autoDraw = True
+29.3827 	EXP 	New trial (rep=10, index=0): None
+29.3948 	EXP 	text_4: autoDraw = False
+29.3948 	EXP 	text_4: autoDraw = False
+29.3948 	EXP 	fixn: autoDraw = True
+29.6102 	EXP 	fixn: autoDraw = False
+29.6102 	EXP 	fixn: autoDraw = False
+29.6102 	EXP 	put_label: height = 0.05
+29.6102 	EXP 	put_label: height = 0.05
+29.6102 	EXP 	put_label: height = 0.05
+29.6102 	EXP 	put_label: text = '£50'
+29.6102 	EXP 	put_shape: image = 'D.bmp'
+29.6102 	EXP 	text_2: autoDraw = True
+29.6102 	EXP 	put_label: autoDraw = True
+29.6102 	EXP 	put_shape: autoDraw = True
+29.6315 	DATA 	Keypress: m
+29.6605 	EXP 	text_2: autoDraw = False
+29.6605 	EXP 	put_label: autoDraw = False
+29.6605 	EXP 	put_shape: autoDraw = False
+29.6605 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+29.6605 	EXP 	text_4: text = 'WRONG!'
+29.6605 	EXP 	text_4: autoDraw = True
+29.8966 	EXP 	New trial (rep=11, index=0): None
+29.9101 	EXP 	text_4: autoDraw = False
+29.9101 	EXP 	text_4: autoDraw = False
+29.9101 	EXP 	fixn: autoDraw = True
+30.1105 	EXP 	fixn: autoDraw = False
+30.1105 	EXP 	fixn: autoDraw = False
+30.1105 	EXP 	put_label: text = '£50'
+30.1105 	EXP 	put_shape: image = 'O.bmp'
+30.1105 	EXP 	text_2: autoDraw = True
+30.1105 	EXP 	put_label: autoDraw = True
+30.1105 	EXP 	put_shape: autoDraw = True
+30.1896 	DATA 	Keypress: m
+30.1931 	EXP 	text_2: autoDraw = False
+30.1931 	EXP 	put_label: autoDraw = False
+30.1931 	EXP 	put_shape: autoDraw = False
+30.1931 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+30.1931 	EXP 	text_4: height = 0.05
+30.1931 	EXP 	text_4: height = 0.05
+30.1931 	EXP 	text_4: height = 0.05
+30.1931 	EXP 	text_4: text = 'Correct'
+30.1931 	EXP 	text_4: autoDraw = True
+30.4299 	EXP 	New trial (rep=12, index=0): None
+30.4434 	EXP 	text_4: autoDraw = False
+30.4434 	EXP 	text_4: autoDraw = False
+30.4434 	EXP 	fixn: autoDraw = True
+30.6431 	EXP 	fixn: autoDraw = False
+30.6431 	EXP 	fixn: autoDraw = False
+30.6431 	EXP 	put_label: text = '£50'
+30.6431 	EXP 	put_shape: image = 'P.bmp'
+30.6431 	EXP 	text_2: autoDraw = True
+30.6431 	EXP 	put_label: autoDraw = True
+30.6431 	EXP 	put_shape: autoDraw = True
+30.6913 	DATA 	Keypress: m
+30.7095 	EXP 	text_2: autoDraw = False
+30.7095 	EXP 	put_label: autoDraw = False
+30.7095 	EXP 	put_shape: autoDraw = False
+30.7095 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+30.7095 	EXP 	text_4: height = 0.05
+30.7095 	EXP 	text_4: height = 0.05
+30.7095 	EXP 	text_4: height = 0.05
+30.7095 	EXP 	text_4: text = 'WRONG!'
+30.7095 	EXP 	text_4: autoDraw = True
+30.9464 	EXP 	New trial (rep=13, index=0): None
+30.9603 	EXP 	text_4: autoDraw = False
+30.9603 	EXP 	fixn: autoDraw = True
+31.1451 	DATA 	Keypress: m
+31.1916 	EXP 	fixn: autoDraw = False
+31.1916 	EXP 	put_label: height = 0.05
+31.1916 	EXP 	put_label: height = 0.05
+31.1916 	EXP 	put_label: height = 0.05
+31.1916 	EXP 	put_label: text = '£0'
+31.1916 	EXP 	put_shape: image = 'D.bmp'
+31.1916 	EXP 	text_2: autoDraw = True
+31.1916 	EXP 	put_label: autoDraw = True
+31.1916 	EXP 	put_shape: autoDraw = True
+31.6730 	DATA 	Keypress: m
+31.6910 	EXP 	text_2: autoDraw = False
+31.6910 	EXP 	put_label: autoDraw = False
+31.6910 	EXP 	put_shape: autoDraw = False
+31.6910 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+31.6910 	EXP 	text_4: height = 0.05
+31.6910 	EXP 	text_4: height = 0.05
+31.6910 	EXP 	text_4: height = 0.05
+31.6910 	EXP 	text_4: text = 'Correct'
+31.6910 	EXP 	text_4: autoDraw = True
+31.9290 	EXP 	New trial (rep=14, index=0): None
+31.9425 	EXP 	text_4: autoDraw = False
+31.9425 	EXP 	fixn: autoDraw = True
+32.1571 	EXP 	fixn: autoDraw = False
+32.1571 	EXP 	put_label: text = '£0'
+32.1571 	EXP 	put_shape: image = 'O.bmp'
+32.1571 	EXP 	text_2: autoDraw = True
+32.1571 	EXP 	put_label: autoDraw = True
+32.1571 	EXP 	put_shape: autoDraw = True
+32.2170 	DATA 	Keypress: m
+32.2240 	EXP 	text_2: autoDraw = False
+32.2240 	EXP 	put_label: autoDraw = False
+32.2240 	EXP 	put_shape: autoDraw = False
+32.2240 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+32.2240 	EXP 	text_4: height = 0.05
+32.2240 	EXP 	text_4: height = 0.05
+32.2240 	EXP 	text_4: height = 0.05
+32.2240 	EXP 	text_4: text = 'WRONG!'
+32.2240 	EXP 	text_4: autoDraw = True
+32.4580 	EXP 	New trial (rep=15, index=0): None
+32.4730 	EXP 	text_4: autoDraw = False
+32.4730 	EXP 	text_4: autoDraw = False
+32.4730 	EXP 	fixn: autoDraw = True
+32.6732 	EXP 	fixn: autoDraw = False
+32.6732 	EXP 	fixn: autoDraw = False
+32.6732 	EXP 	put_label: text = '£0'
+32.6732 	EXP 	put_shape: image = 'P.bmp'
+32.6732 	EXP 	text_2: autoDraw = True
+32.6732 	EXP 	put_label: autoDraw = True
+32.6732 	EXP 	put_shape: autoDraw = True
+32.7115 	DATA 	Keypress: m
+32.7401 	EXP 	text_2: autoDraw = False
+32.7401 	EXP 	put_label: autoDraw = False
+32.7401 	EXP 	put_shape: autoDraw = False
+32.7401 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+32.7401 	EXP 	text_4: text = 'WRONG!'
+32.7401 	EXP 	text_4: autoDraw = True
+32.9743 	EXP 	New trial (rep=16, index=0): None
+32.9892 	EXP 	text_4: autoDraw = False
+32.9892 	EXP 	text_4: autoDraw = False
+32.9892 	EXP 	fixn: autoDraw = True
+33.1847 	DATA 	Keypress: m
+33.1903 	EXP 	fixn: autoDraw = False
+33.1903 	EXP 	fixn: autoDraw = False
+33.1903 	EXP 	put_label: height = 0.05
+33.1903 	EXP 	put_label: height = 0.05
+33.1903 	EXP 	put_label: height = 0.05
+33.1903 	EXP 	put_label: text = '£100'
+33.1903 	EXP 	put_shape: image = 'O.bmp'
+33.1903 	EXP 	text_2: autoDraw = True
+33.1903 	EXP 	put_label: autoDraw = True
+33.1903 	EXP 	put_shape: autoDraw = True
+33.6305 	DATA 	Keypress: m
+33.6555 	EXP 	text_2: autoDraw = False
+33.6555 	EXP 	put_label: autoDraw = False
+33.6555 	EXP 	put_shape: autoDraw = False
+33.6555 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+33.6555 	EXP 	text_4: text = 'WRONG!'
+33.6555 	EXP 	text_4: autoDraw = True
+33.8926 	EXP 	New trial (rep=17, index=0): None
+33.9052 	EXP 	text_4: autoDraw = False
+33.9052 	EXP 	text_4: autoDraw = False
+33.9052 	EXP 	fixn: autoDraw = True
+34.1049 	EXP 	fixn: autoDraw = False
+34.1049 	EXP 	fixn: autoDraw = False
+34.1049 	EXP 	put_label: height = 0.05
+34.1049 	EXP 	put_label: height = 0.05
+34.1049 	EXP 	put_label: height = 0.05
+34.1049 	EXP 	put_label: text = '£50'
+34.1049 	EXP 	put_shape: image = 'D.bmp'
+34.1049 	EXP 	text_2: autoDraw = True
+34.1049 	EXP 	put_label: autoDraw = True
+34.1049 	EXP 	put_shape: autoDraw = True
+34.1437 	DATA 	Keypress: m
+34.1550 	EXP 	text_2: autoDraw = False
+34.1550 	EXP 	put_label: autoDraw = False
+34.1550 	EXP 	put_shape: autoDraw = False
+34.1550 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+34.1550 	EXP 	text_4: text = 'WRONG!'
+34.1550 	EXP 	text_4: autoDraw = True
+34.3927 	EXP 	New trial (rep=18, index=0): None
+34.4053 	EXP 	text_4: autoDraw = False
+34.4053 	EXP 	text_4: autoDraw = False
+34.4053 	EXP 	fixn: autoDraw = True
+34.6204 	EXP 	fixn: autoDraw = False
+34.6204 	EXP 	fixn: autoDraw = False
+34.6204 	EXP 	put_label: height = 0.05
+34.6204 	EXP 	put_label: height = 0.05
+34.6204 	EXP 	put_label: height = 0.05
+34.6204 	EXP 	put_label: text = '£100'
+34.6204 	EXP 	put_shape: image = 'O.bmp'
+34.6204 	EXP 	text_2: autoDraw = True
+34.6204 	EXP 	put_label: autoDraw = True
+34.6204 	EXP 	put_shape: autoDraw = True
+34.6424 	DATA 	Keypress: m
+34.6544 	EXP 	text_2: autoDraw = False
+34.6544 	EXP 	put_label: autoDraw = False
+34.6544 	EXP 	put_shape: autoDraw = False
+34.6544 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+34.6544 	EXP 	text_4: text = 'WRONG!'
+34.6544 	EXP 	text_4: autoDraw = True
+34.8915 	EXP 	New trial (rep=19, index=0): None
+34.9048 	EXP 	text_4: autoDraw = False
+34.9048 	EXP 	text_4: autoDraw = False
+34.9048 	EXP 	fixn: autoDraw = True
+35.1203 	DATA 	Keypress: m
+35.1370 	EXP 	fixn: autoDraw = False
+35.1370 	EXP 	put_label: height = 0.05
+35.1370 	EXP 	put_label: height = 0.05
+35.1370 	EXP 	put_label: height = 0.05
+35.1370 	EXP 	put_label: text = '£50'
+35.1370 	EXP 	put_shape: image = 'P.bmp'
+35.1370 	EXP 	text_2: autoDraw = True
+35.1370 	EXP 	put_label: autoDraw = True
+35.1370 	EXP 	put_shape: autoDraw = True
+35.5751 	DATA 	Keypress: m
+35.5861 	EXP 	text_2: autoDraw = False
+35.5861 	EXP 	put_label: autoDraw = False
+35.5861 	EXP 	put_shape: autoDraw = False
+35.5861 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+35.5861 	EXP 	text_4: text = 'WRONG!'
+35.5861 	EXP 	text_4: autoDraw = True
+35.8262 	EXP 	New trial (rep=20, index=0): None
+35.8369 	EXP 	text_4: autoDraw = False
+35.8369 	EXP 	text_4: autoDraw = False
+35.8369 	EXP 	fixn: autoDraw = True
+36.0516 	EXP 	fixn: autoDraw = False
+36.0516 	EXP 	fixn: autoDraw = False
+36.0516 	EXP 	put_label: height = 0.05
+36.0516 	EXP 	put_label: height = 0.05
+36.0516 	EXP 	put_label: height = 0.05
+36.0516 	EXP 	put_label: text = '£100'
+36.0516 	EXP 	put_shape: image = 'D.bmp'
+36.0516 	EXP 	text_2: autoDraw = True
+36.0516 	EXP 	put_label: autoDraw = True
+36.0516 	EXP 	put_shape: autoDraw = True
+36.1574 	DATA 	Keypress: m
+36.1683 	EXP 	text_2: autoDraw = False
+36.1683 	EXP 	put_label: autoDraw = False
+36.1683 	EXP 	put_shape: autoDraw = False
+36.1683 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+36.1683 	EXP 	text_4: text = 'WRONG!'
+36.1683 	EXP 	text_4: autoDraw = True
+36.4086 	EXP 	New trial (rep=21, index=0): None
+36.4191 	EXP 	text_4: autoDraw = False
+36.4191 	EXP 	text_4: autoDraw = False
+36.4191 	EXP 	fixn: autoDraw = True
+36.6181 	EXP 	fixn: autoDraw = False
+36.6181 	EXP 	fixn: autoDraw = False
+36.6181 	EXP 	put_label: text = '£100'
+36.6181 	EXP 	put_shape: image = 'P.bmp'
+36.6181 	EXP 	text_2: autoDraw = True
+36.6181 	EXP 	put_label: autoDraw = True
+36.6181 	EXP 	put_shape: autoDraw = True
+36.6584 	DATA 	Keypress: m
+36.6677 	EXP 	text_2: autoDraw = False
+36.6677 	EXP 	put_label: autoDraw = False
+36.6677 	EXP 	put_shape: autoDraw = False
+36.6677 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+36.6677 	EXP 	text_4: height = 0.05
+36.6677 	EXP 	text_4: height = 0.05
+36.6677 	EXP 	text_4: height = 0.05
+36.6677 	EXP 	text_4: text = 'Correct'
+36.6677 	EXP 	text_4: autoDraw = True
+36.9072 	EXP 	New trial (rep=22, index=0): None
+36.9198 	EXP 	text_4: autoDraw = False
+36.9198 	EXP 	fixn: autoDraw = True
+37.1338 	EXP 	fixn: autoDraw = False
+37.1338 	EXP 	put_label: height = 0.05
+37.1338 	EXP 	put_label: height = 0.05
+37.1338 	EXP 	put_label: height = 0.05
+37.1338 	EXP 	put_label: text = '£0'
+37.1338 	EXP 	put_shape: image = 'D.bmp'
+37.1338 	EXP 	text_2: autoDraw = True
+37.1338 	EXP 	put_label: autoDraw = True
+37.1338 	EXP 	put_shape: autoDraw = True
+37.1388 	DATA 	Keypress: m
+37.5883 	DATA 	Keypress: m
+37.6171 	EXP 	text_2: autoDraw = False
+37.6171 	EXP 	put_label: autoDraw = False
+37.6171 	EXP 	put_shape: autoDraw = False
+37.6171 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+37.6171 	EXP 	text_4: text = 'Correct'
+37.6171 	EXP 	text_4: autoDraw = True
+37.8546 	EXP 	New trial (rep=23, index=0): None
+37.8682 	EXP 	text_4: autoDraw = False
+37.8682 	EXP 	text_4: autoDraw = False
+37.8682 	EXP 	fixn: autoDraw = True
+38.0998 	EXP 	fixn: autoDraw = False
+38.0998 	EXP 	put_label: height = 0.05
+38.0998 	EXP 	put_label: height = 0.05
+38.0998 	EXP 	put_label: height = 0.05
+38.0998 	EXP 	put_label: text = '£50'
+38.0998 	EXP 	put_shape: image = 'O.bmp'
+38.0998 	EXP 	text_2: autoDraw = True
+38.0998 	EXP 	put_label: autoDraw = True
+38.0998 	EXP 	put_shape: autoDraw = True
+38.4218 	DATA 	Keypress: m
+38.4494 	EXP 	text_2: autoDraw = False
+38.4494 	EXP 	put_label: autoDraw = False
+38.4494 	EXP 	put_shape: autoDraw = False
+38.4494 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+38.4494 	EXP 	text_4: text = 'Correct'
+38.4494 	EXP 	text_4: autoDraw = True
+38.6849 	EXP 	New trial (rep=24, index=0): None
+38.6991 	EXP 	text_4: autoDraw = False
+38.6991 	EXP 	text_4: autoDraw = False
+38.6991 	EXP 	fixn: autoDraw = True
+38.8988 	EXP 	fixn: autoDraw = False
+38.8988 	EXP 	fixn: autoDraw = False
+38.8988 	EXP 	put_label: height = 0.05
+38.8988 	EXP 	put_label: height = 0.05
+38.8988 	EXP 	put_label: height = 0.05
+38.8988 	EXP 	put_label: text = '£0'
+38.8988 	EXP 	put_shape: image = 'D.bmp'
+38.8988 	EXP 	text_2: autoDraw = True
+38.8988 	EXP 	put_label: autoDraw = True
+38.8988 	EXP 	put_shape: autoDraw = True
+39.4211 	DATA 	Keypress: m
+39.4312 	EXP 	text_2: autoDraw = False
+39.4312 	EXP 	put_label: autoDraw = False
+39.4312 	EXP 	put_shape: autoDraw = False
+39.4312 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+39.4312 	EXP 	text_4: text = 'Correct'
+39.4312 	EXP 	text_4: autoDraw = True
+39.6657 	EXP 	New trial (rep=25, index=0): None
+39.6808 	EXP 	text_4: autoDraw = False
+39.6808 	EXP 	text_4: autoDraw = False
+39.6808 	EXP 	fixn: autoDraw = True
+39.8805 	EXP 	fixn: autoDraw = False
+39.8805 	EXP 	fixn: autoDraw = False
+39.8805 	EXP 	put_label: height = 0.05
+39.8805 	EXP 	put_label: height = 0.05
+39.8805 	EXP 	put_label: height = 0.05
+39.8805 	EXP 	put_label: text = '£50'
+39.8805 	EXP 	put_shape: image = 'D.bmp'
+39.8805 	EXP 	text_2: autoDraw = True
+39.8805 	EXP 	put_label: autoDraw = True
+39.8805 	EXP 	put_shape: autoDraw = True
+40.2550 	DATA 	Keypress: m
+40.2635 	EXP 	text_2: autoDraw = False
+40.2635 	EXP 	put_label: autoDraw = False
+40.2635 	EXP 	put_shape: autoDraw = False
+40.2635 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+40.2635 	EXP 	text_4: height = 0.05
+40.2635 	EXP 	text_4: height = 0.05
+40.2635 	EXP 	text_4: height = 0.05
+40.2635 	EXP 	text_4: text = 'WRONG!'
+40.2635 	EXP 	text_4: autoDraw = True
+40.5018 	EXP 	New trial (rep=26, index=0): None
+40.5136 	EXP 	text_4: autoDraw = False
+40.5136 	EXP 	text_4: autoDraw = False
+40.5136 	EXP 	fixn: autoDraw = True
+40.7290 	EXP 	fixn: autoDraw = False
+40.7290 	EXP 	fixn: autoDraw = False
+40.7290 	EXP 	put_label: height = 0.05
+40.7290 	EXP 	put_label: height = 0.05
+40.7290 	EXP 	put_label: height = 0.05
+40.7290 	EXP 	put_label: text = '£0'
+40.7290 	EXP 	put_shape: image = 'D.bmp'
+40.7290 	EXP 	text_2: autoDraw = True
+40.7290 	EXP 	put_label: autoDraw = True
+40.7290 	EXP 	put_shape: autoDraw = True
+40.9882 	DATA 	Keypress: m
+40.9957 	EXP 	text_2: autoDraw = False
+40.9957 	EXP 	put_label: autoDraw = False
+40.9957 	EXP 	put_shape: autoDraw = False
+40.9957 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+40.9957 	EXP 	text_4: height = 0.05
+40.9957 	EXP 	text_4: height = 0.05
+40.9957 	EXP 	text_4: height = 0.05
+40.9957 	EXP 	text_4: text = 'Correct'
+40.9957 	EXP 	text_4: autoDraw = True
+41.2305 	EXP 	New trial (rep=27, index=0): None
+41.2450 	EXP 	text_4: autoDraw = False
+41.2450 	EXP 	text_4: autoDraw = False
+41.2450 	EXP 	fixn: autoDraw = True
+41.4452 	EXP 	fixn: autoDraw = False
+41.4452 	EXP 	fixn: autoDraw = False
+41.4452 	EXP 	put_label: height = 0.05
+41.4452 	EXP 	put_label: height = 0.05
+41.4452 	EXP 	put_label: height = 0.05
+41.4452 	EXP 	put_label: text = '£50'
+41.4452 	EXP 	put_shape: image = 'O.bmp'
+41.4452 	EXP 	text_2: autoDraw = True
+41.4452 	EXP 	put_label: autoDraw = True
+41.4452 	EXP 	put_shape: autoDraw = True
+41.7500 	DATA 	Keypress: m
+41.7610 	EXP 	text_2: autoDraw = False
+41.7610 	EXP 	put_label: autoDraw = False
+41.7610 	EXP 	put_shape: autoDraw = False
+41.7610 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+41.7610 	EXP 	text_4: text = 'Correct'
+41.7610 	EXP 	text_4: autoDraw = True
+41.9958 	EXP 	New trial (rep=28, index=0): None
+42.0108 	EXP 	text_4: autoDraw = False
+42.0108 	EXP 	text_4: autoDraw = False
+42.0108 	EXP 	fixn: autoDraw = True
+42.2110 	EXP 	fixn: autoDraw = False
+42.2110 	EXP 	fixn: autoDraw = False
+42.2110 	EXP 	put_label: height = 0.05
+42.2110 	EXP 	put_label: height = 0.05
+42.2110 	EXP 	put_label: height = 0.05
+42.2110 	EXP 	put_label: text = '£100'
+42.2110 	EXP 	put_shape: image = 'D.bmp'
+42.2110 	EXP 	text_2: autoDraw = True
+42.2110 	EXP 	put_label: autoDraw = True
+42.2110 	EXP 	put_shape: autoDraw = True
+42.4863 	DATA 	Keypress: m
+42.5267 	EXP 	text_2: autoDraw = False
+42.5267 	EXP 	put_label: autoDraw = False
+42.5267 	EXP 	put_shape: autoDraw = False
+42.5267 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+42.5267 	EXP 	text_4: height = 0.05
+42.5267 	EXP 	text_4: height = 0.05
+42.5267 	EXP 	text_4: height = 0.05
+42.5267 	EXP 	text_4: text = 'WRONG!'
+42.5267 	EXP 	text_4: autoDraw = True
+42.7615 	EXP 	New trial (rep=29, index=0): None
+42.7766 	EXP 	text_4: autoDraw = False
+42.7766 	EXP 	fixn: autoDraw = True
+42.8158 	DATA 	Keypress: n
+42.9764 	EXP 	fixn: autoDraw = False
+42.9764 	EXP 	fixn: autoDraw = False
+42.9764 	EXP 	put_label: height = 0.05
+42.9764 	EXP 	put_label: height = 0.05
+42.9764 	EXP 	put_label: height = 0.05
+42.9764 	EXP 	put_label: text = '£0'
+42.9764 	EXP 	put_shape: image = 'D.bmp'
+42.9764 	EXP 	text_2: autoDraw = True
+42.9764 	EXP 	put_label: autoDraw = True
+42.9764 	EXP 	put_shape: autoDraw = True
+43.1488 	DATA 	Keypress: n
+43.1594 	EXP 	text_2: autoDraw = False
+43.1594 	EXP 	put_label: autoDraw = False
+43.1594 	EXP 	put_shape: autoDraw = False
+43.1594 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+43.1594 	EXP 	text_4: text = 'WRONG!'
+43.1594 	EXP 	text_4: autoDraw = True
+43.3969 	EXP 	New trial (rep=1, index=0): None
+43.4257 	DATA 	Keypress: n
+43.4423 	EXP 	text_4: autoDraw = False
+43.4423 	EXP 	text_4: autoDraw = False
+43.4423 	EXP 	text: autoDraw = False
+43.4423 	EXP 	match1label: height = 0.05
+43.4423 	EXP 	match1label: height = 0.05
+43.4423 	EXP 	match1label: height = 0.05
+43.4423 	EXP 	match1label: text = 'earth'
+43.4423 	EXP 	match2label: height = 0.05
+43.4423 	EXP 	match2label: height = 0.05
+43.4423 	EXP 	match2label: height = 0.05
+43.4423 	EXP 	match2label: text = 'air'
+43.4423 	EXP 	match3label: height = 0.05
+43.4423 	EXP 	match3label: height = 0.05
+43.4423 	EXP 	match3label: height = 0.05
+43.4423 	EXP 	match3label: text = 'sky'
+43.4423 	EXP 	match1shape: image = 'S.bmp'
+43.4423 	EXP 	match2shape: image = 'C.bmp'
+43.4423 	EXP 	match3shape: image = 'T.bmp'
+43.4423 	EXP 	instructions: autoDraw = True
+43.4423 	EXP 	match1label: autoDraw = True
+43.4423 	EXP 	match2label: autoDraw = True
+43.4423 	EXP 	match3label: autoDraw = True
+43.4423 	EXP 	match1shape: autoDraw = True
+43.4423 	EXP 	match2shape: autoDraw = True
+43.4423 	EXP 	match3shape: autoDraw = True
+43.6471 	DATA 	Keypress: n
+43.6814 	DATA 	Keypress: m
+44.3933 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+44.3935 	EXP 	New trial (rep=0, index=0): None
+44.3947 	EXP 	Created sequence: sequential, trialTypes=1, nReps=30, seed=None
+44.3951 	EXP 	New trial (rep=0, index=0): None
+44.3975 	DATA 	Keypress: space
+44.4075 	EXP 	instructions: autoDraw = False
+44.4075 	EXP 	match1label: autoDraw = False
+44.4075 	EXP 	match2label: autoDraw = False
+44.4075 	EXP 	match3label: autoDraw = False
+44.4075 	EXP 	match1shape: autoDraw = False
+44.4075 	EXP 	match2shape: autoDraw = False
+44.4075 	EXP 	match3shape: autoDraw = False
+44.4075 	EXP 	fixn: autoDraw = True
+44.6239 	EXP 	fixn: autoDraw = False
+44.6239 	EXP 	fixn: autoDraw = False
+44.6239 	EXP 	put_label: height = 0.05
+44.6239 	EXP 	put_label: height = 0.05
+44.6239 	EXP 	put_label: height = 0.05
+44.6239 	EXP 	put_label: text = 'sky'
+44.6239 	EXP 	put_shape: image = 'T.bmp'
+44.6239 	EXP 	text_2: autoDraw = True
+44.6239 	EXP 	put_label: autoDraw = True
+44.6239 	EXP 	put_shape: autoDraw = True
+44.6984 	DATA 	Keypress: n
+44.7243 	EXP 	text_2: autoDraw = False
+44.7243 	EXP 	put_label: autoDraw = False
+44.7243 	EXP 	put_shape: autoDraw = False
+44.7243 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+44.7243 	EXP 	text_4: text = 'WRONG!'
+44.7243 	EXP 	text_4: autoDraw = True
+44.8989 	DATA 	Keypress: m
+44.9604 	EXP 	New trial (rep=1, index=0): None
+44.9737 	EXP 	text_4: autoDraw = False
+44.9737 	EXP 	text_4: autoDraw = False
+44.9737 	EXP 	fixn: autoDraw = True
+45.0125 	DATA 	Keypress: n
+45.1746 	EXP 	fixn: autoDraw = False
+45.1746 	EXP 	fixn: autoDraw = False
+45.1746 	EXP 	put_label: height = 0.05
+45.1746 	EXP 	put_label: height = 0.05
+45.1746 	EXP 	put_label: height = 0.05
+45.1746 	EXP 	put_label: text = 'earth'
+45.1746 	EXP 	put_shape: image = 'T.bmp'
+45.1746 	EXP 	text_2: autoDraw = True
+45.1746 	EXP 	put_label: autoDraw = True
+45.1746 	EXP 	put_shape: autoDraw = True
+45.2309 	DATA 	Keypress: n
+45.2732 	EXP 	text_2: autoDraw = False
+45.2732 	EXP 	put_label: autoDraw = False
+45.2732 	EXP 	put_shape: autoDraw = False
+45.2732 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+45.2732 	EXP 	text_4: height = 0.05
+45.2732 	EXP 	text_4: height = 0.05
+45.2732 	EXP 	text_4: height = 0.05
+45.2732 	EXP 	text_4: text = 'Correct'
+45.2732 	EXP 	text_4: autoDraw = True
+45.3944 	DATA 	Keypress: m
+45.5079 	EXP 	New trial (rep=2, index=0): None
+45.5229 	EXP 	text_4: autoDraw = False
+45.5229 	EXP 	fixn: autoDraw = True
+45.5439 	DATA 	Keypress: n
+45.7224 	DATA 	Keypress: m
+45.7391 	EXP 	fixn: autoDraw = False
+45.7391 	EXP 	fixn: autoDraw = False
+45.7391 	EXP 	put_label: height = 0.05
+45.7391 	EXP 	put_label: height = 0.05
+45.7391 	EXP 	put_label: height = 0.05
+45.7391 	EXP 	put_label: text = 'sky'
+45.7391 	EXP 	put_shape: image = 'T.bmp'
+45.7391 	EXP 	text_2: autoDraw = True
+45.7391 	EXP 	put_label: autoDraw = True
+45.7391 	EXP 	put_shape: autoDraw = True
+45.8162 	DATA 	Keypress: n
+45.8234 	EXP 	text_2: autoDraw = False
+45.8234 	EXP 	put_label: autoDraw = False
+45.8234 	EXP 	put_shape: autoDraw = False
+45.8234 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+45.8234 	EXP 	text_4: height = 0.05
+45.8234 	EXP 	text_4: height = 0.05
+45.8234 	EXP 	text_4: height = 0.05
+45.8234 	EXP 	text_4: text = 'WRONG!'
+45.8234 	EXP 	text_4: autoDraw = True
+45.9613 	DATA 	Keypress: m
+46.0596 	EXP 	New trial (rep=3, index=0): None
+46.0643 	DATA 	Keypress: n
+46.0729 	EXP 	text_4: autoDraw = False
+46.0729 	EXP 	text_4: autoDraw = False
+46.0729 	EXP 	fixn: autoDraw = True
+46.2580 	DATA 	Keypress: m
+46.2892 	EXP 	fixn: autoDraw = False
+46.2892 	EXP 	put_label: height = 0.05
+46.2892 	EXP 	put_label: height = 0.05
+46.2892 	EXP 	put_label: height = 0.05
+46.2892 	EXP 	put_label: text = 'earth'
+46.2892 	EXP 	put_shape: image = 'C.bmp'
+46.2892 	EXP 	text_2: autoDraw = True
+46.2892 	EXP 	put_label: autoDraw = True
+46.2892 	EXP 	put_shape: autoDraw = True
+46.3176 	DATA 	Keypress: n
+46.3227 	EXP 	text_2: autoDraw = False
+46.3227 	EXP 	put_label: autoDraw = False
+46.3227 	EXP 	put_shape: autoDraw = False
+46.3227 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+46.3227 	EXP 	text_4: height = 0.05
+46.3227 	EXP 	text_4: height = 0.05
+46.3227 	EXP 	text_4: height = 0.05
+46.3227 	EXP 	text_4: text = 'Correct'
+46.3227 	EXP 	text_4: autoDraw = True
+46.5412 	DATA 	Keypress: m
+46.5581 	EXP 	New trial (rep=4, index=0): None
+46.5722 	EXP 	text_4: autoDraw = False
+46.5722 	EXP 	text_4: autoDraw = False
+46.5722 	EXP 	fixn: autoDraw = True
+46.6483 	DATA 	Keypress: n
+46.7724 	EXP 	fixn: autoDraw = False
+46.7724 	EXP 	fixn: autoDraw = False
+46.7724 	EXP 	put_label: text = 'earth'
+46.7724 	EXP 	put_shape: image = 'S.bmp'
+46.7724 	EXP 	text_2: autoDraw = True
+46.7724 	EXP 	put_label: autoDraw = True
+46.7724 	EXP 	put_shape: autoDraw = True
+46.9101 	DATA 	Keypress: m
+46.9207 	EXP 	text_2: autoDraw = False
+46.9207 	EXP 	put_label: autoDraw = False
+46.9207 	EXP 	put_shape: autoDraw = False
+46.9207 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+46.9207 	EXP 	text_4: text = 'Correct'
+46.9207 	EXP 	text_4: autoDraw = True
+46.9746 	DATA 	Keypress: n
+47.1560 	EXP 	New trial (rep=5, index=0): None
+47.1709 	EXP 	text_4: autoDraw = False
+47.1709 	EXP 	text_4: autoDraw = False
+47.1709 	EXP 	fixn: autoDraw = True
+47.2237 	DATA 	Keypress: m
+47.2900 	DATA 	Keypress: n
+47.3876 	EXP 	fixn: autoDraw = False
+47.3876 	EXP 	fixn: autoDraw = False
+47.3876 	EXP 	put_label: height = 0.05
+47.3876 	EXP 	put_label: height = 0.05
+47.3876 	EXP 	put_label: height = 0.05
+47.3876 	EXP 	put_label: text = 'air'
+47.3876 	EXP 	put_shape: image = 'C.bmp'
+47.3876 	EXP 	text_2: autoDraw = True
+47.3876 	EXP 	put_label: autoDraw = True
+47.3876 	EXP 	put_shape: autoDraw = True
+47.5413 	DATA 	Keypress: m
+47.5535 	EXP 	text_2: autoDraw = False
+47.5535 	EXP 	put_label: autoDraw = False
+47.5535 	EXP 	put_shape: autoDraw = False
+47.5535 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+47.5535 	EXP 	text_4: text = 'Correct'
+47.5535 	EXP 	text_4: autoDraw = True
+47.6422 	DATA 	Keypress: n
+47.7892 	EXP 	New trial (rep=6, index=0): None
+47.8034 	EXP 	text_4: autoDraw = False
+47.8034 	EXP 	text_4: autoDraw = False
+47.8034 	EXP 	fixn: autoDraw = True
+47.9255 	DATA 	Keypress: n
+48.0195 	EXP 	fixn: autoDraw = False
+48.0195 	EXP 	fixn: autoDraw = False
+48.0195 	EXP 	put_label: height = 0.05
+48.0195 	EXP 	put_label: height = 0.05
+48.0195 	EXP 	put_label: height = 0.05
+48.0195 	EXP 	put_label: text = 'earth'
+48.0195 	EXP 	put_shape: image = 'T.bmp'
+48.0195 	EXP 	text_2: autoDraw = True
+48.0195 	EXP 	put_label: autoDraw = True
+48.0195 	EXP 	put_shape: autoDraw = True
+48.0918 	DATA 	Keypress: m
+48.1192 	EXP 	text_2: autoDraw = False
+48.1192 	EXP 	put_label: autoDraw = False
+48.1192 	EXP 	put_shape: autoDraw = False
+48.1192 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+48.1192 	EXP 	text_4: height = 0.05
+48.1192 	EXP 	text_4: height = 0.05
+48.1192 	EXP 	text_4: height = 0.05
+48.1192 	EXP 	text_4: text = 'WRONG!'
+48.1192 	EXP 	text_4: autoDraw = True
+48.2567 	DATA 	Keypress: n
+48.3586 	EXP 	New trial (rep=7, index=0): None
+48.3711 	EXP 	text_4: autoDraw = False
+48.3711 	EXP 	text_4: autoDraw = False
+48.3711 	EXP 	fixn: autoDraw = True
+48.3904 	DATA 	Keypress: m
+48.4897 	DATA 	Keypress: n
+48.5860 	EXP 	fixn: autoDraw = False
+48.5860 	EXP 	put_label: height = 0.05
+48.5860 	EXP 	put_label: height = 0.05
+48.5860 	EXP 	put_label: height = 0.05
+48.5860 	EXP 	put_label: text = 'sky'
+48.5860 	EXP 	put_shape: image = 'S.bmp'
+48.5860 	EXP 	text_2: autoDraw = True
+48.5860 	EXP 	put_label: autoDraw = True
+48.5860 	EXP 	put_shape: autoDraw = True
+48.6574 	DATA 	Keypress: m
+48.6686 	EXP 	text_2: autoDraw = False
+48.6686 	EXP 	put_label: autoDraw = False
+48.6686 	EXP 	put_shape: autoDraw = False
+48.6686 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+48.6686 	EXP 	text_4: text = 'WRONG!'
+48.6686 	EXP 	text_4: autoDraw = True
+48.7385 	DATA 	Keypress: n
+48.9075 	EXP 	New trial (rep=8, index=0): None
+48.9142 	DATA 	Keypress: m
+48.9207 	EXP 	text_4: autoDraw = False
+48.9207 	EXP 	fixn: autoDraw = True
+49.0066 	DATA 	Keypress: n
+49.1356 	EXP 	fixn: autoDraw = False
+49.1356 	EXP 	fixn: autoDraw = False
+49.1356 	EXP 	put_label: height = 0.05
+49.1356 	EXP 	put_label: height = 0.05
+49.1356 	EXP 	put_label: height = 0.05
+49.1356 	EXP 	put_label: text = 'air'
+49.1356 	EXP 	put_shape: image = 'T.bmp'
+49.1356 	EXP 	text_2: autoDraw = True
+49.1356 	EXP 	put_label: autoDraw = True
+49.1356 	EXP 	put_shape: autoDraw = True
+49.1719 	DATA 	Keypress: m
+49.2013 	EXP 	text_2: autoDraw = False
+49.2013 	EXP 	put_label: autoDraw = False
+49.2013 	EXP 	put_shape: autoDraw = False
+49.2013 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+49.2013 	EXP 	text_4: text = 'WRONG!'
+49.2013 	EXP 	text_4: autoDraw = True
+49.2543 	DATA 	Keypress: n
+49.4371 	EXP 	New trial (rep=9, index=0): None
+49.4407 	DATA 	Keypress: m
+49.4519 	EXP 	text_4: autoDraw = False
+49.4519 	EXP 	text_4: autoDraw = False
+49.4519 	EXP 	fixn: autoDraw = True
+49.4900 	DATA 	Keypress: n
+49.6674 	EXP 	fixn: autoDraw = False
+49.6674 	EXP 	fixn: autoDraw = False
+49.6674 	EXP 	put_label: height = 0.05
+49.6674 	EXP 	put_label: height = 0.05
+49.6674 	EXP 	put_label: height = 0.05
+49.6674 	EXP 	put_label: text = 'sky'
+49.6674 	EXP 	put_shape: image = 'C.bmp'
+49.6674 	EXP 	text_2: autoDraw = True
+49.6674 	EXP 	put_label: autoDraw = True
+49.6674 	EXP 	put_shape: autoDraw = True
+49.7048 	DATA 	Keypress: m
+49.7172 	EXP 	text_2: autoDraw = False
+49.7172 	EXP 	put_label: autoDraw = False
+49.7172 	EXP 	put_shape: autoDraw = False
+49.7172 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+49.7172 	EXP 	text_4: text = 'WRONG!'
+49.7172 	EXP 	text_4: autoDraw = True
+49.7727 	DATA 	Keypress: n
+49.9531 	EXP 	New trial (rep=10, index=0): None
+49.9678 	EXP 	text_4: autoDraw = False
+49.9678 	EXP 	text_4: autoDraw = False
+49.9678 	EXP 	fixn: autoDraw = True
+50.0047 	DATA 	Keypress: m
+50.0862 	DATA 	Keypress: n
+50.1680 	EXP 	fixn: autoDraw = False
+50.1680 	EXP 	fixn: autoDraw = False
+50.1680 	EXP 	put_label: text = 'sky'
+50.1680 	EXP 	put_shape: image = 'T.bmp'
+50.1680 	EXP 	text_2: autoDraw = True
+50.1680 	EXP 	put_label: autoDraw = True
+50.1680 	EXP 	put_shape: autoDraw = True
+50.2462 	DATA 	Keypress: m
+50.2502 	EXP 	text_2: autoDraw = False
+50.2502 	EXP 	put_label: autoDraw = False
+50.2502 	EXP 	put_shape: autoDraw = False
+50.2502 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+50.2502 	EXP 	text_4: height = 0.05
+50.2502 	EXP 	text_4: height = 0.05
+50.2502 	EXP 	text_4: height = 0.05
+50.2502 	EXP 	text_4: text = 'Correct'
+50.2502 	EXP 	text_4: autoDraw = True
+50.3368 	DATA 	Keypress: n
+50.4887 	EXP 	New trial (rep=11, index=0): None
+50.5016 	EXP 	text_4: autoDraw = False
+50.5016 	EXP 	text_4: autoDraw = False
+50.5016 	EXP 	fixn: autoDraw = True
+50.5219 	DATA 	Keypress: m
+50.6739 	DATA 	Keypress: n
+50.7175 	EXP 	fixn: autoDraw = False
+50.7175 	EXP 	fixn: autoDraw = False
+50.7175 	EXP 	put_label: height = 0.05
+50.7175 	EXP 	put_label: height = 0.05
+50.7175 	EXP 	put_label: height = 0.05
+50.7175 	EXP 	put_label: text = 'air'
+50.7175 	EXP 	put_shape: image = 'C.bmp'
+50.7175 	EXP 	text_2: autoDraw = True
+50.7175 	EXP 	put_label: autoDraw = True
+50.7175 	EXP 	put_shape: autoDraw = True
+50.8365 	DATA 	Keypress: m
+50.8658 	EXP 	text_2: autoDraw = False
+50.8658 	EXP 	put_label: autoDraw = False
+50.8658 	EXP 	put_shape: autoDraw = False
+50.8658 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+50.8658 	EXP 	text_4: text = 'Correct'
+50.8658 	EXP 	text_4: autoDraw = True
+50.9522 	DATA 	Keypress: n
+51.1010 	EXP 	New trial (rep=12, index=0): None
+51.1159 	EXP 	text_4: autoDraw = False
+51.1159 	EXP 	text_4: autoDraw = False
+51.1159 	EXP 	fixn: autoDraw = True
+51.1859 	DATA 	Keypress: n
+51.3318 	EXP 	fixn: autoDraw = False
+51.3318 	EXP 	fixn: autoDraw = False
+51.3318 	EXP 	put_label: height = 0.05
+51.3318 	EXP 	put_label: height = 0.05
+51.3318 	EXP 	put_label: height = 0.05
+51.3318 	EXP 	put_label: text = 'sky'
+51.3318 	EXP 	put_shape: image = 'S.bmp'
+51.3318 	EXP 	text_2: autoDraw = True
+51.3318 	EXP 	put_label: autoDraw = True
+51.3318 	EXP 	put_shape: autoDraw = True
+51.3868 	DATA 	Keypress: m
+51.4157 	EXP 	text_2: autoDraw = False
+51.4157 	EXP 	put_label: autoDraw = False
+51.4157 	EXP 	put_shape: autoDraw = False
+51.4157 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+51.4157 	EXP 	text_4: height = 0.05
+51.4157 	EXP 	text_4: height = 0.05
+51.4157 	EXP 	text_4: height = 0.05
+51.4157 	EXP 	text_4: text = 'WRONG!'
+51.4157 	EXP 	text_4: autoDraw = True
+51.5201 	DATA 	Keypress: n
+51.6531 	EXP 	New trial (rep=13, index=0): None
+51.6655 	EXP 	text_4: autoDraw = False
+51.6655 	EXP 	text_4: autoDraw = False
+51.6655 	EXP 	fixn: autoDraw = True
+51.6692 	DATA 	Keypress: m
+51.7897 	DATA 	Keypress: n
+51.8811 	EXP 	fixn: autoDraw = False
+51.8811 	EXP 	put_label: height = 0.05
+51.8811 	EXP 	put_label: height = 0.05
+51.8811 	EXP 	put_label: height = 0.05
+51.8811 	EXP 	put_label: text = 'earth'
+51.8811 	EXP 	put_shape: image = 'S.bmp'
+51.8811 	EXP 	text_2: autoDraw = True
+51.8811 	EXP 	put_label: autoDraw = True
+51.8811 	EXP 	put_shape: autoDraw = True
+51.9736 	DATA 	Keypress: m
+51.9814 	EXP 	text_2: autoDraw = False
+51.9814 	EXP 	put_label: autoDraw = False
+51.9814 	EXP 	put_shape: autoDraw = False
+51.9814 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+51.9814 	EXP 	text_4: height = 0.05
+51.9814 	EXP 	text_4: height = 0.05
+51.9814 	EXP 	text_4: height = 0.05
+51.9814 	EXP 	text_4: text = 'Correct'
+51.9814 	EXP 	text_4: autoDraw = True
+52.1024 	DATA 	Keypress: n
+52.2179 	EXP 	New trial (rep=14, index=0): None
+52.2317 	EXP 	text_4: autoDraw = False
+52.2317 	EXP 	text_4: autoDraw = False
+52.2317 	EXP 	fixn: autoDraw = True
+52.3576 	DATA 	Keypress: n
+52.4478 	EXP 	fixn: autoDraw = False
+52.4478 	EXP 	put_label: height = 0.05
+52.4478 	EXP 	put_label: height = 0.05
+52.4478 	EXP 	put_label: height = 0.05
+52.4478 	EXP 	put_label: text = 'air'
+52.4478 	EXP 	put_shape: image = 'S.bmp'
+52.4478 	EXP 	text_2: autoDraw = True
+52.4478 	EXP 	put_label: autoDraw = True
+52.4478 	EXP 	put_shape: autoDraw = True
+52.5919 	DATA 	Keypress: m
+52.5973 	EXP 	text_2: autoDraw = False
+52.5973 	EXP 	put_label: autoDraw = False
+52.5973 	EXP 	put_shape: autoDraw = False
+52.5973 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+52.5973 	EXP 	text_4: height = 0.05
+52.5973 	EXP 	text_4: height = 0.05
+52.5973 	EXP 	text_4: height = 0.05
+52.5973 	EXP 	text_4: text = 'WRONG!'
+52.5973 	EXP 	text_4: autoDraw = True
+52.7344 	DATA 	Keypress: n
+52.8354 	EXP 	New trial (rep=15, index=0): None
+52.8487 	EXP 	text_4: autoDraw = False
+52.8487 	EXP 	text_4: autoDraw = False
+52.8487 	EXP 	fixn: autoDraw = True
+52.8691 	DATA 	Keypress: m
+53.0197 	DATA 	Keypress: n
+53.0631 	EXP 	fixn: autoDraw = False
+53.0631 	EXP 	fixn: autoDraw = False
+53.0631 	EXP 	put_label: height = 0.05
+53.0631 	EXP 	put_label: height = 0.05
+53.0631 	EXP 	put_label: height = 0.05
+53.0631 	EXP 	put_label: text = 'earth'
+53.0631 	EXP 	put_shape: image = 'C.bmp'
+53.0631 	EXP 	text_2: autoDraw = True
+53.0631 	EXP 	put_label: autoDraw = True
+53.0631 	EXP 	put_shape: autoDraw = True
+53.2013 	DATA 	Keypress: m
+53.2125 	EXP 	text_2: autoDraw = False
+53.2125 	EXP 	put_label: autoDraw = False
+53.2125 	EXP 	put_shape: autoDraw = False
+53.2125 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+53.2125 	EXP 	text_4: text = 'WRONG!'
+53.2125 	EXP 	text_4: autoDraw = True
+53.3335 	DATA 	Keypress: n
+53.4506 	EXP 	New trial (rep=16, index=0): None
+53.4635 	EXP 	text_4: autoDraw = False
+53.4635 	EXP 	text_4: autoDraw = False
+53.4635 	EXP 	fixn: autoDraw = True
+53.5882 	DATA 	Keypress: n
+53.6794 	EXP 	fixn: autoDraw = False
+53.6794 	EXP 	put_label: height = 0.05
+53.6794 	EXP 	put_label: height = 0.05
+53.6794 	EXP 	put_label: height = 0.05
+53.6794 	EXP 	put_label: text = 'air'
+53.6794 	EXP 	put_shape: image = 'T.bmp'
+53.6794 	EXP 	text_2: autoDraw = True
+53.6794 	EXP 	put_label: autoDraw = True
+53.6794 	EXP 	put_shape: autoDraw = True
+53.7505 	DATA 	Keypress: m
+53.7805 	EXP 	text_2: autoDraw = False
+53.7805 	EXP 	put_label: autoDraw = False
+53.7805 	EXP 	put_shape: autoDraw = False
+53.7805 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+53.7805 	EXP 	text_4: text = 'WRONG!'
+53.7805 	EXP 	text_4: autoDraw = True
+53.8515 	DATA 	Keypress: n
+54.0318 	EXP 	New trial (rep=17, index=0): None
+54.0457 	EXP 	text_4: autoDraw = False
+54.0457 	EXP 	fixn: autoDraw = True
+54.1020 	DATA 	Keypress: m
+54.1206 	DATA 	Keypress: n
+54.2463 	EXP 	fixn: autoDraw = False
+54.2463 	EXP 	fixn: autoDraw = False
+54.2463 	EXP 	put_label: text = 'air'
+54.2463 	EXP 	put_shape: image = 'C.bmp'
+54.2463 	EXP 	text_2: autoDraw = True
+54.2463 	EXP 	put_label: autoDraw = True
+54.2463 	EXP 	put_shape: autoDraw = True
+54.3694 	DATA 	Keypress: m
+54.3780 	EXP 	text_2: autoDraw = False
+54.3780 	EXP 	put_label: autoDraw = False
+54.3780 	EXP 	put_shape: autoDraw = False
+54.3780 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+54.3780 	EXP 	text_4: height = 0.05
+54.3780 	EXP 	text_4: height = 0.05
+54.3780 	EXP 	text_4: height = 0.05
+54.3780 	EXP 	text_4: text = 'Correct'
+54.3780 	EXP 	text_4: autoDraw = True
+54.4143 	DATA 	Keypress: n
+54.6143 	EXP 	New trial (rep=18, index=0): None
+54.6181 	DATA 	Keypress: m
+54.6289 	EXP 	text_4: autoDraw = False
+54.6289 	EXP 	text_4: autoDraw = False
+54.6289 	EXP 	fixn: autoDraw = True
+54.6831 	DATA 	Keypress: n
+54.8436 	EXP 	fixn: autoDraw = False
+54.8436 	EXP 	fixn: autoDraw = False
+54.8436 	EXP 	put_label: height = 0.05
+54.8436 	EXP 	put_label: height = 0.05
+54.8436 	EXP 	put_label: height = 0.05
+54.8436 	EXP 	put_label: text = 'earth'
+54.8436 	EXP 	put_shape: image = 'C.bmp'
+54.8436 	EXP 	text_2: autoDraw = True
+54.8436 	EXP 	put_label: autoDraw = True
+54.8436 	EXP 	put_shape: autoDraw = True
+54.9509 	DATA 	Keypress: n
+54.9611 	EXP 	text_2: autoDraw = False
+54.9611 	EXP 	put_label: autoDraw = False
+54.9611 	EXP 	put_shape: autoDraw = False
+54.9611 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+54.9611 	EXP 	text_4: text = 'Correct'
+54.9611 	EXP 	text_4: autoDraw = True
+55.0152 	DATA 	Keypress: m
+55.1966 	EXP 	New trial (rep=19, index=0): None
+55.2109 	EXP 	text_4: autoDraw = False
+55.2109 	EXP 	text_4: autoDraw = False
+55.2109 	EXP 	fixn: autoDraw = True
+55.2470 	DATA 	Keypress: n
+55.4155 	DATA 	Keypress: m
+55.4264 	EXP 	fixn: autoDraw = False
+55.4264 	EXP 	fixn: autoDraw = False
+55.4264 	EXP 	put_label: height = 0.05
+55.4264 	EXP 	put_label: height = 0.05
+55.4264 	EXP 	put_label: height = 0.05
+55.4264 	EXP 	put_label: text = 'sky'
+55.4264 	EXP 	put_shape: image = 'C.bmp'
+55.4264 	EXP 	text_2: autoDraw = True
+55.4264 	EXP 	put_label: autoDraw = True
+55.4264 	EXP 	put_shape: autoDraw = True
+55.5486 	DATA 	Keypress: n
+55.5598 	EXP 	text_2: autoDraw = False
+55.5598 	EXP 	put_label: autoDraw = False
+55.5598 	EXP 	put_shape: autoDraw = False
+55.5598 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+55.5598 	EXP 	text_4: text = 'Correct'
+55.5598 	EXP 	text_4: autoDraw = True
+55.7170 	DATA 	Keypress: m
+55.7988 	EXP 	New trial (rep=20, index=0): None
+55.8112 	EXP 	text_4: autoDraw = False
+55.8112 	EXP 	text_4: autoDraw = False
+55.8112 	EXP 	fixn: autoDraw = True
+55.9801 	DATA 	Keypress: m
+56.0424 	EXP 	fixn: autoDraw = False
+56.0424 	EXP 	put_label: text = 'sky'
+56.0424 	EXP 	put_shape: image = 'S.bmp'
+56.0424 	EXP 	text_2: autoDraw = True
+56.0424 	EXP 	put_label: autoDraw = True
+56.0424 	EXP 	put_shape: autoDraw = True
+56.0695 	DATA 	Keypress: n
+56.0940 	EXP 	text_2: autoDraw = False
+56.0940 	EXP 	put_label: autoDraw = False
+56.0940 	EXP 	put_shape: autoDraw = False
+56.0940 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+56.0940 	EXP 	text_4: text = 'Correct'
+56.0940 	EXP 	text_4: autoDraw = True
+56.3301 	DATA 	Keypress: n
+56.3464 	EXP 	New trial (rep=21, index=0): None
+56.3607 	EXP 	text_4: autoDraw = False
+56.3607 	EXP 	fixn: autoDraw = True
+56.4665 	DATA 	Keypress: m
+56.5918 	EXP 	fixn: autoDraw = False
+56.5918 	EXP 	put_label: height = 0.05
+56.5918 	EXP 	put_label: height = 0.05
+56.5918 	EXP 	put_label: height = 0.05
+56.5918 	EXP 	put_label: text = 'earth'
+56.5918 	EXP 	put_shape: image = 'S.bmp'
+56.5918 	EXP 	text_2: autoDraw = True
+56.5918 	EXP 	put_label: autoDraw = True
+56.5918 	EXP 	put_shape: autoDraw = True
+56.6631 	DATA 	Keypress: n
+56.6916 	EXP 	text_2: autoDraw = False
+56.6916 	EXP 	put_label: autoDraw = False
+56.6916 	EXP 	put_shape: autoDraw = False
+56.6916 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+56.6916 	EXP 	text_4: height = 0.05
+56.6916 	EXP 	text_4: height = 0.05
+56.6916 	EXP 	text_4: height = 0.05
+56.6916 	EXP 	text_4: text = 'WRONG!'
+56.6916 	EXP 	text_4: autoDraw = True
+56.7805 	DATA 	Keypress: m
+56.8809 	DATA 	Keypress: n
+56.9281 	EXP 	New trial (rep=22, index=0): None
+56.9422 	EXP 	text_4: autoDraw = False
+56.9422 	EXP 	text_4: autoDraw = False
+56.9422 	EXP 	fixn: autoDraw = True
+57.1346 	DATA 	Keypress: m
+57.1419 	EXP 	fixn: autoDraw = False
+57.1419 	EXP 	fixn: autoDraw = False
+57.1419 	EXP 	put_label: text = 'earth'
+57.1419 	EXP 	put_shape: image = 'C.bmp'
+57.1419 	EXP 	text_2: autoDraw = True
+57.1419 	EXP 	put_label: autoDraw = True
+57.1419 	EXP 	put_shape: autoDraw = True
+57.1626 	DATA 	Keypress: n
+57.1910 	EXP 	text_2: autoDraw = False
+57.1910 	EXP 	put_label: autoDraw = False
+57.1910 	EXP 	put_shape: autoDraw = False
+57.1910 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+57.1910 	EXP 	text_4: height = 0.05
+57.1910 	EXP 	text_4: height = 0.05
+57.1910 	EXP 	text_4: height = 0.05
+57.1910 	EXP 	text_4: text = 'Correct'
+57.1910 	EXP 	text_4: autoDraw = True
+57.3140 	DATA 	Keypress: m
+57.4264 	EXP 	New trial (rep=23, index=0): None
+57.4305 	DATA 	Keypress: n
+57.4414 	EXP 	text_4: autoDraw = False
+57.4414 	EXP 	text_4: autoDraw = False
+57.4414 	EXP 	fixn: autoDraw = True
+57.6392 	DATA 	Keypress: m
+57.6567 	EXP 	fixn: autoDraw = False
+57.6567 	EXP 	fixn: autoDraw = False
+57.6567 	EXP 	put_label: height = 0.05
+57.6567 	EXP 	put_label: height = 0.05
+57.6567 	EXP 	put_label: height = 0.05
+57.6567 	EXP 	put_label: text = 'air'
+57.6567 	EXP 	put_shape: image = 'S.bmp'
+57.6567 	EXP 	text_2: autoDraw = True
+57.6567 	EXP 	put_label: autoDraw = True
+57.6567 	EXP 	put_shape: autoDraw = True
+57.7471 	DATA 	Keypress: n
+57.7739 	EXP 	text_2: autoDraw = False
+57.7739 	EXP 	put_label: autoDraw = False
+57.7739 	EXP 	put_shape: autoDraw = False
+57.7739 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+57.7739 	EXP 	text_4: text = 'Correct'
+57.7739 	EXP 	text_4: autoDraw = True
+57.8639 	DATA 	Keypress: m
+58.0136 	EXP 	New trial (rep=24, index=0): None
+58.0213 	DATA 	Keypress: n
+58.0398 	EXP 	text_4: autoDraw = False
+58.0398 	EXP 	text_4: autoDraw = False
+58.0398 	EXP 	fixn: autoDraw = True
+58.2361 	DATA 	Keypress: m
+58.2402 	EXP 	fixn: autoDraw = False
+58.2402 	EXP 	put_label: height = 0.05
+58.2402 	EXP 	put_label: height = 0.05
+58.2402 	EXP 	put_label: height = 0.05
+58.2402 	EXP 	put_label: text = 'earth'
+58.2402 	EXP 	put_shape: image = 'S.bmp'
+58.2402 	EXP 	text_2: autoDraw = True
+58.2402 	EXP 	put_label: autoDraw = True
+58.2402 	EXP 	put_shape: autoDraw = True
+58.3468 	DATA 	Keypress: n
+58.3561 	EXP 	text_2: autoDraw = False
+58.3561 	EXP 	put_label: autoDraw = False
+58.3561 	EXP 	put_shape: autoDraw = False
+58.3561 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+58.3561 	EXP 	text_4: height = 0.05
+58.3561 	EXP 	text_4: height = 0.05
+58.3561 	EXP 	text_4: height = 0.05
+58.3561 	EXP 	text_4: text = 'WRONG!'
+58.3561 	EXP 	text_4: autoDraw = True
+58.4931 	DATA 	Keypress: m
+58.5771 	DATA 	Keypress: n
+58.5939 	EXP 	New trial (rep=25, index=0): None
+58.6080 	EXP 	text_4: autoDraw = False
+58.6080 	EXP 	text_4: autoDraw = False
+58.6080 	EXP 	fixn: autoDraw = True
+58.7780 	DATA 	Keypress: m
+58.8227 	EXP 	fixn: autoDraw = False
+58.8227 	EXP 	put_label: height = 0.05
+58.8227 	EXP 	put_label: height = 0.05
+58.8227 	EXP 	put_label: height = 0.05
+58.8227 	EXP 	put_label: text = 'air'
+58.8227 	EXP 	put_shape: image = 'C.bmp'
+58.8227 	EXP 	text_2: autoDraw = True
+58.8227 	EXP 	put_label: autoDraw = True
+58.8227 	EXP 	put_shape: autoDraw = True
+58.8929 	DATA 	Keypress: n
+58.9054 	EXP 	text_2: autoDraw = False
+58.9054 	EXP 	put_label: autoDraw = False
+58.9054 	EXP 	put_shape: autoDraw = False
+58.9054 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+58.9054 	EXP 	text_4: text = 'WRONG!'
+58.9054 	EXP 	text_4: autoDraw = True
+59.0306 	DATA 	Keypress: m
+59.1425 	EXP 	New trial (rep=26, index=0): None
+59.1471 	DATA 	Keypress: n
+59.1552 	EXP 	text_4: autoDraw = False
+59.1552 	EXP 	text_4: autoDraw = False
+59.1552 	EXP 	fixn: autoDraw = True
+59.3554 	DATA 	Keypress: m
+59.3714 	EXP 	fixn: autoDraw = False
+59.3714 	EXP 	fixn: autoDraw = False
+59.3714 	EXP 	put_label: height = 0.05
+59.3714 	EXP 	put_label: height = 0.05
+59.3714 	EXP 	put_label: height = 0.05
+59.3714 	EXP 	put_label: text = 'sky'
+59.3714 	EXP 	put_shape: image = 'T.bmp'
+59.3714 	EXP 	text_2: autoDraw = True
+59.3714 	EXP 	put_label: autoDraw = True
+59.3714 	EXP 	put_shape: autoDraw = True
+59.4447 	DATA 	Keypress: n
+59.4550 	EXP 	text_2: autoDraw = False
+59.4550 	EXP 	put_label: autoDraw = False
+59.4550 	EXP 	put_shape: autoDraw = False
+59.4550 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+59.4550 	EXP 	text_4: text = 'WRONG!'
+59.4550 	EXP 	text_4: autoDraw = True
+59.6077 	DATA 	Keypress: m
+59.6920 	EXP 	New trial (rep=27, index=0): None
+59.7055 	EXP 	text_4: autoDraw = False
+59.7055 	EXP 	text_4: autoDraw = False
+59.7055 	EXP 	fixn: autoDraw = True
+59.7108 	DATA 	Keypress: n
+59.9047 	EXP 	fixn: autoDraw = False
+59.9047 	EXP 	fixn: autoDraw = False
+59.9047 	EXP 	put_label: text = 'sky'
+59.9047 	EXP 	put_shape: image = 'T.bmp'
+59.9047 	EXP 	text_2: autoDraw = True
+59.9047 	EXP 	put_label: autoDraw = True
+59.9047 	EXP 	put_shape: autoDraw = True
+59.9617 	DATA 	Keypress: m
+59.9708 	EXP 	text_2: autoDraw = False
+59.9708 	EXP 	put_label: autoDraw = False
+59.9708 	EXP 	put_shape: autoDraw = False
+59.9708 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+59.9708 	EXP 	text_4: height = 0.05
+59.9708 	EXP 	text_4: height = 0.05
+59.9708 	EXP 	text_4: height = 0.05
+59.9708 	EXP 	text_4: text = 'Correct'
+59.9708 	EXP 	text_4: autoDraw = True
+60.0235 	DATA 	Keypress: n
+60.2058 	EXP 	New trial (rep=28, index=0): None
+60.2205 	EXP 	text_4: autoDraw = False
+60.2205 	EXP 	text_4: autoDraw = False
+60.2205 	EXP 	fixn: autoDraw = True
+60.3073 	DATA 	Keypress: n
+60.4202 	EXP 	fixn: autoDraw = False
+60.4202 	EXP 	fixn: autoDraw = False
+60.4202 	EXP 	put_label: height = 0.05
+60.4202 	EXP 	put_label: height = 0.05
+60.4202 	EXP 	put_label: height = 0.05
+60.4202 	EXP 	put_label: text = 'air'
+60.4202 	EXP 	put_shape: image = 'C.bmp'
+60.4202 	EXP 	text_2: autoDraw = True
+60.4202 	EXP 	put_label: autoDraw = True
+60.4202 	EXP 	put_shape: autoDraw = True
+60.4918 	DATA 	Keypress: m
+60.5200 	EXP 	text_2: autoDraw = False
+60.5200 	EXP 	put_label: autoDraw = False
+60.5200 	EXP 	put_shape: autoDraw = False
+60.5200 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+60.5200 	EXP 	text_4: text = 'Correct'
+60.5200 	EXP 	text_4: autoDraw = True
+60.6559 	DATA 	Keypress: n
+60.7561 	EXP 	New trial (rep=29, index=0): None
+60.7699 	EXP 	text_4: autoDraw = False
+60.7699 	EXP 	text_4: autoDraw = False
+60.7699 	EXP 	fixn: autoDraw = True
+60.8082 	DATA 	Keypress: m
+60.9239 	DATA 	Keypress: n
+60.9695 	EXP 	fixn: autoDraw = False
+60.9695 	EXP 	fixn: autoDraw = False
+60.9695 	EXP 	put_label: height = 0.05
+60.9695 	EXP 	put_label: height = 0.05
+60.9695 	EXP 	put_label: height = 0.05
+60.9695 	EXP 	put_label: text = 'earth'
+60.9695 	EXP 	put_shape: image = 'S.bmp'
+60.9695 	EXP 	text_2: autoDraw = True
+60.9695 	EXP 	put_label: autoDraw = True
+60.9695 	EXP 	put_shape: autoDraw = True
+61.0914 	DATA 	Keypress: m
+61.1025 	EXP 	text_2: autoDraw = False
+61.1025 	EXP 	put_label: autoDraw = False
+61.1025 	EXP 	put_shape: autoDraw = False
+61.1025 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+61.1025 	EXP 	text_4: text = 'Correct'
+61.1025 	EXP 	text_4: autoDraw = True
+61.1724 	DATA 	Keypress: n
+61.3250 	DATA 	Keypress: m
+61.3537 	EXP 	text_4: autoDraw = False
+61.3537 	EXP 	text_4: autoDraw = False
+61.3537 	EXP 	text: autoDraw = True
+61.4403 	DATA 	Keypress: n
+61.6101 	DATA 	Keypress: m
+61.7062 	DATA 	Keypress: n
+62.1226 	EXP 	New trial (rep=1, index=0): None
+62.1250 	EXP 	Created sequence: sequential, trialTypes=1, nReps=30, seed=None
+62.1257 	EXP 	New trial (rep=0, index=0): None
+62.1312 	DATA 	Keypress: space
+62.1362 	EXP 	text: autoDraw = False
+62.1362 	EXP 	fixn: autoDraw = True
+62.3514 	EXP 	fixn: autoDraw = False
+62.3514 	EXP 	fixn: autoDraw = False
+62.3514 	EXP 	put_label: height = 0.05
+62.3514 	EXP 	put_label: height = 0.05
+62.3514 	EXP 	put_label: height = 0.05
+62.3514 	EXP 	put_label: text = 'air'
+62.3514 	EXP 	put_shape: image = 'C.bmp'
+62.3514 	EXP 	text_2: autoDraw = True
+62.3514 	EXP 	put_label: autoDraw = True
+62.3514 	EXP 	put_shape: autoDraw = True
+62.3682 	DATA 	Keypress: n
+62.3841 	EXP 	text_2: autoDraw = False
+62.3841 	EXP 	put_label: autoDraw = False
+62.3841 	EXP 	put_shape: autoDraw = False
+62.3841 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+62.3841 	EXP 	text_4: height = 0.05
+62.3841 	EXP 	text_4: height = 0.05
+62.3841 	EXP 	text_4: height = 0.05
+62.3841 	EXP 	text_4: text = 'WRONG!'
+62.3841 	EXP 	text_4: autoDraw = True
+62.4207 	DATA 	Keypress: m
+62.6213 	EXP 	New trial (rep=1, index=0): None
+62.6355 	EXP 	text_4: autoDraw = False
+62.6355 	EXP 	fixn: autoDraw = True
+62.6699 	DATA 	Keypress: n
+62.8515 	DATA 	Keypress: m
+62.8664 	EXP 	fixn: autoDraw = False
+62.8664 	EXP 	put_label: height = 0.05
+62.8664 	EXP 	put_label: height = 0.05
+62.8664 	EXP 	put_label: height = 0.05
+62.8664 	EXP 	put_label: text = 'earth'
+62.8664 	EXP 	put_shape: image = 'C.bmp'
+62.8664 	EXP 	text_2: autoDraw = True
+62.8664 	EXP 	put_label: autoDraw = True
+62.8664 	EXP 	put_shape: autoDraw = True
+62.9969 	DATA 	Keypress: n
+63.0004 	EXP 	text_2: autoDraw = False
+63.0004 	EXP 	put_label: autoDraw = False
+63.0004 	EXP 	put_shape: autoDraw = False
+63.0004 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+63.0004 	EXP 	text_4: height = 0.05
+63.0004 	EXP 	text_4: height = 0.05
+63.0004 	EXP 	text_4: height = 0.05
+63.0004 	EXP 	text_4: text = 'Correct'
+63.0004 	EXP 	text_4: autoDraw = True
+63.1549 	DATA 	Keypress: m
+63.2353 	EXP 	New trial (rep=2, index=0): None
+63.2501 	EXP 	text_4: autoDraw = False
+63.2501 	EXP 	text_4: autoDraw = False
+63.2501 	EXP 	fixn: autoDraw = True
+63.3036 	DATA 	Keypress: n
+63.4502 	EXP 	fixn: autoDraw = False
+63.4502 	EXP 	fixn: autoDraw = False
+63.4502 	EXP 	put_label: text = 'earth'
+63.4502 	EXP 	put_shape: image = 'C.bmp'
+63.4502 	EXP 	text_2: autoDraw = True
+63.4502 	EXP 	put_label: autoDraw = True
+63.4502 	EXP 	put_shape: autoDraw = True
+63.4894 	DATA 	Keypress: m
+63.4992 	EXP 	text_2: autoDraw = False
+63.4992 	EXP 	put_label: autoDraw = False
+63.4992 	EXP 	put_shape: autoDraw = False
+63.4992 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+63.4992 	EXP 	text_4: height = 0.05
+63.4992 	EXP 	text_4: height = 0.05
+63.4992 	EXP 	text_4: height = 0.05
+63.4992 	EXP 	text_4: text = 'WRONG!'
+63.4992 	EXP 	text_4: autoDraw = True
+63.5688 	DATA 	Keypress: n
+63.7352 	EXP 	New trial (rep=3, index=0): None
+63.7498 	EXP 	text_4: autoDraw = False
+63.7498 	EXP 	text_4: autoDraw = False
+63.7498 	EXP 	fixn: autoDraw = True
+63.8221 	DATA 	Keypress: n
+63.8226 	DATA 	Keypress: m
+63.9493 	EXP 	fixn: autoDraw = False
+63.9493 	EXP 	fixn: autoDraw = False
+63.9493 	EXP 	put_label: height = 0.05
+63.9493 	EXP 	put_label: height = 0.05
+63.9493 	EXP 	put_label: height = 0.05
+63.9493 	EXP 	put_label: text = 'air'
+63.9493 	EXP 	put_shape: image = 'T.bmp'
+63.9493 	EXP 	text_2: autoDraw = True
+63.9493 	EXP 	put_label: autoDraw = True
+63.9493 	EXP 	put_shape: autoDraw = True
+64.0186 	DATA 	Keypress: m
+64.0488 	EXP 	text_2: autoDraw = False
+64.0488 	EXP 	put_label: autoDraw = False
+64.0488 	EXP 	put_shape: autoDraw = False
+64.0488 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+64.0488 	EXP 	text_4: text = 'WRONG!'
+64.0488 	EXP 	text_4: autoDraw = True
+64.1215 	DATA 	Keypress: n
+64.2859 	EXP 	New trial (rep=4, index=0): None
+64.2912 	DATA 	Keypress: m
+64.2996 	EXP 	text_4: autoDraw = False
+64.2996 	EXP 	text_4: autoDraw = False
+64.2996 	EXP 	fixn: autoDraw = True
+64.4062 	DATA 	Keypress: n
+64.5154 	EXP 	fixn: autoDraw = False
+64.5154 	EXP 	put_label: height = 0.05
+64.5154 	EXP 	put_label: height = 0.05
+64.5154 	EXP 	put_label: height = 0.05
+64.5154 	EXP 	put_label: text = 'sky'
+64.5154 	EXP 	put_shape: image = 'C.bmp'
+64.5154 	EXP 	text_2: autoDraw = True
+64.5154 	EXP 	put_label: autoDraw = True
+64.5154 	EXP 	put_shape: autoDraw = True
+64.5703 	DATA 	Keypress: m
+64.5980 	EXP 	text_2: autoDraw = False
+64.5980 	EXP 	put_label: autoDraw = False
+64.5980 	EXP 	put_shape: autoDraw = False
+64.5980 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+64.5980 	EXP 	text_4: text = 'WRONG!'
+64.5980 	EXP 	text_4: autoDraw = True
+64.6509 	DATA 	Keypress: n
+64.8349 	EXP 	New trial (rep=5, index=0): None
+64.8486 	EXP 	text_4: autoDraw = False
+64.8486 	EXP 	text_4: autoDraw = False
+64.8486 	EXP 	fixn: autoDraw = True
+64.9225 	DATA 	Keypress: n
+65.0188 	DATA 	Keypress: m
+65.0475 	EXP 	fixn: autoDraw = False
+65.0475 	EXP 	fixn: autoDraw = False
+65.0475 	EXP 	put_label: height = 0.05
+65.0475 	EXP 	put_label: height = 0.05
+65.0475 	EXP 	put_label: height = 0.05
+65.0475 	EXP 	put_label: text = 'earth'
+65.0475 	EXP 	put_shape: image = 'T.bmp'
+65.0475 	EXP 	text_2: autoDraw = True
+65.0475 	EXP 	put_label: autoDraw = True
+65.0475 	EXP 	put_shape: autoDraw = True
+65.1762 	DATA 	Keypress: n
+65.1812 	EXP 	text_2: autoDraw = False
+65.1812 	EXP 	put_label: autoDraw = False
+65.1812 	EXP 	put_shape: autoDraw = False
+65.1812 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+65.1812 	EXP 	text_4: height = 0.05
+65.1812 	EXP 	text_4: height = 0.05
+65.1812 	EXP 	text_4: height = 0.05
+65.1812 	EXP 	text_4: text = 'Correct'
+65.1812 	EXP 	text_4: autoDraw = True
+65.3853 	DATA 	Keypress: n
+65.3858 	DATA 	Keypress: m
+65.4172 	EXP 	New trial (rep=6, index=0): None
+65.4311 	EXP 	text_4: autoDraw = False
+65.4311 	EXP 	text_4: autoDraw = False
+65.4311 	EXP 	fixn: autoDraw = True
+65.5711 	DATA 	Keypress: n
+65.6464 	EXP 	fixn: autoDraw = False
+65.6464 	EXP 	fixn: autoDraw = False
+65.6464 	EXP 	put_label: height = 0.05
+65.6464 	EXP 	put_label: height = 0.05
+65.6464 	EXP 	put_label: height = 0.05
+65.6464 	EXP 	put_label: text = 'air'
+65.6464 	EXP 	put_shape: image = 'T.bmp'
+65.6464 	EXP 	text_2: autoDraw = True
+65.6464 	EXP 	put_label: autoDraw = True
+65.6464 	EXP 	put_shape: autoDraw = True
+65.7398 	DATA 	Keypress: m
+65.7470 	EXP 	text_2: autoDraw = False
+65.7470 	EXP 	put_label: autoDraw = False
+65.7470 	EXP 	put_shape: autoDraw = False
+65.7470 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+65.7470 	EXP 	text_4: height = 0.05
+65.7470 	EXP 	text_4: height = 0.05
+65.7470 	EXP 	text_4: height = 0.05
+65.7470 	EXP 	text_4: text = 'WRONG!'
+65.7470 	EXP 	text_4: autoDraw = True
+65.8336 	DATA 	Keypress: n
+65.9829 	EXP 	New trial (rep=7, index=0): None
+65.9871 	DATA 	Keypress: m
+65.9973 	EXP 	text_4: autoDraw = False
+65.9973 	EXP 	text_4: autoDraw = False
+65.9973 	EXP 	fixn: autoDraw = True
+66.1339 	DATA 	Keypress: n
+66.2127 	EXP 	fixn: autoDraw = False
+66.2127 	EXP 	put_label: text = 'air'
+66.2127 	EXP 	put_shape: image = 'T.bmp'
+66.2127 	EXP 	text_2: autoDraw = True
+66.2127 	EXP 	put_label: autoDraw = True
+66.2127 	EXP 	put_shape: autoDraw = True
+66.2839 	DATA 	Keypress: m
+66.3123 	EXP 	text_2: autoDraw = False
+66.3123 	EXP 	put_label: autoDraw = False
+66.3123 	EXP 	put_shape: autoDraw = False
+66.3123 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+66.3123 	EXP 	text_4: text = 'WRONG!'
+66.3123 	EXP 	text_4: autoDraw = True
+66.3682 	DATA 	Keypress: n
+66.5479 	EXP 	New trial (rep=8, index=0): None
+66.5628 	EXP 	text_4: autoDraw = False
+66.5628 	EXP 	text_4: autoDraw = False
+66.5628 	EXP 	fixn: autoDraw = True
+66.5841 	DATA 	Keypress: m
+66.6007 	DATA 	Keypress: n
+66.7784 	EXP 	fixn: autoDraw = False
+66.7784 	EXP 	fixn: autoDraw = False
+66.7784 	EXP 	put_label: height = 0.05
+66.7784 	EXP 	put_label: height = 0.05
+66.7784 	EXP 	put_label: height = 0.05
+66.7784 	EXP 	put_label: text = 'earth'
+66.7784 	EXP 	put_shape: image = 'S.bmp'
+66.7784 	EXP 	text_2: autoDraw = True
+66.7784 	EXP 	put_label: autoDraw = True
+66.7784 	EXP 	put_shape: autoDraw = True
+66.8837 	DATA 	Keypress: n
+66.8944 	EXP 	text_2: autoDraw = False
+66.8944 	EXP 	put_label: autoDraw = False
+66.8944 	EXP 	put_shape: autoDraw = False
+66.8944 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+66.8944 	EXP 	text_4: text = 'WRONG!'
+66.8944 	EXP 	text_4: autoDraw = True
+67.0130 	DATA 	Keypress: m
+67.1314 	EXP 	New trial (rep=9, index=0): None
+67.1352 	DATA 	Keypress: n
+67.1446 	EXP 	text_4: autoDraw = False
+67.1446 	EXP 	text_4: autoDraw = False
+67.1446 	EXP 	fixn: autoDraw = True
+67.2980 	DATA 	Keypress: m
+67.3448 	EXP 	fixn: autoDraw = False
+67.3448 	EXP 	fixn: autoDraw = False
+67.3448 	EXP 	put_label: height = 0.05
+67.3448 	EXP 	put_label: height = 0.05
+67.3448 	EXP 	put_label: height = 0.05
+67.3448 	EXP 	put_label: text = 'sky'
+67.3448 	EXP 	put_shape: image = 'C.bmp'
+67.3448 	EXP 	text_2: autoDraw = True
+67.3448 	EXP 	put_label: autoDraw = True
+67.3448 	EXP 	put_shape: autoDraw = True
+67.4534 	DATA 	Keypress: n
+67.4774 	EXP 	text_2: autoDraw = False
+67.4774 	EXP 	put_label: autoDraw = False
+67.4774 	EXP 	put_shape: autoDraw = False
+67.4774 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+67.4774 	EXP 	text_4: height = 0.05
+67.4774 	EXP 	text_4: height = 0.05
+67.4774 	EXP 	text_4: height = 0.05
+67.4774 	EXP 	text_4: text = 'Correct'
+67.4774 	EXP 	text_4: autoDraw = True
+67.6348 	DATA 	Keypress: m
+67.7173 	EXP 	New trial (rep=10, index=0): None
+67.7243 	DATA 	Keypress: n
+67.7287 	EXP 	text_4: autoDraw = False
+67.7287 	EXP 	text_4: autoDraw = False
+67.7287 	EXP 	fixn: autoDraw = True
+67.9145 	DATA 	Keypress: m
+67.9455 	EXP 	fixn: autoDraw = False
+67.9455 	EXP 	put_label: text = 'sky'
+67.9455 	EXP 	put_shape: image = 'T.bmp'
+67.9455 	EXP 	text_2: autoDraw = True
+67.9455 	EXP 	put_label: autoDraw = True
+67.9455 	EXP 	put_shape: autoDraw = True
+68.0908 	DATA 	Keypress: n
+68.1097 	EXP 	text_2: autoDraw = False
+68.1097 	EXP 	put_label: autoDraw = False
+68.1097 	EXP 	put_shape: autoDraw = False
+68.1097 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+68.1097 	EXP 	text_4: height = 0.05
+68.1097 	EXP 	text_4: height = 0.05
+68.1097 	EXP 	text_4: height = 0.05
+68.1097 	EXP 	text_4: text = 'WRONG!'
+68.1097 	EXP 	text_4: autoDraw = True
+68.2456 	DATA 	Keypress: m
+68.3449 	EXP 	New trial (rep=11, index=0): None
+68.3601 	EXP 	text_4: autoDraw = False
+68.3601 	EXP 	fixn: autoDraw = True
+68.3971 	DATA 	Keypress: n
+68.5330 	DATA 	Keypress: m
+68.5593 	EXP 	fixn: autoDraw = False
+68.5593 	EXP 	fixn: autoDraw = False
+68.5593 	EXP 	put_label: height = 0.05
+68.5593 	EXP 	put_label: height = 0.05
+68.5593 	EXP 	put_label: height = 0.05
+68.5593 	EXP 	put_label: text = 'air'
+68.5593 	EXP 	put_shape: image = 'C.bmp'
+68.5593 	EXP 	text_2: autoDraw = True
+68.5593 	EXP 	put_label: autoDraw = True
+68.5593 	EXP 	put_shape: autoDraw = True
+68.6979 	DATA 	Keypress: n
+68.7264 	EXP 	text_2: autoDraw = False
+68.7264 	EXP 	put_label: autoDraw = False
+68.7264 	EXP 	put_shape: autoDraw = False
+68.7264 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+68.7264 	EXP 	text_4: text = 'WRONG!'
+68.7264 	EXP 	text_4: autoDraw = True
+68.8470 	DATA 	Keypress: m
+68.9480 	DATA 	Keypress: n
+68.9636 	EXP 	New trial (rep=12, index=0): None
+68.9764 	EXP 	text_4: autoDraw = False
+68.9764 	EXP 	text_4: autoDraw = False
+68.9764 	EXP 	fixn: autoDraw = True
+69.0826 	DATA 	Keypress: m
+69.1924 	EXP 	fixn: autoDraw = False
+69.1924 	EXP 	fixn: autoDraw = False
+69.1924 	EXP 	put_label: height = 0.05
+69.1924 	EXP 	put_label: height = 0.05
+69.1924 	EXP 	put_label: height = 0.05
+69.1924 	EXP 	put_label: text = 'earth'
+69.1924 	EXP 	put_shape: image = 'T.bmp'
+69.1924 	EXP 	text_2: autoDraw = True
+69.1924 	EXP 	put_label: autoDraw = True
+69.1924 	EXP 	put_shape: autoDraw = True
+69.2004 	DATA 	Keypress: n
+69.2255 	EXP 	text_2: autoDraw = False
+69.2255 	EXP 	put_label: autoDraw = False
+69.2255 	EXP 	put_shape: autoDraw = False
+69.2255 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+69.2255 	EXP 	text_4: height = 0.05
+69.2255 	EXP 	text_4: height = 0.05
+69.2255 	EXP 	text_4: height = 0.05
+69.2255 	EXP 	text_4: text = 'Correct'
+69.2255 	EXP 	text_4: autoDraw = True
+69.3625 	DATA 	Keypress: m
+69.4625 	EXP 	New trial (rep=13, index=0): None
+69.4756 	EXP 	text_4: autoDraw = False
+69.4756 	EXP 	text_4: autoDraw = False
+69.4756 	EXP 	fixn: autoDraw = True
+69.5829 	DATA 	Keypress: n
+69.6914 	EXP 	fixn: autoDraw = False
+69.6914 	EXP 	fixn: autoDraw = False
+69.6914 	EXP 	put_label: height = 0.05
+69.6914 	EXP 	put_label: height = 0.05
+69.6914 	EXP 	put_label: height = 0.05
+69.6914 	EXP 	put_label: text = 'air'
+69.6914 	EXP 	put_shape: image = 'T.bmp'
+69.6914 	EXP 	text_2: autoDraw = True
+69.6914 	EXP 	put_label: autoDraw = True
+69.6914 	EXP 	put_shape: autoDraw = True
+69.7616 	DATA 	Keypress: m
+69.7910 	EXP 	text_2: autoDraw = False
+69.7910 	EXP 	put_label: autoDraw = False
+69.7910 	EXP 	put_shape: autoDraw = False
+69.7910 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+69.7910 	EXP 	text_4: height = 0.05
+69.7910 	EXP 	text_4: height = 0.05
+69.7910 	EXP 	text_4: height = 0.05
+69.7910 	EXP 	text_4: text = 'WRONG!'
+69.7910 	EXP 	text_4: autoDraw = True
+69.8810 	DATA 	Keypress: n
+70.0308 	EXP 	New trial (rep=14, index=0): None
+70.0416 	EXP 	text_4: autoDraw = False
+70.0416 	EXP 	fixn: autoDraw = True
+70.0940 	DATA 	Keypress: m
+70.2413 	EXP 	fixn: autoDraw = False
+70.2413 	EXP 	fixn: autoDraw = False
+70.2413 	EXP 	put_label: text = 'air'
+70.2413 	EXP 	put_shape: image = 'C.bmp'
+70.2413 	EXP 	text_2: autoDraw = True
+70.2413 	EXP 	put_label: autoDraw = True
+70.2413 	EXP 	put_shape: autoDraw = True
+70.2485 	DATA 	Keypress: n
+70.4154 	DATA 	Keypress: m
+70.4239 	EXP 	text_2: autoDraw = False
+70.4239 	EXP 	put_label: autoDraw = False
+70.4239 	EXP 	put_shape: autoDraw = False
+70.4239 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+70.4239 	EXP 	text_4: height = 0.05
+70.4239 	EXP 	text_4: height = 0.05
+70.4239 	EXP 	text_4: height = 0.05
+70.4239 	EXP 	text_4: text = 'Correct'
+70.4239 	EXP 	text_4: autoDraw = True
+70.5118 	DATA 	Keypress: n
+70.6613 	EXP 	New trial (rep=15, index=0): None
+70.6736 	EXP 	text_4: autoDraw = False
+70.6736 	EXP 	text_4: autoDraw = False
+70.6736 	EXP 	fixn: autoDraw = True
+70.7277 	DATA 	Keypress: m
+70.8296 	DATA 	Keypress: n
+70.8735 	EXP 	fixn: autoDraw = False
+70.8735 	EXP 	fixn: autoDraw = False
+70.8735 	EXP 	put_label: height = 0.05
+70.8735 	EXP 	put_label: height = 0.05
+70.8735 	EXP 	put_label: height = 0.05
+70.8735 	EXP 	put_label: text = 'sky'
+70.8735 	EXP 	put_shape: image = 'T.bmp'
+70.8735 	EXP 	text_2: autoDraw = True
+70.8735 	EXP 	put_label: autoDraw = True
+70.8735 	EXP 	put_shape: autoDraw = True
+71.0485 	DATA 	Keypress: m
+71.0572 	EXP 	text_2: autoDraw = False
+71.0572 	EXP 	put_label: autoDraw = False
+71.0572 	EXP 	put_shape: autoDraw = False
+71.0572 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+71.0572 	EXP 	text_4: text = 'Correct'
+71.0572 	EXP 	text_4: autoDraw = True
+71.2085 	DATA 	Keypress: n
+71.3079 	EXP 	New trial (rep=16, index=0): None
+71.3225 	EXP 	text_4: autoDraw = False
+71.3225 	EXP 	fixn: autoDraw = True
+71.3966 	DATA 	Keypress: m
+71.4753 	DATA 	Keypress: n
+71.5227 	EXP 	fixn: autoDraw = False
+71.5227 	EXP 	fixn: autoDraw = False
+71.5227 	EXP 	put_label: height = 0.05
+71.5227 	EXP 	put_label: height = 0.05
+71.5227 	EXP 	put_label: height = 0.05
+71.5227 	EXP 	put_label: text = 'earth'
+71.5227 	EXP 	put_shape: image = 'S.bmp'
+71.5227 	EXP 	text_2: autoDraw = True
+71.5227 	EXP 	put_label: autoDraw = True
+71.5227 	EXP 	put_shape: autoDraw = True
+71.6632 	DATA 	Keypress: m
+71.6885 	EXP 	text_2: autoDraw = False
+71.6885 	EXP 	put_label: autoDraw = False
+71.6885 	EXP 	put_shape: autoDraw = False
+71.6885 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+71.6885 	EXP 	text_4: text = 'Correct'
+71.6885 	EXP 	text_4: autoDraw = True
+71.7946 	DATA 	Keypress: n
+71.9236 	EXP 	New trial (rep=17, index=0): None
+71.9388 	EXP 	text_4: autoDraw = False
+71.9388 	EXP 	text_4: autoDraw = False
+71.9388 	EXP 	fixn: autoDraw = True
+71.9959 	DATA 	Keypress: m
+72.1096 	DATA 	Keypress: n
+72.1382 	EXP 	fixn: autoDraw = False
+72.1382 	EXP 	fixn: autoDraw = False
+72.1382 	EXP 	put_label: height = 0.05
+72.1382 	EXP 	put_label: height = 0.05
+72.1382 	EXP 	put_label: height = 0.05
+72.1382 	EXP 	put_label: text = 'air'
+72.1382 	EXP 	put_shape: image = 'C.bmp'
+72.1382 	EXP 	text_2: autoDraw = True
+72.1382 	EXP 	put_label: autoDraw = True
+72.1382 	EXP 	put_shape: autoDraw = True
+72.3417 	DATA 	Keypress: m
+72.3541 	EXP 	text_2: autoDraw = False
+72.3541 	EXP 	put_label: autoDraw = False
+72.3541 	EXP 	put_shape: autoDraw = False
+72.3541 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+72.3541 	EXP 	text_4: text = 'Correct'
+72.3541 	EXP 	text_4: autoDraw = True
+72.4914 	DATA 	Keypress: n
+72.5912 	EXP 	New trial (rep=18, index=0): None
+72.6051 	EXP 	text_4: autoDraw = False
+72.6051 	EXP 	text_4: autoDraw = False
+72.6051 	EXP 	fixn: autoDraw = True
+72.6750 	DATA 	Keypress: m
+72.7579 	DATA 	Keypress: n
+72.8205 	EXP 	fixn: autoDraw = False
+72.8205 	EXP 	fixn: autoDraw = False
+72.8205 	EXP 	put_label: height = 0.05
+72.8205 	EXP 	put_label: height = 0.05
+72.8205 	EXP 	put_label: height = 0.05
+72.8205 	EXP 	put_label: text = 'earth'
+72.8205 	EXP 	put_shape: image = 'S.bmp'
+72.8205 	EXP 	text_2: autoDraw = True
+72.8205 	EXP 	put_label: autoDraw = True
+72.8205 	EXP 	put_shape: autoDraw = True
+72.9596 	DATA 	Keypress: m
+72.9704 	EXP 	text_2: autoDraw = False
+72.9704 	EXP 	put_label: autoDraw = False
+72.9704 	EXP 	put_shape: autoDraw = False
+72.9704 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+72.9704 	EXP 	text_4: text = 'Correct'
+72.9704 	EXP 	text_4: autoDraw = True
+73.0779 	DATA 	Keypress: n
+73.2069 	EXP 	New trial (rep=19, index=0): None
+73.2211 	EXP 	text_4: autoDraw = False
+73.2211 	EXP 	text_4: autoDraw = False
+73.2211 	EXP 	fixn: autoDraw = True
+73.2752 	DATA 	Keypress: m
+73.3928 	DATA 	Keypress: n
+73.4361 	EXP 	fixn: autoDraw = False
+73.4361 	EXP 	fixn: autoDraw = False
+73.4361 	EXP 	put_label: height = 0.05
+73.4361 	EXP 	put_label: height = 0.05
+73.4361 	EXP 	put_label: height = 0.05
+73.4361 	EXP 	put_label: text = 'sky'
+73.4361 	EXP 	put_shape: image = 'T.bmp'
+73.4361 	EXP 	text_2: autoDraw = True
+73.4361 	EXP 	put_label: autoDraw = True
+73.4361 	EXP 	put_shape: autoDraw = True
+73.5569 	DATA 	Keypress: m
+73.5694 	EXP 	text_2: autoDraw = False
+73.5694 	EXP 	put_label: autoDraw = False
+73.5694 	EXP 	put_shape: autoDraw = False
+73.5694 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+73.5694 	EXP 	text_4: text = 'Correct'
+73.5694 	EXP 	text_4: autoDraw = True
+73.6740 	DATA 	Keypress: n
+73.8066 	EXP 	New trial (rep=20, index=0): None
+73.8210 	EXP 	text_4: autoDraw = False
+73.8210 	EXP 	text_4: autoDraw = False
+73.8210 	EXP 	fixn: autoDraw = True
+73.8582 	DATA 	Keypress: m
+73.9411 	DATA 	Keypress: n
+74.0359 	EXP 	fixn: autoDraw = False
+74.0359 	EXP 	put_label: text = 'sky'
+74.0359 	EXP 	put_shape: image = 'S.bmp'
+74.0359 	EXP 	text_2: autoDraw = True
+74.0359 	EXP 	put_label: autoDraw = True
+74.0359 	EXP 	put_shape: autoDraw = True
+74.1477 	DATA 	Keypress: m
+74.1531 	EXP 	text_2: autoDraw = False
+74.1531 	EXP 	put_label: autoDraw = False
+74.1531 	EXP 	put_shape: autoDraw = False
+74.1531 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+74.1531 	EXP 	text_4: height = 0.05
+74.1531 	EXP 	text_4: height = 0.05
+74.1531 	EXP 	text_4: height = 0.05
+74.1531 	EXP 	text_4: text = 'WRONG!'
+74.1531 	EXP 	text_4: autoDraw = True
+74.2443 	DATA 	Keypress: n
+74.3884 	EXP 	New trial (rep=21, index=0): None
+74.4026 	EXP 	text_4: autoDraw = False
+74.4026 	EXP 	text_4: autoDraw = False
+74.4026 	EXP 	fixn: autoDraw = True
+74.5068 	DATA 	Keypress: n
+74.6181 	EXP 	fixn: autoDraw = False
+74.6181 	EXP 	fixn: autoDraw = False
+74.6181 	EXP 	put_label: height = 0.05
+74.6181 	EXP 	put_label: height = 0.05
+74.6181 	EXP 	put_label: height = 0.05
+74.6181 	EXP 	put_label: text = 'earth'
+74.6181 	EXP 	put_shape: image = 'S.bmp'
+74.6181 	EXP 	text_2: autoDraw = True
+74.6181 	EXP 	put_label: autoDraw = True
+74.6181 	EXP 	put_shape: autoDraw = True
+74.6580 	DATA 	Keypress: m
+74.6679 	EXP 	text_2: autoDraw = False
+74.6679 	EXP 	put_label: autoDraw = False
+74.6679 	EXP 	put_shape: autoDraw = False
+74.6679 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+74.6679 	EXP 	text_4: height = 0.05
+74.6679 	EXP 	text_4: height = 0.05
+74.6679 	EXP 	text_4: height = 0.05
+74.6679 	EXP 	text_4: text = 'Correct'
+74.6679 	EXP 	text_4: autoDraw = True
+74.7548 	DATA 	Keypress: n
+74.9039 	EXP 	New trial (rep=22, index=0): None
+74.9176 	EXP 	text_4: autoDraw = False
+74.9176 	EXP 	text_4: autoDraw = False
+74.9176 	EXP 	fixn: autoDraw = True
+74.9380 	DATA 	Keypress: m
+75.0736 	DATA 	Keypress: n
+75.1345 	EXP 	fixn: autoDraw = False
+75.1345 	EXP 	fixn: autoDraw = False
+75.1345 	EXP 	put_label: height = 0.05
+75.1345 	EXP 	put_label: height = 0.05
+75.1345 	EXP 	put_label: height = 0.05
+75.1345 	EXP 	put_label: text = 'sky'
+75.1345 	EXP 	put_shape: image = 'S.bmp'
+75.1345 	EXP 	text_2: autoDraw = True
+75.1345 	EXP 	put_label: autoDraw = True
+75.1345 	EXP 	put_shape: autoDraw = True
+75.2436 	DATA 	Keypress: m
+75.2509 	EXP 	text_2: autoDraw = False
+75.2509 	EXP 	put_label: autoDraw = False
+75.2509 	EXP 	put_shape: autoDraw = False
+75.2509 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+75.2509 	EXP 	text_4: height = 0.05
+75.2509 	EXP 	text_4: height = 0.05
+75.2509 	EXP 	text_4: height = 0.05
+75.2509 	EXP 	text_4: text = 'WRONG!'
+75.2509 	EXP 	text_4: autoDraw = True
+75.3745 	DATA 	Keypress: n
+75.4871 	EXP 	New trial (rep=23, index=0): None
+75.5005 	EXP 	text_4: autoDraw = False
+75.5005 	EXP 	text_4: autoDraw = False
+75.5005 	EXP 	fixn: autoDraw = True
+75.5536 	DATA 	Keypress: m
+75.6916 	DATA 	Keypress: n
+75.7002 	EXP 	fixn: autoDraw = False
+75.7002 	EXP 	fixn: autoDraw = False
+75.7002 	EXP 	put_label: text = 'sky'
+75.7002 	EXP 	put_shape: image = 'T.bmp'
+75.7002 	EXP 	text_2: autoDraw = True
+75.7002 	EXP 	put_label: autoDraw = True
+75.7002 	EXP 	put_shape: autoDraw = True
+75.8590 	DATA 	Keypress: m
+75.8834 	EXP 	text_2: autoDraw = False
+75.8834 	EXP 	put_label: autoDraw = False
+75.8834 	EXP 	put_shape: autoDraw = False
+75.8834 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+75.8834 	EXP 	text_4: height = 0.05
+75.8834 	EXP 	text_4: height = 0.05
+75.8834 	EXP 	text_4: height = 0.05
+75.8834 	EXP 	text_4: text = 'Correct'
+75.8834 	EXP 	text_4: autoDraw = True
+75.9851 	DATA 	Keypress: n
+76.1198 	EXP 	New trial (rep=24, index=0): None
+76.1258 	DATA 	Keypress: m
+76.1337 	EXP 	text_4: autoDraw = False
+76.1337 	EXP 	text_4: autoDraw = False
+76.1337 	EXP 	fixn: autoDraw = True
+76.2368 	DATA 	Keypress: n
+76.3489 	EXP 	fixn: autoDraw = False
+76.3489 	EXP 	put_label: height = 0.05
+76.3489 	EXP 	put_label: height = 0.05
+76.3489 	EXP 	put_label: height = 0.05
+76.3489 	EXP 	put_label: text = 'earth'
+76.3489 	EXP 	put_shape: image = 'T.bmp'
+76.3489 	EXP 	text_2: autoDraw = True
+76.3489 	EXP 	put_label: autoDraw = True
+76.3489 	EXP 	put_shape: autoDraw = True
+76.4383 	DATA 	Keypress: m
+76.4820 	EXP 	text_2: autoDraw = False
+76.4820 	EXP 	put_label: autoDraw = False
+76.4820 	EXP 	put_shape: autoDraw = False
+76.4820 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+76.4820 	EXP 	text_4: height = 0.05
+76.4820 	EXP 	text_4: height = 0.05
+76.4820 	EXP 	text_4: height = 0.05
+76.4820 	EXP 	text_4: text = 'WRONG!'
+76.4820 	EXP 	text_4: autoDraw = True
+76.6028 	DATA 	Keypress: n
+76.7175 	EXP 	New trial (rep=25, index=0): None
+76.7321 	EXP 	text_4: autoDraw = False
+76.7321 	EXP 	fixn: autoDraw = True
+76.8035 	DATA 	Keypress: m
+76.9488 	EXP 	fixn: autoDraw = False
+76.9488 	EXP 	fixn: autoDraw = False
+76.9488 	EXP 	put_label: height = 0.05
+76.9488 	EXP 	put_label: height = 0.05
+76.9488 	EXP 	put_label: height = 0.05
+76.9488 	EXP 	put_label: text = 'sky'
+76.9488 	EXP 	put_shape: image = 'T.bmp'
+76.9488 	EXP 	text_2: autoDraw = True
+76.9488 	EXP 	put_label: autoDraw = True
+76.9488 	EXP 	put_shape: autoDraw = True
+76.9564 	DATA 	Keypress: n
+77.0785 	DATA 	Keypress: m
+77.0987 	EXP 	text_2: autoDraw = False
+77.0987 	EXP 	put_label: autoDraw = False
+77.0987 	EXP 	put_shape: autoDraw = False
+77.0987 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+77.0987 	EXP 	text_4: height = 0.05
+77.0987 	EXP 	text_4: height = 0.05
+77.0987 	EXP 	text_4: height = 0.05
+77.0987 	EXP 	text_4: text = 'Correct'
+77.0987 	EXP 	text_4: autoDraw = True
+77.2024 	DATA 	Keypress: n
+77.3341 	EXP 	New trial (rep=26, index=0): None
+77.3486 	EXP 	text_4: autoDraw = False
+77.3486 	EXP 	text_4: autoDraw = False
+77.3486 	EXP 	fixn: autoDraw = True
+77.4210 	DATA 	Keypress: m
+77.5485 	EXP 	fixn: autoDraw = False
+77.5485 	EXP 	fixn: autoDraw = False
+77.5485 	EXP 	put_label: text = 'sky'
+77.5485 	EXP 	put_shape: image = 'C.bmp'
+77.5485 	EXP 	text_2: autoDraw = True
+77.5485 	EXP 	put_label: autoDraw = True
+77.5485 	EXP 	put_shape: autoDraw = True
+77.5873 	DATA 	Keypress: n
+77.6142 	EXP 	text_2: autoDraw = False
+77.6142 	EXP 	put_label: autoDraw = False
+77.6142 	EXP 	put_shape: autoDraw = False
+77.6142 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+77.6142 	EXP 	text_4: text = 'Correct'
+77.6142 	EXP 	text_4: autoDraw = True
+77.7898 	DATA 	Keypress: m
+77.8511 	EXP 	New trial (rep=27, index=0): None
+77.8557 	DATA 	Keypress: n
+77.8644 	EXP 	text_4: autoDraw = False
+77.8644 	EXP 	text_4: autoDraw = False
+77.8644 	EXP 	fixn: autoDraw = True
+78.0393 	DATA 	Keypress: m
+78.0800 	EXP 	fixn: autoDraw = False
+78.0800 	EXP 	fixn: autoDraw = False
+78.0800 	EXP 	put_label: height = 0.05
+78.0800 	EXP 	put_label: height = 0.05
+78.0800 	EXP 	put_label: height = 0.05
+78.0800 	EXP 	put_label: text = 'air'
+78.0800 	EXP 	put_shape: image = 'C.bmp'
+78.0800 	EXP 	text_2: autoDraw = True
+78.0800 	EXP 	put_label: autoDraw = True
+78.0800 	EXP 	put_shape: autoDraw = True
+78.1893 	DATA 	Keypress: n
+78.1971 	EXP 	text_2: autoDraw = False
+78.1971 	EXP 	put_label: autoDraw = False
+78.1971 	EXP 	put_shape: autoDraw = False
+78.1971 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+78.1971 	EXP 	text_4: height = 0.05
+78.1971 	EXP 	text_4: height = 0.05
+78.1971 	EXP 	text_4: height = 0.05
+78.1971 	EXP 	text_4: text = 'WRONG!'
+78.1971 	EXP 	text_4: autoDraw = True
+78.3528 	DATA 	Keypress: m
+78.4331 	EXP 	New trial (rep=28, index=0): None
+78.4473 	EXP 	text_4: autoDraw = False
+78.4473 	EXP 	text_4: autoDraw = False
+78.4473 	EXP 	fixn: autoDraw = True
+78.5039 	DATA 	Keypress: n
+78.6464 	EXP 	fixn: autoDraw = False
+78.6464 	EXP 	fixn: autoDraw = False
+78.6464 	EXP 	put_label: height = 0.05
+78.6464 	EXP 	put_label: height = 0.05
+78.6464 	EXP 	put_label: height = 0.05
+78.6464 	EXP 	put_label: text = 'earth'
+78.6464 	EXP 	put_shape: image = 'S.bmp'
+78.6464 	EXP 	text_2: autoDraw = True
+78.6464 	EXP 	put_label: autoDraw = True
+78.6464 	EXP 	put_shape: autoDraw = True
+78.7550 	DATA 	Keypress: m
+78.7625 	EXP 	text_2: autoDraw = False
+78.7625 	EXP 	put_label: autoDraw = False
+78.7625 	EXP 	put_shape: autoDraw = False
+78.7625 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+78.7625 	EXP 	text_4: height = 0.05
+78.7625 	EXP 	text_4: height = 0.05
+78.7625 	EXP 	text_4: height = 0.05
+78.7625 	EXP 	text_4: text = 'Correct'
+78.7625 	EXP 	text_4: autoDraw = True
+78.8663 	DATA 	Keypress: n
+78.9995 	EXP 	New trial (rep=29, index=0): None
+79.0133 	EXP 	text_4: autoDraw = False
+79.0133 	EXP 	text_4: autoDraw = False
+79.0133 	EXP 	fixn: autoDraw = True
+79.1154 	DATA 	Keypress: n
+79.2135 	EXP 	fixn: autoDraw = False
+79.2135 	EXP 	fixn: autoDraw = False
+79.2135 	EXP 	put_label: text = 'earth'
+79.2135 	EXP 	put_shape: image = 'T.bmp'
+79.2135 	EXP 	text_2: autoDraw = True
+79.2135 	EXP 	put_label: autoDraw = True
+79.2135 	EXP 	put_shape: autoDraw = True
+79.3379 	DATA 	Keypress: m
+79.3455 	EXP 	text_2: autoDraw = False
+79.3455 	EXP 	put_label: autoDraw = False
+79.3455 	EXP 	put_shape: autoDraw = False
+79.3455 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+79.3455 	EXP 	text_4: height = 0.05
+79.3455 	EXP 	text_4: height = 0.05
+79.3455 	EXP 	text_4: height = 0.05
+79.3455 	EXP 	text_4: text = 'WRONG!'
+79.3455 	EXP 	text_4: autoDraw = True
+79.4988 	DATA 	Keypress: n
+79.5826 	EXP 	New trial (rep=2, index=0): None
+79.6279 	EXP 	text_4: autoDraw = False
+79.6279 	EXP 	text_4: autoDraw = False
+79.6279 	EXP 	text: autoDraw = False
+79.6279 	EXP 	match1label: height = 0.05
+79.6279 	EXP 	match1label: height = 0.05
+79.6279 	EXP 	match1label: height = 0.05
+79.6279 	EXP 	match1label: text = 'neutral'
+79.6279 	EXP 	match2label: height = 0.05
+79.6279 	EXP 	match2label: height = 0.05
+79.6279 	EXP 	match2label: height = 0.05
+79.6279 	EXP 	match2label: text = 'happy'
+79.6279 	EXP 	match3label: height = 0.05
+79.6279 	EXP 	match3label: height = 0.05
+79.6279 	EXP 	match3label: height = 0.05
+79.6279 	EXP 	match3label: text = 'sad'
+79.6279 	EXP 	match1shape: image = 'R.bmp'
+79.6279 	EXP 	match2shape: image = 'H.bmp'
+79.6279 	EXP 	match3shape: image = 'X.bmp'
+79.6279 	EXP 	instructions: autoDraw = True
+79.6279 	EXP 	match1label: autoDraw = True
+79.6279 	EXP 	match2label: autoDraw = True
+79.6279 	EXP 	match3label: autoDraw = True
+79.6279 	EXP 	match1shape: autoDraw = True
+79.6279 	EXP 	match2shape: autoDraw = True
+79.6279 	EXP 	match3shape: autoDraw = True
+79.6532 	DATA 	Keypress: m
+79.7516 	DATA 	Keypress: n
+79.9154 	DATA 	Keypress: m
+80.2850 	DATA 	Keypress: n
+80.5519 	DATA 	Keypress: space
+80.5634 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+80.5637 	EXP 	New trial (rep=0, index=0): None
+80.5653 	EXP 	Created sequence: sequential, trialTypes=1, nReps=30, seed=None
+80.5658 	EXP 	New trial (rep=0, index=0): None
+80.5780 	EXP 	instructions: autoDraw = False
+80.5780 	EXP 	match1label: autoDraw = False
+80.5780 	EXP 	match2label: autoDraw = False
+80.5780 	EXP 	match3label: autoDraw = False
+80.5780 	EXP 	match1shape: autoDraw = False
+80.5780 	EXP 	match2shape: autoDraw = False
+80.5780 	EXP 	match3shape: autoDraw = False
+80.5780 	EXP 	fixn: autoDraw = True
+80.7768 	EXP 	fixn: autoDraw = False
+80.7768 	EXP 	fixn: autoDraw = False
+80.7768 	EXP 	put_label: height = 0.05
+80.7768 	EXP 	put_label: height = 0.05
+80.7768 	EXP 	put_label: height = 0.05
+80.7768 	EXP 	put_label: text = 'sad'
+80.7768 	EXP 	put_shape: image = 'H.bmp'
+80.7768 	EXP 	text_2: autoDraw = True
+80.7768 	EXP 	put_label: autoDraw = True
+80.7768 	EXP 	put_shape: autoDraw = True
+80.7980 	DATA 	Keypress: n
+80.8270 	EXP 	text_2: autoDraw = False
+80.8270 	EXP 	put_label: autoDraw = False
+80.8270 	EXP 	put_shape: autoDraw = False
+80.8270 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+80.8270 	EXP 	text_4: height = 0.05
+80.8270 	EXP 	text_4: height = 0.05
+80.8270 	EXP 	text_4: height = 0.05
+80.8270 	EXP 	text_4: text = 'Correct'
+80.8270 	EXP 	text_4: autoDraw = True
+80.9340 	DATA 	Keypress: m
+81.0631 	EXP 	New trial (rep=1, index=0): None
+81.0774 	EXP 	text_4: autoDraw = False
+81.0774 	EXP 	text_4: autoDraw = False
+81.0774 	EXP 	fixn: autoDraw = True
+81.0979 	DATA 	Keypress: n
+81.2920 	EXP 	fixn: autoDraw = False
+81.2920 	EXP 	fixn: autoDraw = False
+81.2920 	EXP 	put_label: height = 0.05
+81.2920 	EXP 	put_label: height = 0.05
+81.2920 	EXP 	put_label: height = 0.05
+81.2920 	EXP 	put_label: text = 'happy'
+81.2920 	EXP 	put_shape: image = 'H.bmp'
+81.2920 	EXP 	text_2: autoDraw = True
+81.2920 	EXP 	put_label: autoDraw = True
+81.2920 	EXP 	put_shape: autoDraw = True
+81.3131 	DATA 	Keypress: n
+81.3423 	EXP 	text_2: autoDraw = False
+81.3423 	EXP 	put_label: autoDraw = False
+81.3423 	EXP 	put_shape: autoDraw = False
+81.3423 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+81.3423 	EXP 	text_4: height = 0.05
+81.3423 	EXP 	text_4: height = 0.05
+81.3423 	EXP 	text_4: height = 0.05
+81.3423 	EXP 	text_4: text = 'WRONG!'
+81.3423 	EXP 	text_4: autoDraw = True
+81.4127 	DATA 	Keypress: m
+81.5791 	EXP 	New trial (rep=2, index=0): None
+81.5836 	DATA 	Keypress: n
+81.5927 	EXP 	text_4: autoDraw = False
+81.5927 	EXP 	text_4: autoDraw = False
+81.5927 	EXP 	fixn: autoDraw = True
+81.7630 	DATA 	Keypress: m
+81.7931 	EXP 	fixn: autoDraw = False
+81.7931 	EXP 	fixn: autoDraw = False
+81.7931 	EXP 	put_label: text = 'happy'
+81.7931 	EXP 	put_shape: image = 'H.bmp'
+81.7931 	EXP 	text_2: autoDraw = True
+81.7931 	EXP 	put_label: autoDraw = True
+81.7931 	EXP 	put_shape: autoDraw = True
+81.8013 	DATA 	Keypress: n
+81.8256 	EXP 	text_2: autoDraw = False
+81.8256 	EXP 	put_label: autoDraw = False
+81.8256 	EXP 	put_shape: autoDraw = False
+81.8256 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+81.8256 	EXP 	text_4: text = 'WRONG!'
+81.8256 	EXP 	text_4: autoDraw = True
+81.9488 	DATA 	Keypress: m
+82.0477 	DATA 	Keypress: n
+82.0613 	EXP 	New trial (rep=3, index=0): None
+82.0751 	EXP 	text_4: autoDraw = False
+82.0751 	EXP 	text_4: autoDraw = False
+82.0751 	EXP 	fixn: autoDraw = True
+82.2142 	DATA 	Keypress: m
+82.2908 	EXP 	fixn: autoDraw = False
+82.2908 	EXP 	fixn: autoDraw = False
+82.2908 	EXP 	put_label: height = 0.05
+82.2908 	EXP 	put_label: height = 0.05
+82.2908 	EXP 	put_label: height = 0.05
+82.2908 	EXP 	put_label: text = 'sad'
+82.2908 	EXP 	put_shape: image = 'X.bmp'
+82.2908 	EXP 	text_2: autoDraw = True
+82.2908 	EXP 	put_label: autoDraw = True
+82.2908 	EXP 	put_shape: autoDraw = True
+82.3639 	DATA 	Keypress: n
+82.3750 	EXP 	text_2: autoDraw = False
+82.3750 	EXP 	put_label: autoDraw = False
+82.3750 	EXP 	put_shape: autoDraw = False
+82.3750 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+82.3750 	EXP 	text_4: text = 'WRONG!'
+82.3750 	EXP 	text_4: autoDraw = True
+82.5655 	DATA 	Keypress: m
+82.6122 	EXP 	New trial (rep=4, index=0): None
+82.6258 	EXP 	text_4: autoDraw = False
+82.6258 	EXP 	text_4: autoDraw = False
+82.6258 	EXP 	fixn: autoDraw = True
+82.6800 	DATA 	Keypress: n
+82.8392 	DATA 	Keypress: m
+82.8570 	EXP 	fixn: autoDraw = False
+82.8570 	EXP 	put_label: height = 0.05
+82.8570 	EXP 	put_label: height = 0.05
+82.8570 	EXP 	put_label: height = 0.05
+82.8570 	EXP 	put_label: text = 'neutral'
+82.8570 	EXP 	put_shape: image = 'R.bmp'
+82.8570 	EXP 	text_2: autoDraw = True
+82.8570 	EXP 	put_label: autoDraw = True
+82.8570 	EXP 	put_shape: autoDraw = True
+82.9498 	DATA 	Keypress: n
+82.9737 	EXP 	text_2: autoDraw = False
+82.9737 	EXP 	put_label: autoDraw = False
+82.9737 	EXP 	put_shape: autoDraw = False
+82.9737 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+82.9737 	EXP 	text_4: text = 'WRONG!'
+82.9737 	EXP 	text_4: autoDraw = True
+83.2094 	EXP 	New trial (rep=5, index=0): None
+83.2236 	EXP 	text_4: autoDraw = False
+83.2236 	EXP 	text_4: autoDraw = False
+83.2236 	EXP 	fixn: autoDraw = True
+83.2268 	DATA 	Keypress: n
+83.2271 	DATA 	Keypress: m
+83.4200 	DATA 	Keypress: m
+83.4237 	EXP 	fixn: autoDraw = False
+83.4237 	EXP 	fixn: autoDraw = False
+83.4237 	EXP 	put_label: height = 0.05
+83.4237 	EXP 	put_label: height = 0.05
+83.4237 	EXP 	put_label: height = 0.05
+83.4237 	EXP 	put_label: text = 'happy'
+83.4237 	EXP 	put_shape: image = 'H.bmp'
+83.4237 	EXP 	text_2: autoDraw = True
+83.4237 	EXP 	put_label: autoDraw = True
+83.4237 	EXP 	put_shape: autoDraw = True
+83.5292 	DATA 	Keypress: n
+83.5397 	EXP 	text_2: autoDraw = False
+83.5397 	EXP 	put_label: autoDraw = False
+83.5397 	EXP 	put_shape: autoDraw = False
+83.5397 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+83.5397 	EXP 	text_4: text = 'WRONG!'
+83.5397 	EXP 	text_4: autoDraw = True
+83.6958 	DATA 	Keypress: m
+83.7770 	EXP 	New trial (rep=6, index=0): None
+83.7815 	DATA 	Keypress: n
+83.7899 	EXP 	text_4: autoDraw = False
+83.7899 	EXP 	text_4: autoDraw = False
+83.7899 	EXP 	fixn: autoDraw = True
+83.9271 	DATA 	Keypress: m
+83.9897 	EXP 	fixn: autoDraw = False
+83.9897 	EXP 	fixn: autoDraw = False
+83.9897 	EXP 	put_label: height = 0.05
+83.9897 	EXP 	put_label: height = 0.05
+83.9897 	EXP 	put_label: height = 0.05
+83.9897 	EXP 	put_label: text = 'sad'
+83.9897 	EXP 	put_shape: image = 'X.bmp'
+83.9897 	EXP 	text_2: autoDraw = True
+83.9897 	EXP 	put_label: autoDraw = True
+83.9897 	EXP 	put_shape: autoDraw = True
+84.0316 	DATA 	Keypress: n
+84.0399 	EXP 	text_2: autoDraw = False
+84.0399 	EXP 	put_label: autoDraw = False
+84.0399 	EXP 	put_shape: autoDraw = False
+84.0399 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+84.0399 	EXP 	text_4: text = 'WRONG!'
+84.0399 	EXP 	text_4: autoDraw = True
+84.1797 	DATA 	Keypress: m
+84.2909 	EXP 	New trial (rep=7, index=0): None
+84.3061 	EXP 	text_4: autoDraw = False
+84.3061 	EXP 	fixn: autoDraw = True
+84.3095 	DATA 	Keypress: n
+84.5053 	EXP 	fixn: autoDraw = False
+84.5053 	EXP 	fixn: autoDraw = False
+84.5053 	EXP 	put_label: text = 'sad'
+84.5053 	EXP 	put_shape: image = 'R.bmp'
+84.5053 	EXP 	text_2: autoDraw = True
+84.5053 	EXP 	put_label: autoDraw = True
+84.5053 	EXP 	put_shape: autoDraw = True
+84.5593 	DATA 	Keypress: n
+84.5884 	EXP 	text_2: autoDraw = False
+84.5884 	EXP 	put_label: autoDraw = False
+84.5884 	EXP 	put_shape: autoDraw = False
+84.5884 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+84.5884 	EXP 	text_4: height = 0.05
+84.5884 	EXP 	text_4: height = 0.05
+84.5884 	EXP 	text_4: height = 0.05
+84.5884 	EXP 	text_4: text = 'Correct'
+84.5884 	EXP 	text_4: autoDraw = True
+84.6771 	DATA 	Keypress: m
+84.8254 	EXP 	New trial (rep=8, index=0): None
+84.8299 	DATA 	Keypress: n
+84.8391 	EXP 	text_4: autoDraw = False
+84.8391 	EXP 	text_4: autoDraw = False
+84.8391 	EXP 	fixn: autoDraw = True
+85.0543 	EXP 	fixn: autoDraw = False
+85.0543 	EXP 	fixn: autoDraw = False
+85.0543 	EXP 	put_label: height = 0.05
+85.0543 	EXP 	put_label: height = 0.05
+85.0543 	EXP 	put_label: height = 0.05
+85.0543 	EXP 	put_label: text = 'happy'
+85.0543 	EXP 	put_shape: image = 'X.bmp'
+85.0543 	EXP 	text_2: autoDraw = True
+85.0543 	EXP 	put_label: autoDraw = True
+85.0543 	EXP 	put_shape: autoDraw = True
+85.0603 	DATA 	Keypress: n
+85.1954 	DATA 	Keypress: m
+85.2209 	EXP 	text_2: autoDraw = False
+85.2209 	EXP 	put_label: autoDraw = False
+85.2209 	EXP 	put_shape: autoDraw = False
+85.2209 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+85.2209 	EXP 	text_4: height = 0.05
+85.2209 	EXP 	text_4: height = 0.05
+85.2209 	EXP 	text_4: height = 0.05
+85.2209 	EXP 	text_4: text = 'WRONG!'
+85.2209 	EXP 	text_4: autoDraw = True
+85.3606 	DATA 	Keypress: n
+85.4571 	EXP 	New trial (rep=9, index=0): None
+85.4713 	EXP 	text_4: autoDraw = False
+85.4713 	EXP 	text_4: autoDraw = False
+85.4713 	EXP 	fixn: autoDraw = True
+85.5434 	DATA 	Keypress: n
+85.6626 	DATA 	Keypress: m
+85.6712 	EXP 	fixn: autoDraw = False
+85.6712 	EXP 	fixn: autoDraw = False
+85.6712 	EXP 	put_label: text = 'happy'
+85.6712 	EXP 	put_shape: image = 'R.bmp'
+85.6712 	EXP 	text_2: autoDraw = True
+85.6712 	EXP 	put_label: autoDraw = True
+85.6712 	EXP 	put_shape: autoDraw = True
+85.8445 	DATA 	Keypress: n
+85.8532 	EXP 	text_2: autoDraw = False
+85.8532 	EXP 	put_label: autoDraw = False
+85.8532 	EXP 	put_shape: autoDraw = False
+85.8532 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+85.8532 	EXP 	text_4: height = 0.05
+85.8532 	EXP 	text_4: height = 0.05
+85.8532 	EXP 	text_4: height = 0.05
+85.8532 	EXP 	text_4: text = 'Correct'
+85.8532 	EXP 	text_4: autoDraw = True
+86.0237 	DATA 	Keypress: n
+86.0933 	EXP 	New trial (rep=10, index=0): None
+86.1040 	EXP 	text_4: autoDraw = False
+86.1040 	EXP 	text_4: autoDraw = False
+86.1040 	EXP 	fixn: autoDraw = True
+86.2068 	DATA 	Keypress: m
+86.3199 	EXP 	fixn: autoDraw = False
+86.3199 	EXP 	put_label: height = 0.05
+86.3199 	EXP 	put_label: height = 0.05
+86.3199 	EXP 	put_label: height = 0.05
+86.3199 	EXP 	put_label: text = 'sad'
+86.3199 	EXP 	put_shape: image = 'X.bmp'
+86.3199 	EXP 	text_2: autoDraw = True
+86.3199 	EXP 	put_label: autoDraw = True
+86.3199 	EXP 	put_shape: autoDraw = True
+86.3754 	DATA 	Keypress: n
+86.4200 	EXP 	text_2: autoDraw = False
+86.4200 	EXP 	put_label: autoDraw = False
+86.4200 	EXP 	put_shape: autoDraw = False
+86.4200 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+86.4200 	EXP 	text_4: height = 0.05
+86.4200 	EXP 	text_4: height = 0.05
+86.4200 	EXP 	text_4: height = 0.05
+86.4200 	EXP 	text_4: text = 'WRONG!'
+86.4200 	EXP 	text_4: autoDraw = True
+86.5574 	DATA 	Keypress: m
+86.6548 	EXP 	New trial (rep=11, index=0): None
+86.6693 	EXP 	text_4: autoDraw = False
+86.6693 	EXP 	fixn: autoDraw = True
+86.6729 	DATA 	Keypress: n
+86.8856 	EXP 	fixn: autoDraw = False
+86.8856 	EXP 	fixn: autoDraw = False
+86.8856 	EXP 	put_label: height = 0.05
+86.8856 	EXP 	put_label: height = 0.05
+86.8856 	EXP 	put_label: height = 0.05
+86.8856 	EXP 	put_label: text = 'neutral'
+86.8856 	EXP 	put_shape: image = 'X.bmp'
+86.8856 	EXP 	text_2: autoDraw = True
+86.8856 	EXP 	put_label: autoDraw = True
+86.8856 	EXP 	put_shape: autoDraw = True
+86.8932 	DATA 	Keypress: m
+86.9191 	EXP 	text_2: autoDraw = False
+86.9191 	EXP 	put_label: autoDraw = False
+86.9191 	EXP 	put_shape: autoDraw = False
+86.9191 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+86.9191 	EXP 	text_4: text = 'WRONG!'
+86.9191 	EXP 	text_4: autoDraw = True
+87.0413 	DATA 	Keypress: n
+87.1543 	EXP 	New trial (rep=12, index=0): None
+87.1686 	EXP 	text_4: autoDraw = False
+87.1686 	EXP 	text_4: autoDraw = False
+87.1686 	EXP 	fixn: autoDraw = True
+87.1884 	DATA 	Keypress: m
+87.3611 	DATA 	Keypress: n
+87.3682 	EXP 	fixn: autoDraw = False
+87.3682 	EXP 	fixn: autoDraw = False
+87.3682 	EXP 	put_label: height = 0.05
+87.3682 	EXP 	put_label: height = 0.05
+87.3682 	EXP 	put_label: height = 0.05
+87.3682 	EXP 	put_label: text = 'happy'
+87.3682 	EXP 	put_shape: image = 'X.bmp'
+87.3682 	EXP 	text_2: autoDraw = True
+87.3682 	EXP 	put_label: autoDraw = True
+87.3682 	EXP 	put_shape: autoDraw = True
+87.5058 	DATA 	Keypress: m
+87.5347 	EXP 	text_2: autoDraw = False
+87.5347 	EXP 	put_label: autoDraw = False
+87.5347 	EXP 	put_shape: autoDraw = False
+87.5347 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+87.5347 	EXP 	text_4: text = 'WRONG!'
+87.5347 	EXP 	text_4: autoDraw = True
+87.6087 	DATA 	Keypress: n
+87.7704 	EXP 	New trial (rep=13, index=0): None
+87.7854 	EXP 	text_4: autoDraw = False
+87.7854 	EXP 	text_4: autoDraw = False
+87.7854 	EXP 	fixn: autoDraw = True
+87.8726 	DATA 	Keypress: n
+88.0001 	EXP 	fixn: autoDraw = False
+88.0001 	EXP 	fixn: autoDraw = False
+88.0001 	EXP 	put_label: height = 0.05
+88.0001 	EXP 	put_label: height = 0.05
+88.0001 	EXP 	put_label: height = 0.05
+88.0001 	EXP 	put_label: text = 'neutral'
+88.0001 	EXP 	put_shape: image = 'R.bmp'
+88.0001 	EXP 	text_2: autoDraw = True
+88.0001 	EXP 	put_label: autoDraw = True
+88.0001 	EXP 	put_shape: autoDraw = True
+88.0218 	DATA 	Keypress: m
+88.0508 	EXP 	text_2: autoDraw = False
+88.0508 	EXP 	put_label: autoDraw = False
+88.0508 	EXP 	put_shape: autoDraw = False
+88.0508 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+88.0508 	EXP 	text_4: height = 0.05
+88.0508 	EXP 	text_4: height = 0.05
+88.0508 	EXP 	text_4: height = 0.05
+88.0508 	EXP 	text_4: text = 'Correct'
+88.0508 	EXP 	text_4: autoDraw = True
+88.2383 	DATA 	Keypress: n
+88.2868 	EXP 	New trial (rep=14, index=0): None
+88.3005 	EXP 	text_4: autoDraw = False
+88.3005 	EXP 	text_4: autoDraw = False
+88.3005 	EXP 	fixn: autoDraw = True
+88.4978 	DATA 	Keypress: n
+88.5168 	EXP 	fixn: autoDraw = False
+88.5168 	EXP 	fixn: autoDraw = False
+88.5168 	EXP 	put_label: height = 0.05
+88.5168 	EXP 	put_label: height = 0.05
+88.5168 	EXP 	put_label: height = 0.05
+88.5168 	EXP 	put_label: text = 'happy'
+88.5168 	EXP 	put_shape: image = 'R.bmp'
+88.5168 	EXP 	text_2: autoDraw = True
+88.5168 	EXP 	put_label: autoDraw = True
+88.5168 	EXP 	put_shape: autoDraw = True
+88.6375 	DATA 	Keypress: m
+88.6669 	EXP 	text_2: autoDraw = False
+88.6669 	EXP 	put_label: autoDraw = False
+88.6669 	EXP 	put_shape: autoDraw = False
+88.6669 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+88.6669 	EXP 	text_4: height = 0.05
+88.6669 	EXP 	text_4: height = 0.05
+88.6669 	EXP 	text_4: height = 0.05
+88.6669 	EXP 	text_4: text = 'WRONG!'
+88.6669 	EXP 	text_4: autoDraw = True
+88.8057 	DATA 	Keypress: n
+88.9068 	EXP 	New trial (rep=15, index=0): None
+88.9178 	EXP 	text_4: autoDraw = False
+88.9178 	EXP 	text_4: autoDraw = False
+88.9178 	EXP 	fixn: autoDraw = True
+89.0208 	DATA 	Keypress: n
+89.1343 	EXP 	fixn: autoDraw = False
+89.1343 	EXP 	put_label: text = 'happy'
+89.1343 	EXP 	put_shape: image = 'X.bmp'
+89.1343 	EXP 	text_2: autoDraw = True
+89.1343 	EXP 	put_label: autoDraw = True
+89.1343 	EXP 	put_shape: autoDraw = True
+89.2208 	DATA 	Keypress: m
+89.2323 	EXP 	text_2: autoDraw = False
+89.2323 	EXP 	put_label: autoDraw = False
+89.2323 	EXP 	put_shape: autoDraw = False
+89.2323 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+89.2323 	EXP 	text_4: text = 'WRONG!'
+89.2323 	EXP 	text_4: autoDraw = True
+89.4702 	EXP 	New trial (rep=16, index=0): None
+89.4826 	EXP 	text_4: autoDraw = False
+89.4826 	EXP 	text_4: autoDraw = False
+89.4826 	EXP 	fixn: autoDraw = True
+89.4871 	DATA 	Keypress: n
+89.6395 	DATA 	Keypress: n
+89.6981 	EXP 	fixn: autoDraw = False
+89.6981 	EXP 	fixn: autoDraw = False
+89.6981 	EXP 	put_label: height = 0.05
+89.6981 	EXP 	put_label: height = 0.05
+89.6981 	EXP 	put_label: height = 0.05
+89.6981 	EXP 	put_label: text = 'sad'
+89.6981 	EXP 	put_shape: image = 'R.bmp'
+89.6981 	EXP 	text_2: autoDraw = True
+89.6981 	EXP 	put_label: autoDraw = True
+89.6981 	EXP 	put_shape: autoDraw = True
+89.8198 	DATA 	Keypress: m
+89.8316 	EXP 	text_2: autoDraw = False
+89.8316 	EXP 	put_label: autoDraw = False
+89.8316 	EXP 	put_shape: autoDraw = False
+89.8316 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+89.8316 	EXP 	text_4: text = 'WRONG!'
+89.8316 	EXP 	text_4: autoDraw = True
+89.9721 	DATA 	Keypress: n
+90.0682 	EXP 	New trial (rep=17, index=0): None
+90.0809 	EXP 	text_4: autoDraw = False
+90.0809 	EXP 	text_4: autoDraw = False
+90.0809 	EXP 	fixn: autoDraw = True
+90.1708 	DATA 	Keypress: n
+90.2974 	EXP 	fixn: autoDraw = False
+90.2974 	EXP 	fixn: autoDraw = False
+90.2974 	EXP 	put_label: height = 0.05
+90.2974 	EXP 	put_label: height = 0.05
+90.2974 	EXP 	put_label: height = 0.05
+90.2974 	EXP 	put_label: text = 'happy'
+90.2974 	EXP 	put_shape: image = 'H.bmp'
+90.2974 	EXP 	text_2: autoDraw = True
+90.2974 	EXP 	put_label: autoDraw = True
+90.2974 	EXP 	put_shape: autoDraw = True
+90.3089 	DATA 	Keypress: m
+90.3147 	EXP 	text_2: autoDraw = False
+90.3147 	EXP 	put_label: autoDraw = False
+90.3147 	EXP 	put_shape: autoDraw = False
+90.3147 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+90.3147 	EXP 	text_4: height = 0.05
+90.3147 	EXP 	text_4: height = 0.05
+90.3147 	EXP 	text_4: height = 0.05
+90.3147 	EXP 	text_4: text = 'Correct'
+90.3147 	EXP 	text_4: autoDraw = True
+90.5189 	DATA 	Keypress: n
+90.5515 	EXP 	New trial (rep=18, index=0): None
+90.5651 	EXP 	text_4: autoDraw = False
+90.5651 	EXP 	text_4: autoDraw = False
+90.5651 	EXP 	fixn: autoDraw = True
+90.7345 	DATA 	Keypress: n
+90.7810 	EXP 	fixn: autoDraw = False
+90.7810 	EXP 	put_label: height = 0.05
+90.7810 	EXP 	put_label: height = 0.05
+90.7810 	EXP 	put_label: height = 0.05
+90.7810 	EXP 	put_label: text = 'sad'
+90.7810 	EXP 	put_shape: image = 'R.bmp'
+90.7810 	EXP 	text_2: autoDraw = True
+90.7810 	EXP 	put_label: autoDraw = True
+90.7810 	EXP 	put_shape: autoDraw = True
+90.9736 	DATA 	Keypress: m
+90.9806 	EXP 	text_2: autoDraw = False
+90.9806 	EXP 	put_label: autoDraw = False
+90.9806 	EXP 	put_shape: autoDraw = False
+90.9806 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+90.9806 	EXP 	text_4: height = 0.05
+90.9806 	EXP 	text_4: height = 0.05
+90.9806 	EXP 	text_4: height = 0.05
+90.9806 	EXP 	text_4: text = 'WRONG!'
+90.9806 	EXP 	text_4: autoDraw = True
+91.1845 	DATA 	Keypress: n
+91.2168 	EXP 	New trial (rep=19, index=0): None
+91.2303 	EXP 	text_4: autoDraw = False
+91.2303 	EXP 	text_4: autoDraw = False
+91.2303 	EXP 	fixn: autoDraw = True
+91.3692 	DATA 	Keypress: n
+91.4296 	EXP 	fixn: autoDraw = False
+91.4296 	EXP 	fixn: autoDraw = False
+91.4296 	EXP 	put_label: text = 'sad'
+91.4296 	EXP 	put_shape: image = 'H.bmp'
+91.4296 	EXP 	text_2: autoDraw = True
+91.4296 	EXP 	put_label: autoDraw = True
+91.4296 	EXP 	put_shape: autoDraw = True
+91.6032 	DATA 	Keypress: n
+91.6124 	EXP 	text_2: autoDraw = False
+91.6124 	EXP 	put_label: autoDraw = False
+91.6124 	EXP 	put_shape: autoDraw = False
+91.6124 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+91.6124 	EXP 	text_4: height = 0.05
+91.6124 	EXP 	text_4: height = 0.05
+91.6124 	EXP 	text_4: height = 0.05
+91.6124 	EXP 	text_4: text = 'Correct'
+91.6124 	EXP 	text_4: autoDraw = True
+91.6844 	DATA 	Keypress: m
+91.8516 	EXP 	New trial (rep=20, index=0): None
+91.8633 	EXP 	text_4: autoDraw = False
+91.8633 	EXP 	fixn: autoDraw = True
+91.8826 	DATA 	Keypress: n
+92.0782 	EXP 	fixn: autoDraw = False
+92.0782 	EXP 	fixn: autoDraw = False
+92.0782 	EXP 	put_label: height = 0.05
+92.0782 	EXP 	put_label: height = 0.05
+92.0782 	EXP 	put_label: height = 0.05
+92.0782 	EXP 	put_label: text = 'neutral'
+92.0782 	EXP 	put_shape: image = 'R.bmp'
+92.0782 	EXP 	text_2: autoDraw = True
+92.0782 	EXP 	put_label: autoDraw = True
+92.0782 	EXP 	put_shape: autoDraw = True
+92.1154 	DATA 	Keypress: n
+92.1449 	EXP 	text_2: autoDraw = False
+92.1449 	EXP 	put_label: autoDraw = False
+92.1449 	EXP 	put_shape: autoDraw = False
+92.1449 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+92.1449 	EXP 	text_4: height = 0.05
+92.1449 	EXP 	text_4: height = 0.05
+92.1449 	EXP 	text_4: height = 0.05
+92.1449 	EXP 	text_4: text = 'WRONG!'
+92.1449 	EXP 	text_4: autoDraw = True
+92.3813 	EXP 	New trial (rep=21, index=0): None
+92.3951 	EXP 	text_4: autoDraw = False
+92.3951 	EXP 	text_4: autoDraw = False
+92.3951 	EXP 	fixn: autoDraw = True
+92.4531 	DATA 	Keypress: n
+92.5952 	EXP 	fixn: autoDraw = False
+92.5952 	EXP 	fixn: autoDraw = False
+92.5952 	EXP 	put_label: text = 'neutral'
+92.5952 	EXP 	put_shape: image = 'R.bmp'
+92.5952 	EXP 	text_2: autoDraw = True
+92.5952 	EXP 	put_label: autoDraw = True
+92.5952 	EXP 	put_shape: autoDraw = True
+92.6598 	DATA 	Keypress: m
+92.6779 	EXP 	text_2: autoDraw = False
+92.6779 	EXP 	put_label: autoDraw = False
+92.6779 	EXP 	put_shape: autoDraw = False
+92.6779 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+92.6779 	EXP 	text_4: height = 0.05
+92.6779 	EXP 	text_4: height = 0.05
+92.6779 	EXP 	text_4: height = 0.05
+92.6779 	EXP 	text_4: text = 'Correct'
+92.6779 	EXP 	text_4: autoDraw = True
+92.7538 	DATA 	Keypress: n
+92.9137 	EXP 	New trial (rep=22, index=0): None
+92.9283 	EXP 	text_4: autoDraw = False
+92.9283 	EXP 	fixn: autoDraw = True
+93.0495 	DATA 	Keypress: n
+93.1435 	EXP 	fixn: autoDraw = False
+93.1435 	EXP 	fixn: autoDraw = False
+93.1435 	EXP 	put_label: height = 0.05
+93.1435 	EXP 	put_label: height = 0.05
+93.1435 	EXP 	put_label: height = 0.05
+93.1435 	EXP 	put_label: text = 'sad'
+93.1435 	EXP 	put_shape: image = 'X.bmp'
+93.1435 	EXP 	text_2: autoDraw = True
+93.1435 	EXP 	put_label: autoDraw = True
+93.1435 	EXP 	put_shape: autoDraw = True
+93.2476 	DATA 	Keypress: n
+93.2772 	EXP 	text_2: autoDraw = False
+93.2772 	EXP 	put_label: autoDraw = False
+93.2772 	EXP 	put_shape: autoDraw = False
+93.2772 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+93.2772 	EXP 	text_4: height = 0.05
+93.2772 	EXP 	text_4: height = 0.05
+93.2772 	EXP 	text_4: height = 0.05
+93.2772 	EXP 	text_4: text = 'WRONG!'
+93.2772 	EXP 	text_4: autoDraw = True
+93.3306 	DATA 	Keypress: m
+93.5142 	EXP 	New trial (rep=23, index=0): None
+93.5279 	EXP 	text_4: autoDraw = False
+93.5279 	EXP 	text_4: autoDraw = False
+93.5279 	EXP 	fixn: autoDraw = True
+93.6017 	DATA 	Keypress: n
+93.7400 	DATA 	Keypress: m
+93.7439 	EXP 	fixn: autoDraw = False
+93.7439 	EXP 	put_label: height = 0.05
+93.7439 	EXP 	put_label: height = 0.05
+93.7439 	EXP 	put_label: height = 0.05
+93.7439 	EXP 	put_label: text = 'happy'
+93.7439 	EXP 	put_shape: image = 'H.bmp'
+93.7439 	EXP 	text_2: autoDraw = True
+93.7439 	EXP 	put_label: autoDraw = True
+93.7439 	EXP 	put_shape: autoDraw = True
+93.9334 	DATA 	Keypress: n
+93.9436 	EXP 	text_2: autoDraw = False
+93.9436 	EXP 	put_label: autoDraw = False
+93.9436 	EXP 	put_shape: autoDraw = False
+93.9436 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+93.9436 	EXP 	text_4: text = 'WRONG!'
+93.9436 	EXP 	text_4: autoDraw = True
+94.0655 	DATA 	Keypress: n
+94.1820 	EXP 	New trial (rep=24, index=0): None
+94.1934 	EXP 	text_4: autoDraw = False
+94.1934 	EXP 	text_4: autoDraw = False
+94.1934 	EXP 	fixn: autoDraw = True
+94.2475 	DATA 	Keypress: m
+94.4088 	EXP 	fixn: autoDraw = False
+94.4088 	EXP 	put_label: height = 0.05
+94.4088 	EXP 	put_label: height = 0.05
+94.4088 	EXP 	put_label: height = 0.05
+94.4088 	EXP 	put_label: text = 'sad'
+94.4088 	EXP 	put_shape: image = 'R.bmp'
+94.4088 	EXP 	text_2: autoDraw = True
+94.4088 	EXP 	put_label: autoDraw = True
+94.4088 	EXP 	put_shape: autoDraw = True
+94.4514 	DATA 	Keypress: n
+94.4592 	EXP 	text_2: autoDraw = False
+94.4592 	EXP 	put_label: autoDraw = False
+94.4592 	EXP 	put_shape: autoDraw = False
+94.4592 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+94.4592 	EXP 	text_4: height = 0.05
+94.4592 	EXP 	text_4: height = 0.05
+94.4592 	EXP 	text_4: height = 0.05
+94.4592 	EXP 	text_4: text = 'Correct'
+94.4592 	EXP 	text_4: autoDraw = True
+94.6612 	DATA 	Keypress: n
+94.6938 	EXP 	New trial (rep=25, index=0): None
+94.7088 	EXP 	text_4: autoDraw = False
+94.7088 	EXP 	text_4: autoDraw = False
+94.7088 	EXP 	fixn: autoDraw = True
+94.8462 	DATA 	Keypress: m
+94.9093 	EXP 	fixn: autoDraw = False
+94.9093 	EXP 	fixn: autoDraw = False
+94.9093 	EXP 	put_label: text = 'sad'
+94.9093 	EXP 	put_shape: image = 'X.bmp'
+94.9093 	EXP 	text_2: autoDraw = True
+94.9093 	EXP 	put_label: autoDraw = True
+94.9093 	EXP 	put_shape: autoDraw = True
+94.9972 	DATA 	Keypress: n
+95.0248 	EXP 	text_2: autoDraw = False
+95.0248 	EXP 	put_label: autoDraw = False
+95.0248 	EXP 	put_shape: autoDraw = False
+95.0248 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+95.0248 	EXP 	text_4: height = 0.05
+95.0248 	EXP 	text_4: height = 0.05
+95.0248 	EXP 	text_4: height = 0.05
+95.0248 	EXP 	text_4: text = 'WRONG!'
+95.0248 	EXP 	text_4: autoDraw = True
+95.2304 	DATA 	Keypress: n
+95.2623 	EXP 	New trial (rep=26, index=0): None
+95.2750 	EXP 	text_4: autoDraw = False
+95.2750 	EXP 	text_4: autoDraw = False
+95.2750 	EXP 	fixn: autoDraw = True
+95.3954 	DATA 	Keypress: m
+95.4907 	EXP 	fixn: autoDraw = False
+95.4907 	EXP 	fixn: autoDraw = False
+95.4907 	EXP 	put_label: height = 0.05
+95.4907 	EXP 	put_label: height = 0.05
+95.4907 	EXP 	put_label: height = 0.05
+95.4907 	EXP 	put_label: text = 'neutral'
+95.4907 	EXP 	put_shape: image = 'H.bmp'
+95.4907 	EXP 	text_2: autoDraw = True
+95.4907 	EXP 	put_label: autoDraw = True
+95.4907 	EXP 	put_shape: autoDraw = True
+95.5564 	DATA 	Keypress: n
+95.5736 	EXP 	text_2: autoDraw = False
+95.5736 	EXP 	put_label: autoDraw = False
+95.5736 	EXP 	put_shape: autoDraw = False
+95.5736 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+95.5736 	EXP 	text_4: height = 0.05
+95.5736 	EXP 	text_4: height = 0.05
+95.5736 	EXP 	text_4: height = 0.05
+95.5736 	EXP 	text_4: text = 'Correct'
+95.5736 	EXP 	text_4: autoDraw = True
+95.6814 	DATA 	Keypress: m
+95.8098 	EXP 	New trial (rep=27, index=0): None
+95.8242 	EXP 	text_4: autoDraw = False
+95.8242 	EXP 	fixn: autoDraw = True
+95.8282 	DATA 	Keypress: n
+96.0246 	EXP 	fixn: autoDraw = False
+96.0246 	EXP 	fixn: autoDraw = False
+96.0246 	EXP 	put_label: text = 'neutral'
+96.0246 	EXP 	put_shape: image = 'R.bmp'
+96.0246 	EXP 	text_2: autoDraw = True
+96.0246 	EXP 	put_label: autoDraw = True
+96.0246 	EXP 	put_shape: autoDraw = True
+96.0534 	DATA 	Keypress: n
+96.0575 	EXP 	text_2: autoDraw = False
+96.0575 	EXP 	put_label: autoDraw = False
+96.0575 	EXP 	put_shape: autoDraw = False
+96.0575 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+96.0575 	EXP 	text_4: height = 0.05
+96.0575 	EXP 	text_4: height = 0.05
+96.0575 	EXP 	text_4: height = 0.05
+96.0575 	EXP 	text_4: text = 'WRONG!'
+96.0575 	EXP 	text_4: autoDraw = True
+96.1441 	DATA 	Keypress: m
+96.2967 	EXP 	New trial (rep=28, index=0): None
+96.3064 	EXP 	text_4: autoDraw = False
+96.3064 	EXP 	text_4: autoDraw = False
+96.3064 	EXP 	fixn: autoDraw = True
+96.3748 	DATA 	Keypress: n
+96.5063 	EXP 	fixn: autoDraw = False
+96.5063 	EXP 	fixn: autoDraw = False
+96.5063 	EXP 	put_label: text = 'neutral'
+96.5063 	EXP 	put_shape: image = 'H.bmp'
+96.5063 	EXP 	text_2: autoDraw = True
+96.5063 	EXP 	put_label: autoDraw = True
+96.5063 	EXP 	put_shape: autoDraw = True
+96.5951 	DATA 	Keypress: n
+96.6227 	EXP 	text_2: autoDraw = False
+96.6227 	EXP 	put_label: autoDraw = False
+96.6227 	EXP 	put_shape: autoDraw = False
+96.6227 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+96.6227 	EXP 	text_4: height = 0.05
+96.6227 	EXP 	text_4: height = 0.05
+96.6227 	EXP 	text_4: height = 0.05
+96.6227 	EXP 	text_4: text = 'Correct'
+96.6227 	EXP 	text_4: autoDraw = True
+96.8429 	DATA 	Keypress: m
+96.8583 	EXP 	New trial (rep=29, index=0): None
+96.8725 	EXP 	text_4: autoDraw = False
+96.8725 	EXP 	text_4: autoDraw = False
+96.8725 	EXP 	fixn: autoDraw = True
+97.0436 	DATA 	Keypress: n
+97.0893 	EXP 	fixn: autoDraw = False
+97.0893 	EXP 	fixn: autoDraw = False
+97.0893 	EXP 	put_label: height = 0.05
+97.0893 	EXP 	put_label: height = 0.05
+97.0893 	EXP 	put_label: height = 0.05
+97.0893 	EXP 	put_label: text = 'happy'
+97.0893 	EXP 	put_shape: image = 'X.bmp'
+97.0893 	EXP 	text_2: autoDraw = True
+97.0893 	EXP 	put_label: autoDraw = True
+97.0893 	EXP 	put_shape: autoDraw = True
+97.2622 	DATA 	Keypress: n
+97.2892 	EXP 	text_2: autoDraw = False
+97.2892 	EXP 	put_label: autoDraw = False
+97.2892 	EXP 	put_shape: autoDraw = False
+97.2892 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+97.2892 	EXP 	text_4: text = 'Correct'
+97.2892 	EXP 	text_4: autoDraw = True
+97.3815 	DATA 	Keypress: m
+97.5403 	EXP 	text_4: autoDraw = False
+97.5403 	EXP 	text_4: autoDraw = False
+97.5403 	EXP 	text: autoDraw = True
+97.5590 	DATA 	Keypress: n
+97.7431 	DATA 	Keypress: m
+97.8136 	DATA 	Keypress: n
+98.1594 	DATA 	Keypress: m
+98.4424 	EXP 	New trial (rep=1, index=0): None
+98.4451 	EXP 	Created sequence: sequential, trialTypes=1, nReps=30, seed=None
+98.4460 	EXP 	New trial (rep=0, index=0): None
+98.4511 	DATA 	Keypress: space
+98.4538 	EXP 	text: autoDraw = False
+98.4538 	EXP 	fixn: autoDraw = True
+98.6532 	EXP 	fixn: autoDraw = False
+98.6532 	EXP 	fixn: autoDraw = False
+98.6532 	EXP 	put_label: height = 0.05
+98.6532 	EXP 	put_label: height = 0.05
+98.6532 	EXP 	put_label: height = 0.05
+98.6532 	EXP 	put_label: text = 'sad'
+98.6532 	EXP 	put_shape: image = 'X.bmp'
+98.6532 	EXP 	text_2: autoDraw = True
+98.6532 	EXP 	put_label: autoDraw = True
+98.6532 	EXP 	put_shape: autoDraw = True
+98.7448 	DATA 	Keypress: n
+98.7528 	EXP 	text_2: autoDraw = False
+98.7528 	EXP 	put_label: autoDraw = False
+98.7528 	EXP 	put_shape: autoDraw = False
+98.7528 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+98.7528 	EXP 	text_4: height = 0.05
+98.7528 	EXP 	text_4: height = 0.05
+98.7528 	EXP 	text_4: height = 0.05
+98.7528 	EXP 	text_4: text = 'WRONG!'
+98.7528 	EXP 	text_4: autoDraw = True
+98.8903 	DATA 	Keypress: m
+98.9885 	EXP 	New trial (rep=1, index=0): None
+99.0035 	EXP 	text_4: autoDraw = False
+99.0035 	EXP 	text_4: autoDraw = False
+99.0035 	EXP 	fixn: autoDraw = True
+99.0907 	DATA 	Keypress: n
+99.2194 	EXP 	fixn: autoDraw = False
+99.2194 	EXP 	put_label: text = 'sad'
+99.2194 	EXP 	put_shape: image = 'R.bmp'
+99.2194 	EXP 	text_2: autoDraw = True
+99.2194 	EXP 	put_label: autoDraw = True
+99.2194 	EXP 	put_shape: autoDraw = True
+99.2588 	DATA 	Keypress: m
+99.2861 	EXP 	text_2: autoDraw = False
+99.2861 	EXP 	put_label: autoDraw = False
+99.2861 	EXP 	put_shape: autoDraw = False
+99.2861 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+99.2861 	EXP 	text_4: text = 'WRONG!'
+99.2861 	EXP 	text_4: autoDraw = True
+99.5209 	EXP 	New trial (rep=2, index=0): None
+99.5353 	EXP 	text_4: autoDraw = False
+99.5353 	EXP 	text_4: autoDraw = False
+99.5353 	EXP 	fixn: autoDraw = True
+99.5883 	DATA 	Keypress: n
+99.7357 	EXP 	fixn: autoDraw = False
+99.7357 	EXP 	fixn: autoDraw = False
+99.7357 	EXP 	put_label: height = 0.05
+99.7357 	EXP 	put_label: height = 0.05
+99.7357 	EXP 	put_label: height = 0.05
+99.7357 	EXP 	put_label: text = 'happy'
+99.7357 	EXP 	put_shape: image = 'H.bmp'
+99.7357 	EXP 	text_2: autoDraw = True
+99.7357 	EXP 	put_label: autoDraw = True
+99.7357 	EXP 	put_shape: autoDraw = True
+99.7913 	DATA 	Keypress: m
+99.8192 	EXP 	text_2: autoDraw = False
+99.8192 	EXP 	put_label: autoDraw = False
+99.8192 	EXP 	put_shape: autoDraw = False
+99.8192 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+99.8192 	EXP 	text_4: height = 0.05
+99.8192 	EXP 	text_4: height = 0.05
+99.8192 	EXP 	text_4: height = 0.05
+99.8192 	EXP 	text_4: text = 'Correct'
+99.8192 	EXP 	text_4: autoDraw = True
+100.0227 	DATA 	Keypress: n
+100.0549 	EXP 	New trial (rep=3, index=0): None
+100.0685 	EXP 	text_4: autoDraw = False
+100.0685 	EXP 	text_4: autoDraw = False
+100.0685 	EXP 	fixn: autoDraw = True
+100.1743 	DATA 	Keypress: m
+100.2683 	EXP 	fixn: autoDraw = False
+100.2683 	EXP 	fixn: autoDraw = False
+100.2683 	EXP 	put_label: text = 'happy'
+100.2683 	EXP 	put_shape: image = 'H.bmp'
+100.2683 	EXP 	text_2: autoDraw = True
+100.2683 	EXP 	put_label: autoDraw = True
+100.2683 	EXP 	put_shape: autoDraw = True
+100.2913 	DATA 	Keypress: n
+100.3178 	EXP 	text_2: autoDraw = False
+100.3178 	EXP 	put_label: autoDraw = False
+100.3178 	EXP 	put_shape: autoDraw = False
+100.3178 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+100.3178 	EXP 	text_4: height = 0.05
+100.3178 	EXP 	text_4: height = 0.05
+100.3178 	EXP 	text_4: height = 0.05
+100.3178 	EXP 	text_4: text = 'WRONG!'
+100.3178 	EXP 	text_4: autoDraw = True
+100.5548 	EXP 	New trial (rep=4, index=0): None
+100.5680 	EXP 	text_4: autoDraw = False
+100.5680 	EXP 	text_4: autoDraw = False
+100.5680 	EXP 	fixn: autoDraw = True
+100.6212 	DATA 	Keypress: n
+100.6707 	DATA 	Keypress: m
+100.7835 	EXP 	fixn: autoDraw = False
+100.7835 	EXP 	fixn: autoDraw = False
+100.7835 	EXP 	put_label: text = 'happy'
+100.7835 	EXP 	put_shape: image = 'H.bmp'
+100.7835 	EXP 	text_2: autoDraw = True
+100.7835 	EXP 	put_label: autoDraw = True
+100.7835 	EXP 	put_shape: autoDraw = True
+100.9052 	DATA 	Keypress: n
+100.9334 	EXP 	text_2: autoDraw = False
+100.9334 	EXP 	put_label: autoDraw = False
+100.9334 	EXP 	put_shape: autoDraw = False
+100.9334 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+100.9334 	EXP 	text_4: text = 'WRONG!'
+100.9334 	EXP 	text_4: autoDraw = True
+101.0419 	DATA 	Keypress: m
+101.1729 	EXP 	New trial (rep=5, index=0): None
+101.1855 	EXP 	text_4: autoDraw = False
+101.1855 	EXP 	text_4: autoDraw = False
+101.1855 	EXP 	fixn: autoDraw = True
+101.3218 	DATA 	Keypress: n
+101.4010 	EXP 	fixn: autoDraw = False
+101.4010 	EXP 	put_label: height = 0.05
+101.4010 	EXP 	put_label: height = 0.05
+101.4010 	EXP 	put_label: height = 0.05
+101.4010 	EXP 	put_label: text = 'neutral'
+101.4010 	EXP 	put_shape: image = 'R.bmp'
+101.4010 	EXP 	text_2: autoDraw = True
+101.4010 	EXP 	put_label: autoDraw = True
+101.4010 	EXP 	put_shape: autoDraw = True
+101.4132 	DATA 	Keypress: m
+101.4168 	EXP 	text_2: autoDraw = False
+101.4168 	EXP 	put_label: autoDraw = False
+101.4168 	EXP 	put_shape: autoDraw = False
+101.4168 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+101.4168 	EXP 	text_4: height = 0.05
+101.4168 	EXP 	text_4: height = 0.05
+101.4168 	EXP 	text_4: height = 0.05
+101.4168 	EXP 	text_4: text = 'Correct'
+101.4168 	EXP 	text_4: autoDraw = True
+101.6531 	EXP 	New trial (rep=6, index=0): None
+101.6667 	EXP 	text_4: autoDraw = False
+101.6667 	EXP 	text_4: autoDraw = False
+101.6667 	EXP 	fixn: autoDraw = True
+101.7218 	DATA 	Keypress: n
+101.7881 	DATA 	Keypress: m
+101.8826 	EXP 	fixn: autoDraw = False
+101.8826 	EXP 	put_label: height = 0.05
+101.8826 	EXP 	put_label: height = 0.05
+101.8826 	EXP 	put_label: height = 0.05
+101.8826 	EXP 	put_label: text = 'sad'
+101.8826 	EXP 	put_shape: image = 'R.bmp'
+101.8826 	EXP 	text_2: autoDraw = True
+101.8826 	EXP 	put_label: autoDraw = True
+101.8826 	EXP 	put_shape: autoDraw = True
+102.1866 	DATA 	Keypress: n
+102.1985 	EXP 	text_2: autoDraw = False
+102.1985 	EXP 	put_label: autoDraw = False
+102.1985 	EXP 	put_shape: autoDraw = False
+102.1985 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+102.1985 	EXP 	text_4: text = 'Correct'
+102.1985 	EXP 	text_4: autoDraw = True
+102.3354 	DATA 	Keypress: m
+102.4365 	EXP 	New trial (rep=7, index=0): None
+102.4497 	EXP 	text_4: autoDraw = False
+102.4497 	EXP 	text_4: autoDraw = False
+102.4497 	EXP 	fixn: autoDraw = True
+102.6630 	DATA 	Keypress: n
+102.6819 	EXP 	fixn: autoDraw = False
+102.6819 	EXP 	put_label: height = 0.05
+102.6819 	EXP 	put_label: height = 0.05
+102.6819 	EXP 	put_label: height = 0.05
+102.6819 	EXP 	put_label: text = 'neutral'
+102.6819 	EXP 	put_shape: image = 'X.bmp'
+102.6819 	EXP 	text_2: autoDraw = True
+102.6819 	EXP 	put_label: autoDraw = True
+102.6819 	EXP 	put_shape: autoDraw = True
+102.9605 	DATA 	Keypress: m
+102.9649 	EXP 	text_2: autoDraw = False
+102.9649 	EXP 	put_label: autoDraw = False
+102.9649 	EXP 	put_shape: autoDraw = False
+102.9649 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+102.9649 	EXP 	text_4: height = 0.05
+102.9649 	EXP 	text_4: height = 0.05
+102.9649 	EXP 	text_4: height = 0.05
+102.9649 	EXP 	text_4: text = 'WRONG!'
+102.9649 	EXP 	text_4: autoDraw = True
+103.1694 	DATA 	Keypress: m
+103.2012 	EXP 	New trial (rep=8, index=0): None
+103.2146 	EXP 	text_4: autoDraw = False
+103.2146 	EXP 	text_4: autoDraw = False
+103.2146 	EXP 	fixn: autoDraw = True
+103.3676 	DATA 	Keypress: m
+103.4299 	EXP 	fixn: autoDraw = False
+103.4299 	EXP 	fixn: autoDraw = False
+103.4299 	EXP 	put_label: height = 0.05
+103.4299 	EXP 	put_label: height = 0.05
+103.4299 	EXP 	put_label: height = 0.05
+103.4299 	EXP 	put_label: text = 'sad'
+103.4299 	EXP 	put_shape: image = 'R.bmp'
+103.4299 	EXP 	text_2: autoDraw = True
+103.4299 	EXP 	put_label: autoDraw = True
+103.4299 	EXP 	put_shape: autoDraw = True
+103.5696 	DATA 	Keypress: m
+103.5805 	EXP 	text_2: autoDraw = False
+103.5805 	EXP 	put_label: autoDraw = False
+103.5805 	EXP 	put_shape: autoDraw = False
+103.5805 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+103.5805 	EXP 	text_4: text = 'WRONG!'
+103.5805 	EXP 	text_4: autoDraw = True
+103.7517 	DATA 	Keypress: m
+103.8173 	EXP 	New trial (rep=9, index=0): None
+103.8301 	EXP 	text_4: autoDraw = False
+103.8301 	EXP 	text_4: autoDraw = False
+103.8301 	EXP 	fixn: autoDraw = True
+103.9010 	DATA 	Keypress: n
+104.0464 	EXP 	fixn: autoDraw = False
+104.0464 	EXP 	fixn: autoDraw = False
+104.0464 	EXP 	put_label: height = 0.05
+104.0464 	EXP 	put_label: height = 0.05
+104.0464 	EXP 	put_label: height = 0.05
+104.0464 	EXP 	put_label: text = 'happy'
+104.0464 	EXP 	put_shape: image = 'R.bmp'
+104.0464 	EXP 	text_2: autoDraw = True
+104.0464 	EXP 	put_label: autoDraw = True
+104.0464 	EXP 	put_shape: autoDraw = True
+104.1188 	DATA 	Keypress: n
+104.1458 	EXP 	text_2: autoDraw = False
+104.1458 	EXP 	put_label: autoDraw = False
+104.1458 	EXP 	put_shape: autoDraw = False
+104.1458 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+104.1458 	EXP 	text_4: height = 0.05
+104.1458 	EXP 	text_4: height = 0.05
+104.1458 	EXP 	text_4: height = 0.05
+104.1458 	EXP 	text_4: text = 'Correct'
+104.1458 	EXP 	text_4: autoDraw = True
+104.3329 	DATA 	Keypress: n
+104.3812 	EXP 	New trial (rep=10, index=0): None
+104.3956 	EXP 	text_4: autoDraw = False
+104.3956 	EXP 	text_4: autoDraw = False
+104.3956 	EXP 	fixn: autoDraw = True
+104.5960 	EXP 	fixn: autoDraw = False
+104.5960 	EXP 	fixn: autoDraw = False
+104.5960 	EXP 	put_label: text = 'happy'
+104.5960 	EXP 	put_shape: image = 'R.bmp'
+104.5960 	EXP 	text_2: autoDraw = True
+104.5960 	EXP 	put_label: autoDraw = True
+104.5960 	EXP 	put_shape: autoDraw = True
+104.6195 	DATA 	Keypress: m
+104.6286 	EXP 	text_2: autoDraw = False
+104.6286 	EXP 	put_label: autoDraw = False
+104.6286 	EXP 	put_shape: autoDraw = False
+104.6286 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+104.6286 	EXP 	text_4: height = 0.05
+104.6286 	EXP 	text_4: height = 0.05
+104.6286 	EXP 	text_4: height = 0.05
+104.6286 	EXP 	text_4: text = 'WRONG!'
+104.6286 	EXP 	text_4: autoDraw = True
+104.8509 	DATA 	Keypress: n
+104.8649 	EXP 	New trial (rep=11, index=0): None
+104.8783 	EXP 	text_4: autoDraw = False
+104.8783 	EXP 	text_4: autoDraw = False
+104.8783 	EXP 	fixn: autoDraw = True
+105.0944 	EXP 	fixn: autoDraw = False
+105.0944 	EXP 	fixn: autoDraw = False
+105.0944 	EXP 	put_label: height = 0.05
+105.0944 	EXP 	put_label: height = 0.05
+105.0944 	EXP 	put_label: height = 0.05
+105.0944 	EXP 	put_label: text = 'sad'
+105.0944 	EXP 	put_shape: image = 'X.bmp'
+105.0944 	EXP 	text_2: autoDraw = True
+105.0944 	EXP 	put_label: autoDraw = True
+105.0944 	EXP 	put_shape: autoDraw = True
+105.2331 	DATA 	Keypress: n
+105.2443 	EXP 	text_2: autoDraw = False
+105.2443 	EXP 	put_label: autoDraw = False
+105.2443 	EXP 	put_shape: autoDraw = False
+105.2443 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+105.2443 	EXP 	text_4: text = 'WRONG!'
+105.2443 	EXP 	text_4: autoDraw = True
+105.3639 	DATA 	Keypress: m
+105.4818 	EXP 	New trial (rep=12, index=0): None
+105.4959 	EXP 	text_4: autoDraw = False
+105.4959 	EXP 	text_4: autoDraw = False
+105.4959 	EXP 	fixn: autoDraw = True
+105.5515 	DATA 	Keypress: n
+105.6702 	DATA 	Keypress: m
+105.6953 	EXP 	fixn: autoDraw = False
+105.6953 	EXP 	fixn: autoDraw = False
+105.6953 	EXP 	put_label: text = 'sad'
+105.6953 	EXP 	put_shape: image = 'R.bmp'
+105.6953 	EXP 	text_2: autoDraw = True
+105.6953 	EXP 	put_label: autoDraw = True
+105.6953 	EXP 	put_shape: autoDraw = True
+105.9483 	DATA 	Keypress: space
+106.2326 	DATA 	Keypress: space
+106.4877 	DATA 	Keypress: n
+106.4927 	EXP 	text_2: autoDraw = False
+106.4927 	EXP 	put_label: autoDraw = False
+106.4927 	EXP 	put_shape: autoDraw = False
+106.4927 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+106.4927 	EXP 	text_4: height = 0.05
+106.4927 	EXP 	text_4: height = 0.05
+106.4927 	EXP 	text_4: height = 0.05
+106.4927 	EXP 	text_4: text = 'Correct'
+106.4927 	EXP 	text_4: autoDraw = True
+106.6009 	DATA 	Keypress: m
+106.7285 	EXP 	New trial (rep=13, index=0): None
+106.7429 	EXP 	text_4: autoDraw = False
+106.7429 	EXP 	text_4: autoDraw = False
+106.7429 	EXP 	fixn: autoDraw = True
+106.7990 	DATA 	Keypress: n
+106.9429 	EXP 	fixn: autoDraw = False
+106.9429 	EXP 	fixn: autoDraw = False
+106.9429 	EXP 	put_label: text = 'sad'
+106.9429 	EXP 	put_shape: image = 'X.bmp'
+106.9429 	EXP 	text_2: autoDraw = True
+106.9429 	EXP 	put_label: autoDraw = True
+106.9429 	EXP 	put_shape: autoDraw = True
+106.9490 	DATA 	Keypress: m
+106.9756 	EXP 	text_2: autoDraw = False
+106.9756 	EXP 	put_label: autoDraw = False
+106.9756 	EXP 	put_shape: autoDraw = False
+106.9756 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+106.9756 	EXP 	text_4: text = 'Correct'
+106.9756 	EXP 	text_4: autoDraw = True
+107.0287 	DATA 	Keypress: n
+107.1802 	DATA 	Keypress: m
+107.2134 	EXP 	New trial (rep=14, index=0): None
+107.2268 	EXP 	text_4: autoDraw = False
+107.2268 	EXP 	text_4: autoDraw = False
+107.2268 	EXP 	fixn: autoDraw = True
+107.3130 	DATA 	Keypress: n
+107.4262 	EXP 	fixn: autoDraw = False
+107.4262 	EXP 	fixn: autoDraw = False
+107.4262 	EXP 	put_label: text = 'sad'
+107.4262 	EXP 	put_shape: image = 'X.bmp'
+107.4262 	EXP 	text_2: autoDraw = True
+107.4262 	EXP 	put_label: autoDraw = True
+107.4262 	EXP 	put_shape: autoDraw = True
+107.4352 	DATA 	Keypress: m
+107.5487 	DATA 	Keypress: n
+107.5758 	EXP 	text_2: autoDraw = False
+107.5758 	EXP 	put_label: autoDraw = False
+107.5758 	EXP 	put_shape: autoDraw = False
+107.5758 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+107.5758 	EXP 	text_4: height = 0.05
+107.5758 	EXP 	text_4: height = 0.05
+107.5758 	EXP 	text_4: height = 0.05
+107.5758 	EXP 	text_4: text = 'WRONG!'
+107.5758 	EXP 	text_4: autoDraw = True
+107.6634 	DATA 	Keypress: m
+107.7780 	DATA 	Keypress: n
+107.8134 	EXP 	New trial (rep=15, index=0): None
+107.8264 	EXP 	text_4: autoDraw = False
+107.8264 	EXP 	text_4: autoDraw = False
+107.8264 	EXP 	fixn: autoDraw = True
+107.8667 	DATA 	Keypress: m
+107.9786 	DATA 	Keypress: n
+108.0412 	EXP 	fixn: autoDraw = False
+108.0412 	EXP 	put_label: height = 0.05
+108.0412 	EXP 	put_label: height = 0.05
+108.0412 	EXP 	put_label: height = 0.05
+108.0412 	EXP 	put_label: text = 'happy'
+108.0412 	EXP 	put_shape: image = 'R.bmp'
+108.0412 	EXP 	text_2: autoDraw = True
+108.0412 	EXP 	put_label: autoDraw = True
+108.0412 	EXP 	put_shape: autoDraw = True
+108.2003 	DATA 	Keypress: n
+108.2078 	EXP 	text_2: autoDraw = False
+108.2078 	EXP 	put_label: autoDraw = False
+108.2078 	EXP 	put_shape: autoDraw = False
+108.2078 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+108.2078 	EXP 	text_4: height = 0.05
+108.2078 	EXP 	text_4: height = 0.05
+108.2078 	EXP 	text_4: height = 0.05
+108.2078 	EXP 	text_4: text = 'Correct'
+108.2078 	EXP 	text_4: autoDraw = True
+108.3950 	DATA 	Keypress: m
+108.4432 	EXP 	New trial (rep=16, index=0): None
+108.4579 	EXP 	text_4: autoDraw = False
+108.4579 	EXP 	text_4: autoDraw = False
+108.4579 	EXP 	fixn: autoDraw = True
+108.5117 	DATA 	Keypress: n
+108.6733 	EXP 	fixn: autoDraw = False
+108.6733 	EXP 	fixn: autoDraw = False
+108.6733 	EXP 	put_label: height = 0.05
+108.6733 	EXP 	put_label: height = 0.05
+108.6733 	EXP 	put_label: height = 0.05
+108.6733 	EXP 	put_label: text = 'neutral'
+108.6733 	EXP 	put_shape: image = 'H.bmp'
+108.6733 	EXP 	text_2: autoDraw = True
+108.6733 	EXP 	put_label: autoDraw = True
+108.6733 	EXP 	put_shape: autoDraw = True
+108.7634 	DATA 	Keypress: n
+108.7636 	DATA 	Keypress: m
+108.7738 	EXP 	text_2: autoDraw = False
+108.7738 	EXP 	put_label: autoDraw = False
+108.7738 	EXP 	put_shape: autoDraw = False
+108.7738 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+108.7738 	EXP 	text_4: height = 0.05
+108.7738 	EXP 	text_4: height = 0.05
+108.7738 	EXP 	text_4: height = 0.05
+108.7738 	EXP 	text_4: text = 'WRONG!'
+108.7738 	EXP 	text_4: autoDraw = True
+108.9638 	DATA 	Keypress: m
+109.0094 	EXP 	New trial (rep=17, index=0): None
+109.0234 	EXP 	text_4: autoDraw = False
+109.0234 	EXP 	text_4: autoDraw = False
+109.0234 	EXP 	fixn: autoDraw = True
+109.0625 	DATA 	Keypress: n
+109.2395 	EXP 	fixn: autoDraw = False
+109.2395 	EXP 	put_label: text = 'neutral'
+109.2395 	EXP 	put_shape: image = 'H.bmp'
+109.2395 	EXP 	text_2: autoDraw = True
+109.2395 	EXP 	put_label: autoDraw = True
+109.2395 	EXP 	put_shape: autoDraw = True
+109.3117 	DATA 	Keypress: m
+109.3397 	EXP 	text_2: autoDraw = False
+109.3397 	EXP 	put_label: autoDraw = False
+109.3397 	EXP 	put_shape: autoDraw = False
+109.3397 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+109.3397 	EXP 	text_4: text = 'WRONG!'
+109.3397 	EXP 	text_4: autoDraw = True
+109.3591 	DATA 	Keypress: n
+109.5122 	DATA 	Keypress: m
+109.5771 	EXP 	New trial (rep=18, index=0): None
+109.5896 	EXP 	text_4: autoDraw = False
+109.5896 	EXP 	text_4: autoDraw = False
+109.5896 	EXP 	fixn: autoDraw = True
+109.6606 	DATA 	Keypress: n
+109.7884 	EXP 	fixn: autoDraw = False
+109.7884 	EXP 	fixn: autoDraw = False
+109.7884 	EXP 	put_label: text = 'neutral'
+109.7884 	EXP 	put_shape: image = 'R.bmp'
+109.7884 	EXP 	text_2: autoDraw = True
+109.7884 	EXP 	put_label: autoDraw = True
+109.7884 	EXP 	put_shape: autoDraw = True
+109.8132 	DATA 	Keypress: m
+109.8218 	EXP 	text_2: autoDraw = False
+109.8218 	EXP 	put_label: autoDraw = False
+109.8218 	EXP 	put_shape: autoDraw = False
+109.8218 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+109.8218 	EXP 	text_4: height = 0.05
+109.8218 	EXP 	text_4: height = 0.05
+109.8218 	EXP 	text_4: height = 0.05
+109.8218 	EXP 	text_4: text = 'Correct'
+109.8218 	EXP 	text_4: autoDraw = True
+109.9259 	DATA 	Keypress: n
+110.0584 	EXP 	New trial (rep=19, index=0): None
+110.0722 	EXP 	text_4: autoDraw = False
+110.0722 	EXP 	text_4: autoDraw = False
+110.0722 	EXP 	fixn: autoDraw = True
+110.1098 	DATA 	Keypress: m
+110.1945 	DATA 	Keypress: n
+110.2719 	EXP 	fixn: autoDraw = False
+110.2719 	EXP 	fixn: autoDraw = False
+110.2719 	EXP 	put_label: height = 0.05
+110.2719 	EXP 	put_label: height = 0.05
+110.2719 	EXP 	put_label: height = 0.05
+110.2719 	EXP 	put_label: text = 'happy'
+110.2719 	EXP 	put_shape: image = 'R.bmp'
+110.2719 	EXP 	text_2: autoDraw = True
+110.2719 	EXP 	put_label: autoDraw = True
+110.2719 	EXP 	put_shape: autoDraw = True
+110.3621 	DATA 	Keypress: m
+110.3710 	EXP 	text_2: autoDraw = False
+110.3710 	EXP 	put_label: autoDraw = False
+110.3710 	EXP 	put_shape: autoDraw = False
+110.3710 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+110.3710 	EXP 	text_4: height = 0.05
+110.3710 	EXP 	text_4: height = 0.05
+110.3710 	EXP 	text_4: height = 0.05
+110.3710 	EXP 	text_4: text = 'WRONG!'
+110.3710 	EXP 	text_4: autoDraw = True
+110.4570 	DATA 	Keypress: n
+110.5923 	DATA 	Keypress: m
+110.6082 	EXP 	New trial (rep=20, index=0): None
+110.6212 	EXP 	text_4: autoDraw = False
+110.6212 	EXP 	text_4: autoDraw = False
+110.6212 	EXP 	fixn: autoDraw = True
+110.6935 	DATA 	Keypress: n
+110.8371 	EXP 	fixn: autoDraw = False
+110.8371 	EXP 	fixn: autoDraw = False
+110.8371 	EXP 	put_label: height = 0.05
+110.8371 	EXP 	put_label: height = 0.05
+110.8371 	EXP 	put_label: height = 0.05
+110.8371 	EXP 	put_label: text = 'neutral'
+110.8371 	EXP 	put_shape: image = 'R.bmp'
+110.8371 	EXP 	text_2: autoDraw = True
+110.8371 	EXP 	put_label: autoDraw = True
+110.8371 	EXP 	put_shape: autoDraw = True
+110.8839 	DATA 	Keypress: m
+110.8881 	EXP 	text_2: autoDraw = False
+110.8881 	EXP 	put_label: autoDraw = False
+110.8881 	EXP 	put_shape: autoDraw = False
+110.8881 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+110.8881 	EXP 	text_4: height = 0.05
+110.8881 	EXP 	text_4: height = 0.05
+110.8881 	EXP 	text_4: height = 0.05
+110.8881 	EXP 	text_4: text = 'Correct'
+110.8881 	EXP 	text_4: autoDraw = True
+110.9749 	DATA 	Keypress: n
+111.1240 	EXP 	New trial (rep=21, index=0): None
+111.1374 	EXP 	text_4: autoDraw = False
+111.1374 	EXP 	text_4: autoDraw = False
+111.1374 	EXP 	fixn: autoDraw = True
+111.1608 	DATA 	Keypress: m
+111.2580 	DATA 	Keypress: n
+111.3533 	EXP 	fixn: autoDraw = False
+111.3533 	EXP 	fixn: autoDraw = False
+111.3533 	EXP 	put_label: height = 0.05
+111.3533 	EXP 	put_label: height = 0.05
+111.3533 	EXP 	put_label: height = 0.05
+111.3533 	EXP 	put_label: text = 'sad'
+111.3533 	EXP 	put_shape: image = 'R.bmp'
+111.3533 	EXP 	text_2: autoDraw = True
+111.3533 	EXP 	put_label: autoDraw = True
+111.3533 	EXP 	put_shape: autoDraw = True
+111.5285 	DATA 	Keypress: m
+111.5365 	EXP 	text_2: autoDraw = False
+111.5365 	EXP 	put_label: autoDraw = False
+111.5365 	EXP 	put_shape: autoDraw = False
+111.5365 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+111.5365 	EXP 	text_4: height = 0.05
+111.5365 	EXP 	text_4: height = 0.05
+111.5365 	EXP 	text_4: height = 0.05
+111.5365 	EXP 	text_4: text = 'WRONG!'
+111.5365 	EXP 	text_4: autoDraw = True
+111.6228 	DATA 	Keypress: n
+111.7725 	EXP 	New trial (rep=22, index=0): None
+111.7867 	EXP 	text_4: autoDraw = False
+111.7867 	EXP 	text_4: autoDraw = False
+111.7867 	EXP 	fixn: autoDraw = True
+111.8066 	DATA 	Keypress: m
+111.8783 	DATA 	Keypress: n
+111.9865 	EXP 	fixn: autoDraw = False
+111.9865 	EXP 	fixn: autoDraw = False
+111.9865 	EXP 	put_label: text = 'sad'
+111.9865 	EXP 	put_shape: image = 'H.bmp'
+111.9865 	EXP 	text_2: autoDraw = True
+111.9865 	EXP 	put_label: autoDraw = True
+111.9865 	EXP 	put_shape: autoDraw = True
+112.0234 	DATA 	Keypress: m
+112.0528 	EXP 	text_2: autoDraw = False
+112.0528 	EXP 	put_label: autoDraw = False
+112.0528 	EXP 	put_shape: autoDraw = False
+112.0528 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+112.0528 	EXP 	text_4: text = 'WRONG!'
+112.0528 	EXP 	text_4: autoDraw = True
+112.1241 	DATA 	Keypress: n
+112.2895 	EXP 	New trial (rep=23, index=0): None
+112.2935 	DATA 	Keypress: m
+112.3028 	EXP 	text_4: autoDraw = False
+112.3028 	EXP 	text_4: autoDraw = False
+112.3028 	EXP 	fixn: autoDraw = True
+112.3736 	DATA 	Keypress: n
+112.5020 	EXP 	fixn: autoDraw = False
+112.5020 	EXP 	fixn: autoDraw = False
+112.5020 	EXP 	put_label: height = 0.05
+112.5020 	EXP 	put_label: height = 0.05
+112.5020 	EXP 	put_label: height = 0.05
+112.5020 	EXP 	put_label: text = 'happy'
+112.5020 	EXP 	put_shape: image = 'H.bmp'
+112.5020 	EXP 	text_2: autoDraw = True
+112.5020 	EXP 	put_label: autoDraw = True
+112.5020 	EXP 	put_shape: autoDraw = True
+112.6064 	DATA 	Keypress: m
+112.6351 	EXP 	text_2: autoDraw = False
+112.6351 	EXP 	put_label: autoDraw = False
+112.6351 	EXP 	put_shape: autoDraw = False
+112.6351 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+112.6351 	EXP 	text_4: height = 0.05
+112.6351 	EXP 	text_4: height = 0.05
+112.6351 	EXP 	text_4: height = 0.05
+112.6351 	EXP 	text_4: text = 'Correct'
+112.6351 	EXP 	text_4: autoDraw = True
+112.7227 	DATA 	Keypress: n
+112.8714 	EXP 	New trial (rep=24, index=0): None
+112.8851 	EXP 	text_4: autoDraw = False
+112.8851 	EXP 	text_4: autoDraw = False
+112.8851 	EXP 	fixn: autoDraw = True
+112.8895 	DATA 	Keypress: m
+112.9747 	DATA 	Keypress: n
+113.0852 	EXP 	fixn: autoDraw = False
+113.0852 	EXP 	fixn: autoDraw = False
+113.0852 	EXP 	put_label: height = 0.05
+113.0852 	EXP 	put_label: height = 0.05
+113.0852 	EXP 	put_label: height = 0.05
+113.0852 	EXP 	put_label: text = 'neutral'
+113.0852 	EXP 	put_shape: image = 'R.bmp'
+113.0852 	EXP 	text_2: autoDraw = True
+113.0852 	EXP 	put_label: autoDraw = True
+113.0852 	EXP 	put_shape: autoDraw = True
+113.1247 	DATA 	Keypress: m
+113.1351 	EXP 	text_2: autoDraw = False
+113.1351 	EXP 	put_label: autoDraw = False
+113.1351 	EXP 	put_shape: autoDraw = False
+113.1351 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+113.1351 	EXP 	text_4: text = 'Correct'
+113.1351 	EXP 	text_4: autoDraw = True
+113.2230 	DATA 	Keypress: n
+113.3691 	DATA 	Keypress: m
+113.3851 	EXP 	New trial (rep=25, index=0): None
+113.4004 	EXP 	text_4: autoDraw = False
+113.4004 	EXP 	fixn: autoDraw = True
+113.4721 	DATA 	Keypress: n
+113.6016 	EXP 	fixn: autoDraw = False
+113.6016 	EXP 	fixn: autoDraw = False
+113.6016 	EXP 	put_label: text = 'neutral'
+113.6016 	EXP 	put_shape: image = 'H.bmp'
+113.6016 	EXP 	text_2: autoDraw = True
+113.6016 	EXP 	put_label: autoDraw = True
+113.6016 	EXP 	put_shape: autoDraw = True
+113.6442 	DATA 	Keypress: m
+113.6509 	EXP 	text_2: autoDraw = False
+113.6509 	EXP 	put_label: autoDraw = False
+113.6509 	EXP 	put_shape: autoDraw = False
+113.6509 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+113.6509 	EXP 	text_4: height = 0.05
+113.6509 	EXP 	text_4: height = 0.05
+113.6509 	EXP 	text_4: height = 0.05
+113.6509 	EXP 	text_4: text = 'WRONG!'
+113.6509 	EXP 	text_4: autoDraw = True
+113.7215 	DATA 	Keypress: n
+113.8709 	DATA 	Keypress: m
+113.8882 	EXP 	New trial (rep=26, index=0): None
+113.9011 	EXP 	text_4: autoDraw = False
+113.9011 	EXP 	text_4: autoDraw = False
+113.9011 	EXP 	fixn: autoDraw = True
+113.9569 	DATA 	Keypress: n
+114.1170 	EXP 	fixn: autoDraw = False
+114.1170 	EXP 	put_label: height = 0.05
+114.1170 	EXP 	put_label: height = 0.05
+114.1170 	EXP 	put_label: height = 0.05
+114.1170 	EXP 	put_label: text = 'sad'
+114.1170 	EXP 	put_shape: image = 'X.bmp'
+114.1170 	EXP 	text_2: autoDraw = True
+114.1170 	EXP 	put_label: autoDraw = True
+114.1170 	EXP 	put_shape: autoDraw = True
+114.2246 	DATA 	Keypress: m
+114.2328 	EXP 	text_2: autoDraw = False
+114.2328 	EXP 	put_label: autoDraw = False
+114.2328 	EXP 	put_shape: autoDraw = False
+114.2328 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+114.2328 	EXP 	text_4: height = 0.05
+114.2328 	EXP 	text_4: height = 0.05
+114.2328 	EXP 	text_4: height = 0.05
+114.2328 	EXP 	text_4: text = 'Correct'
+114.2328 	EXP 	text_4: autoDraw = True
+114.2870 	DATA 	Keypress: n
+114.4687 	EXP 	New trial (rep=27, index=0): None
+114.4827 	EXP 	text_4: autoDraw = False
+114.4827 	EXP 	text_4: autoDraw = False
+114.4827 	EXP 	fixn: autoDraw = True
+114.4863 	DATA 	Keypress: m
+114.6785 	DATA 	Keypress: n
+114.6830 	EXP 	fixn: autoDraw = False
+114.6830 	EXP 	fixn: autoDraw = False
+114.6830 	EXP 	put_label: height = 0.05
+114.6830 	EXP 	put_label: height = 0.05
+114.6830 	EXP 	put_label: height = 0.05
+114.6830 	EXP 	put_label: text = 'neutral'
+114.6830 	EXP 	put_shape: image = 'R.bmp'
+114.6830 	EXP 	text_2: autoDraw = True
+114.6830 	EXP 	put_label: autoDraw = True
+114.6830 	EXP 	put_shape: autoDraw = True
+114.8739 	DATA 	Keypress: m
+114.8828 	EXP 	text_2: autoDraw = False
+114.8828 	EXP 	put_label: autoDraw = False
+114.8828 	EXP 	put_shape: autoDraw = False
+114.8828 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+114.8828 	EXP 	text_4: text = 'Correct'
+114.8828 	EXP 	text_4: autoDraw = True
+114.9881 	DATA 	Keypress: n
+115.1185 	EXP 	New trial (rep=28, index=0): None
+115.1323 	EXP 	text_4: autoDraw = False
+115.1323 	EXP 	text_4: autoDraw = False
+115.1323 	EXP 	fixn: autoDraw = True
+115.1718 	DATA 	Keypress: m
+115.2545 	DATA 	Keypress: n
+115.3477 	EXP 	fixn: autoDraw = False
+115.3477 	EXP 	fixn: autoDraw = False
+115.3477 	EXP 	put_label: height = 0.05
+115.3477 	EXP 	put_label: height = 0.05
+115.3477 	EXP 	put_label: height = 0.05
+115.3477 	EXP 	put_label: text = 'happy'
+115.3477 	EXP 	put_shape: image = 'H.bmp'
+115.3477 	EXP 	text_2: autoDraw = True
+115.3477 	EXP 	put_label: autoDraw = True
+115.3477 	EXP 	put_shape: autoDraw = True
+115.4728 	DATA 	Keypress: m
+115.4822 	EXP 	text_2: autoDraw = False
+115.4822 	EXP 	put_label: autoDraw = False
+115.4822 	EXP 	put_shape: autoDraw = False
+115.4822 	EXP 	text_4: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+115.4822 	EXP 	text_4: text = 'Correct'
+115.4822 	EXP 	text_4: autoDraw = True
+115.5341 	DATA 	Keypress: n
+115.7335 	EXP 	New trial (rep=29, index=0): None
+115.7490 	EXP 	text_4: autoDraw = False
+115.7490 	EXP 	fixn: autoDraw = True
+115.7536 	DATA 	Keypress: m
+115.8353 	DATA 	Keypress: n
+115.9803 	EXP 	fixn: autoDraw = False
+115.9803 	EXP 	put_label: height = 0.05
+115.9803 	EXP 	put_label: height = 0.05
+115.9803 	EXP 	put_label: height = 0.05
+115.9803 	EXP 	put_label: text = 'neutral'
+115.9803 	EXP 	put_shape: image = 'H.bmp'
+115.9803 	EXP 	text_2: autoDraw = True
+115.9803 	EXP 	put_label: autoDraw = True
+115.9803 	EXP 	put_shape: autoDraw = True
+116.0020 	DATA 	Keypress: m
+116.0305 	EXP 	text_2: autoDraw = False
+116.0305 	EXP 	put_label: autoDraw = False
+116.0305 	EXP 	put_shape: autoDraw = False
+116.0305 	EXP 	text_4: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+116.0305 	EXP 	text_4: height = 0.05
+116.0305 	EXP 	text_4: height = 0.05
+116.0305 	EXP 	text_4: height = 0.05
+116.0305 	EXP 	text_4: text = 'WRONG!'
+116.0305 	EXP 	text_4: autoDraw = True
+116.0663 	DATA 	Keypress: n
+116.2817 	EXP 	text_4: autoDraw = False
+116.2817 	EXP 	text_4: autoDraw = False
+116.2817 	EXP 	text: autoDraw = False
+116.2817 	EXP 	text_3: autoDraw = True
+116.3336 	DATA 	Keypress: m
+116.4001 	DATA 	Keypress: n
+119.2936 	EXP 	text_3: autoDraw = False
+119.2937 	EXP 	ala-gemma-3-pairs: status = STOPPED
+119.4104 	EXP 	window1: mouseVisible = True
